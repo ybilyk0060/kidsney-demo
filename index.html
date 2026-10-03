@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kidsney — sport meets play</title>
+<meta name="description" content="Kidsney turns kids' exercise into a cartoon fighting adventure. Camera-powered workouts, a quest world, and heroes that grow with your child." />
+<style>
+  :root {
+    --bg: #0e1220; --surface: #1a2138; --primary: #4f7cff; --accent: #ffb020;
+    --success: #34d17b; --danger: #ff5c6c; --text: #f4f6ff; --dim: #9aa7c7;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: radial-gradient(120% 80% at 50% -10%, #1a2450 0%, var(--bg) 55%);
+    color: var(--text);
+    font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
+    min-height: 100vh;
+  }
+  .lang {
+    position: fixed; top: 14px; right: 14px; display: flex; gap: 6px; z-index: 10;
+  }
+  .lang button {
+    background: var(--surface); color: var(--dim);
+    border: 1px solid #2c3555; border-radius: 999px; padding: 6px 14px;
+    font-weight: 800; cursor: pointer; font-size: 14px;
+  }
+  .lang button.on { background: var(--primary); color: #fff; }
+  header {
+    max-width: 960px; margin: 0 auto; padding: 64px 20px 24px; text-align: center;
+  }
+  .badge {
+    display: inline-block; background: var(--surface); color: var(--accent);
+    border-radius: 999px; padding: 6px 16px; font-weight: 800; font-size: 13px;
+    letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px;
+  }
+  h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.12; font-weight: 900; }
+  h1 em { color: var(--accent); font-style: normal; }
+  .sub { color: var(--dim); font-size: clamp(16px, 2.4vw, 20px); max-width: 640px; margin: 16px auto 0; }
+  .hero-img {
+    display: block; margin: 28px auto 0; width: min(320px, 70vw); border-radius: 24px;
+    box-shadow: 0 24px 60px rgba(0,0,0,.5), 0 0 0 1px #2c3555;
+  }
+  .cards {
+    max-width: 960px; margin: 40px auto; padding: 0 20px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;
+  }
+  .card {
+    background: var(--surface); border-radius: 18px; padding: 22px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.07);
+  }
+  .card h2 { font-size: 19px; margin-bottom: 8px; color: var(--text); }
+  .card p { color: var(--dim); font-size: 15px; line-height: 1.5; }
+  .cta {
+    text-align: center; margin: 12px auto 60px; padding: 0 20px;
+  }
+  .cta a {
+    display: inline-block; background: linear-gradient(180deg, #ffd84d, var(--accent));
+    color: #201500; font-weight: 900; font-size: 18px; text-decoration: none;
+    padding: 16px 40px; border-radius: 16px;
+    box-shadow: 0 6px 0 #a86e08, 0 14px 28px rgba(0,0,0,.4);
+  }
+  footer {
+    text-align: center; color: var(--dim); font-size: 14px; padding: 0 20px 40px;
+  }
+  footer a { color: var(--primary); text-decoration: none; margin: 0 8px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+  <nav class="lang" aria-label="Language">
+    <button data-lang="en" class="on">EN</button>
+    <button data-lang="uk">УКР</button>
+    <button data-lang="de">DE</button>
+  </nav>
+
+  <header>
+    <div class="badge" data-i18n="badge"></div>
+    <h1 data-i18n="h1"></h1>
+    <p class="sub" data-i18n="sub"></p>
+    <img class="hero-img" src="assets/hero.png" alt="Kidsney hero — Rocket the footballer" />
+  </header>
+
+  <section class="cards">
+    <div class="card"><h2 data-i18n="c1h"></h2><p data-i18n="c1p"></p></div>
+    <div class="card"><h2 data-i18n="c2h"></h2><p data-i18n="c2p"></p></div>
+    <div class="card"><h2 data-i18n="c3h"></h2><p data-i18n="c3p"></p></div>
+  </section>
+
+  <div class="cta"><a href="support.html" data-i18n="cta"></a></div>
+
+  <footer>
+    <a href="privacy.html" data-i18n="privacy"></a>
+    <a href="terms.html" data-i18n="terms"></a>
+    <a href="support.html" data-i18n="support"></a>
+    <div style="margin-top:12px" data-i18n="foot"></div>
+  </footer>
+
+<script>
+const T = {
+  en: {
+    badge: "For kids 6–12", h1: "The bridge between <em>sport</em> and <em>screen time</em>",
+    sub: "Kidsney turns real exercise into a cartoon fighting adventure: the camera sees the workout, the hero fights with your child's moves, and a quest world grows with every session.",
+    c1h: "Real workouts, real play", c1p: "Squats, jumps, punches and planks are detected by the camera and become the hero's moves in battle. No controllers — the body is the controller.",
+    c2h: "A quest world", c2p: "10 regions, 50 fights and bosses. Wins unlock new heroes, training unlocks signature moves, and parents follow progress in weekly reports.",
+    c3h: "Private by design", c3p: "Video never leaves the device — only pose landmarks and stats are stored. COPPA / GDPR-K aligned, account deletion in two taps.",
+    cta: "Get in touch", privacy: "Privacy Policy", terms: "Terms", support: "Support",
+    foot: "© 2026 Kidsney",
+  },
+  uk: {
+    badge: "Для дітей 6–12 років", h1: "Міст між <em>спортом</em> та <em>екранним часом</em>",
+    sub: "Kidsney перетворює справжні вправи на мультяшні бої: камера бачить тренування, герой б'ється рухами дитини, а світ квестів росте з кожною сесією.",
+    c1h: "Справжні вправи — справжня гра", c1p: "Присідання, стрибки, удари й планка розпізнаються камерою та стають прийомами героя в бою. Без контролерів — тіло це контролер.",
+    c2h: "Світ квестів", c2p: "10 регіонів, 50 боїв та боси. Перемоги відкривають нових героїв, тренування — сигнатурні прийоми, а батьки бачать прогрес у щотижневих звітах.",
+    c3h: "Приватність за замовчуванням", c3p: "Відео не полишає пристрій — зберігаються лише опорні точки пози та статистика. Відповідно до COPPA / GDPR-K, видалення акаунта за два дотики.",
+    cta: "Зв'язатися", privacy: "Конфіденційність", terms: "Умови", support: "Підтримка",
+    foot: "© 2026 Kidsney",
+  },
+  de: {
+    badge: "Für Kinder von 6–12", h1: "Die Brücke zwischen <em>Sport</em> und <em>Bildschirmzeit</em>",
+    sub: "Kidsney verwandelt echtes Training in ein Comic-Abenteuer: Die Kamera erkennt die Übungen, der Held kämpft mit den Bewegungen deines Kindes — und eine Quest-Welt wächst mit jeder Einheit.",
+    c1h: "Echtes Training, echtes Spiel", c1p: "Kniebeugen, Sprünge, Schläge und Plank werden von der Kamera erkannt und werden zu den Kampfbewegungen des Helden. Keine Controller — der Körper ist der Controller.",
+    c2h: "Eine Quest-Welt", c2p: "10 Regionen, 50 Kämpfe und Bosse. Siege schalten neue Helden frei, Training Unterschriftstechniken — und Eltern sehen den Fortschritt im Wochenbericht.",
+    c3h: "Privatsphäre by design", c3p: "Video verlässt das Gerät nie — es werden nur Pose-Landmarks und Statistik gespeichert. COPPA- / DSGVO-K-konform, Kontolöschung in zwei Tippsern.",
+    cta: "Kontakt", privacy: "Datenschutz", terms: "AGB", support: "Support",
+    foot: "© 2026 Kidsney",
+  },
+};
+function setLang(l) {
+  document.documentElement.lang = l === "uk" ? "uk" : l;
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const v = T[l][el.dataset.i18n];
+    if (v != null) el.innerHTML = v;
+  });
+  document.querySelectorAll(".lang button").forEach((b) => b.classList.toggle("on", b.dataset.lang === l));
+  try { localStorage.setItem("kidsney-site-lang", l); } catch {}
+}
+document.querySelectorAll(".lang button").forEach((b) => (b.onclick = () => setLang(b.dataset.lang)));
+let lang = "en";
+try { lang = localStorage.getItem("kidsney-site-lang") || ((navigator.language || "").startsWith("uk") ? "uk" : (navigator.language || "").startsWith("de") ? "de" : "en"); } catch {}
+setLang(T[lang] ? lang : "en");
+</script>
+</body>
+</html>

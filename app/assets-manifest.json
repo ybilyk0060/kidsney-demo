@@ -1,0 +1,229 @@
+{
+  "$schema": "../scripts/assets-manifest.schema.json",
+  "version": 1,
+  "heroes": {
+    "stab": {
+      "skel": "heroes/stab/stab.json",
+      "atlas": "heroes/stab/stab.atlas"
+    },
+    "footballer": { "skel": "heroes/footballer/footballer.json", "atlas": "heroes/footballer/footballer.atlas" },
+    "boxer": { "skel": "heroes/boxer/boxer.json", "atlas": "heroes/boxer/boxer.atlas" },
+    "runner": { "skel": "heroes/runner/runner.json", "atlas": "heroes/runner/runner.atlas" },
+    "swimmer": { "skel": "heroes/swimmer/swimmer.json", "atlas": "heroes/swimmer/swimmer.atlas" },
+    "climber": { "skel": "heroes/climber/climber.json", "atlas": "heroes/climber/climber.atlas" },
+    "dancer": { "skel": "heroes/dancer/dancer.json", "atlas": "heroes/dancer/dancer.atlas" },
+    "skater": { "skel": "heroes/skater/skater.json", "atlas": "heroes/skater/skater.atlas" },
+    "skier": { "skel": "heroes/skier/skier.json", "atlas": "heroes/skier/skier.atlas" },
+    "gymnast": { "skel": "heroes/gymnast/gymnast.json", "atlas": "heroes/gymnast/gymnast.atlas" },
+    "tennis": { "skel": "heroes/tennis/tennis.json", "atlas": "heroes/tennis/tennis.atlas" },
+    "weightlifter": { "skel": "heroes/weightlifter/weightlifter.json", "atlas": "heroes/weightlifter/weightlifter.atlas" },
+    "ninja": { "skel": "heroes/ninja/ninja.json", "atlas": "heroes/ninja/ninja.atlas" },
+    "robot": { "skel": "heroes/robot/robot.json", "atlas": "heroes/robot/robot.atlas" },
+    "dragon": { "skel": "heroes/dragon/dragon.json", "atlas": "heroes/dragon/dragon.atlas" },
+    "unicorn": { "skel": "heroes/unicorn/unicorn.json", "atlas": "heroes/unicorn/unicorn.atlas" }
+  },
+  "arenas": {
+    "dojo": {
+      "label": "Dojo",
+      "layers": {
+        "far": "arenas/sunny-meadow-dojo/far.png",
+        "mid": "arenas/sunny-meadow-dojo/mid.png",
+        "near": "arenas/sunny-meadow-dojo/near.png"
+      }
+    },
+    "ring": {
+      "label": "Ring",
+      "layers": {
+        "far": null,
+        "mid": null,
+        "near": null
+      }
+    },
+    "park": {
+      "label": "Park",
+      "layers": {
+        "far": null,
+        "mid": null,
+        "near": null
+      }
+    },
+    "sunny-meadow-dojo": {
+      "label": "Sunny Meadow Dojo",
+      "layers": {
+        "far": "arenas/sunny-meadow-dojo/far.png",
+        "mid": "arenas/sunny-meadow-dojo/mid.png",
+        "near": "arenas/sunny-meadow-dojo/near.png"
+      }
+    },
+    "riverside-dojo": {
+      "label": "Riverside Dojo",
+      "layers": {
+        "far": "arenas/riverside-dojo/far.png",
+        "mid": "arenas/riverside-dojo/mid.png",
+        "near": "arenas/riverside-dojo/near.png"
+      }
+    },
+    "neon-boardwalk": {
+      "label": "Neon Boardwalk",
+      "layers": {
+        "far": "arenas/neon-boardwalk/far.png",
+        "mid": "arenas/neon-boardwalk/mid.png",
+        "near": "arenas/neon-boardwalk/near.png"
+      }
+    },
+    "cliffside-ring": {
+      "label": "Cliffside Ring",
+      "layers": {
+        "far": "arenas/cliffside-ring/far.png",
+        "mid": "arenas/cliffside-ring/mid.png",
+        "near": "arenas/cliffside-ring/near.png"
+      }
+    },
+    "skate-park-sunset": {
+      "label": "Skate Park Sunset",
+      "layers": {
+        "far": "arenas/skate-park-sunset/far.png",
+        "mid": "arenas/skate-park-sunset/mid.png",
+        "near": "arenas/skate-park-sunset/near.png"
+      }
+    },
+    "night-park-neon": {
+      "label": "Night Park Neon",
+      "layers": {
+        "far": "arenas/night-park-neon/far.png",
+        "mid": "arenas/night-park-neon/mid.png",
+        "near": "arenas/night-park-neon/near.png"
+      }
+    },
+    "snow-temple-dojo": {
+      "label": "Snow Temple Dojo",
+      "layers": {
+        "far": "arenas/snow-temple-dojo/far.png",
+        "mid": "arenas/snow-temple-dojo/mid.png",
+        "near": "arenas/snow-temple-dojo/near.png"
+      }
+    },
+    "stadium-arena": {
+      "label": "Stadium Arena",
+      "layers": {
+        "far": "arenas/stadium-arena/far.png",
+        "mid": "arenas/stadium-arena/mid.png",
+        "near": "arenas/stadium-arena/near.png"
+      }
+    },
+    "sky-garden-park": {
+      "label": "Sky Garden Park",
+      "layers": {
+        "far": "arenas/sky-garden-park/far.png",
+        "mid": "arenas/sky-garden-park/mid.png",
+        "near": "arenas/sky-garden-park/near.png"
+      }
+    },
+    "ember-dojo": {
+      "label": "Ember Dojo",
+      "layers": {
+        "far": "arenas/ember-dojo/far.png",
+        "mid": "arenas/ember-dojo/mid.png",
+        "near": "arenas/ember-dojo/near.png"
+      }
+    }
+  },
+  "vfx": {
+    "hit_spark_light": "vfx/hit_light.png",
+    "hit_spark_heavy": "vfx/hit_heavy.png",
+    "block_spark": "vfx/block.png",
+    "whiff": null,
+    "super_aura_charge": "vfx/aura_level5.png",
+    "super_strike": "vfx/super_flash.png",
+    "dust_step": "vfx/dust.png",
+    "dust_land": "vfx/dust.png",
+    "jump_dust": "vfx/dust.png",
+    "ko_burst": "vfx/super_flash.png",
+    "ko_stars": "vfx/sleep_zzz.png",
+    "aura_level_2": "vfx/aura_level2.png",
+    "aura_level_5": "vfx/aura_level5.png",
+    "aura_level_8": "vfx/aura_level8.png",
+    "aura_level_10": "vfx/aura_level10.png",
+    "grow_levelup_burst": "vfx/grow_levelup.png",
+    "sleep_z": "vfx/sleep_zzz.png",
+    "wake_up_flash": "vfx/wake_up.png",
+    "energy_refill": null,
+    "heal_sparkle": null,
+    "shadow_oval": null
+  },
+  "ui": {
+    "button_primary_normal": "ui/button_primary_normal.png",
+    "button_primary_pressed": "ui/button_primary_pressed.png",
+    "button_primary_disabled": "ui/button_primary_disabled.png",
+    "button_amber_normal": "ui/button_amber_normal.png",
+    "button_amber_pressed": "ui/button_amber_pressed.png",
+    "button_amber_disabled": "ui/button_amber_disabled.png",
+    "bar_hp_green": "ui/bar_hp_green.png",
+    "bar_hp_green_fill": "ui/bar_hp_green_fill.png",
+    "bar_hp_red": "ui/bar_hp_red.png",
+    "bar_hp_red_fill": "ui/bar_hp_red_fill.png",
+    "bar_super": "ui/bar_super.png",
+    "bar_super_fill": "ui/bar_super_fill.png",
+    "card_panel": "ui/card_panel.png",
+    "coin": "ui/coin.png",
+    "energy_pip": "ui/energy_pip.png",
+    "energy_pip_empty": "ui/energy_pip_empty.png",
+    "lock": "ui/lock.png",
+    "star_level": "ui/star_level.png",
+    "node_available": "ui/node_available.png",
+    "node_completed": "ui/node_completed.png",
+    "node_current": "ui/node_current.png",
+    "node_locked": "ui/node_locked.png",
+    "exercise_jumping_jacks": "ui/exercise_jumping_jacks.png",
+    "exercise_squats": "ui/exercise_squats.png",
+    "exercise_push_ups": "ui/exercise_push_ups.png",
+    "exercise_high_knees": "ui/exercise_high_knees.png",
+    "exercise_punches": "ui/exercise_punches.png",
+    "exercise_kicks": "ui/exercise_kicks.png",
+    "exercise_plank": "ui/exercise_plank.png",
+    "exercise_jump": "ui/exercise_jump.png",
+    "stat_health": "ui/stat_health.png",
+    "stat_speed": "ui/stat_speed.png",
+    "stat_stamina": "ui/stat_stamina.png",
+    "stat_strength": "ui/stat_strength.png"
+  },
+  "audio": {
+    "sfx": {
+      "punch_hit_1": "audio/sfx/punch_hit_1.m4a",
+      "punch_hit_2": "audio/sfx/punch_hit_2.m4a",
+      "punch_hit_3": "audio/sfx/punch_hit_3.m4a",
+      "block": "audio/sfx/block.m4a",
+      "whiff": "audio/sfx/whiff.m4a",
+      "jump": "audio/sfx/jump.m4a",
+      "land": "audio/sfx/land.m4a",
+      "super_charge": "audio/sfx/super_charge.m4a",
+      "super_fire": "audio/sfx/super_fire.m4a",
+      "ko": "audio/sfx/ko.m4a",
+      "round_bell": "audio/sfx/round_bell.m4a",
+      "round_start": "audio/sfx/round_start.m4a",
+      "victory": "audio/sfx/victory.m4a",
+      "defeat": "audio/sfx/defeat.m4a",
+      "count_tick": "audio/sfx/count_tick.m4a",
+      "ui_click": "audio/sfx/ui_click.m4a",
+      "ui_confirm": "audio/sfx/ui_confirm.m4a",
+      "xp_gain": "audio/sfx/xp_gain.m4a",
+      "levelup_grow": "audio/sfx/levelup_grow.m4a",
+      "quest_complete": "audio/sfx/quest_complete.m4a",
+      "energy_refill": "audio/sfx/energy_refill.m4a",
+      "wake_up": "audio/sfx/wake_up.m4a",
+      "star_1": "audio/sfx/star_1.m4a",
+      "star_2": "audio/sfx/star_2.m4a",
+      "star_3": "audio/sfx/star_3.m4a"
+    },
+    "music": {
+      "menu": "audio/music/menu.m4a",
+      "training": "audio/music/training.m4a",
+      "battle": "audio/music/battle.m4a"
+    },
+    "voice": {
+      "en": "audio/voice/en",
+      "uk": "audio/voice/uk",
+      "de": "audio/voice/de"
+    }
+  }
+}
