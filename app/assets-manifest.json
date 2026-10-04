@@ -1,6 +1,6 @@
 {
   "$schema": "../scripts/assets-manifest.schema.json",
-  "version": 1,
+  "version": 3,
   "heroes": {
     "stab": {
       "skel": "heroes/stab/stab.json",
@@ -194,7 +194,21 @@
     "wake_up_flash": "vfx/wake_up.png",
     "energy_refill": null,
     "heal_sparkle": null,
-    "shadow_oval": null
+    "shadow_oval": null,
+    "electric_arc": "vfx/electric_arc.png",
+    "energy_ball": "vfx/energy_ball.png",
+    "eq_waves": "vfx/eq_waves.png",
+    "fire_arc": "vfx/fire_arc.png",
+    "ghost_clones": "vfx/ghost_clones.png",
+    "rainbow_arc": "vfx/rainbow_arc.png",
+    "rock_debris": "vfx/rock_debris.png",
+    "shockwave_ring": "vfx/shockwave_ring.png",
+    "skateboard": "vfx/skateboard.png",
+    "smoke_clones": "vfx/smoke_clones.png",
+    "snow_fan": "vfx/snow_fan.png",
+    "speed_lines": "vfx/speed_lines.png",
+    "super_charge": "vfx/super_charge.png",
+    "water_wave": "vfx/water_wave.png"
   },
   "ui": {
     "button_primary_normal": "ui/button_primary_normal.png",
@@ -272,7 +286,20 @@
     }
   },
   "map": {
+    "background": "map/bg.png",
     "regions": {
+      "1": "map/regions/sunny-meadow-dojo.png",
+      "2": "map/regions/riverside-dojo.png",
+      "3": "map/regions/neon-boardwalk.png",
+      "4": "map/regions/cliffside-ring.png",
+      "5": "map/regions/skate-park-sunset.png",
+      "6": "map/regions/night-park-neon.png",
+      "7": "map/regions/snow-temple-dojo.png",
+      "8": "map/regions/stadium-arena.png",
+      "9": "map/regions/sky-garden-park.png",
+      "10": "map/regions/ember-dojo.png"
+    },
+    "legacy_jpg": {
       "1": "map/region-01.jpg",
       "2": "map/region-02.jpg",
       "3": "map/region-03.jpg",
@@ -284,5 +311,89 @@
       "9": "map/region-09.jpg",
       "10": "map/region-10.jpg"
     }
+  },
+  "portraits": {
+    "heroes": {
+      "boxer": "portraits/boxer.png",
+      "climber": "portraits/climber.png",
+      "dancer": "portraits/dancer.png",
+      "dragon": "portraits/dragon.png",
+      "footballer": "portraits/footballer.png",
+      "gymnast": "portraits/gymnast.png",
+      "ninja": "portraits/ninja.png",
+      "robot": "portraits/robot.png",
+      "runner": "portraits/runner.png",
+      "skater": "portraits/skater.png",
+      "skier": "portraits/skier.png",
+      "swimmer": "portraits/swimmer.png",
+      "tennis": "portraits/tennis.png",
+      "unicorn": "portraits/unicorn.png",
+      "weightlifter": "portraits/weightlifter.png"
+    },
+    "bosses": {
+      "cliffside-ring": "portraits/bosses/cliffside-ring.png",
+      "ember-dojo": "portraits/bosses/ember-dojo.png",
+      "neon-boardwalk": "portraits/bosses/neon-boardwalk.png",
+      "night-park-neon": "portraits/bosses/night-park-neon.png",
+      "riverside-dojo": "portraits/bosses/riverside-dojo.png",
+      "skate-park-sunset": "portraits/bosses/skate-park-sunset.png",
+      "sky-garden-park": "portraits/bosses/sky-garden-park.png",
+      "snow-temple-dojo": "portraits/bosses/snow-temple-dojo.png",
+      "stadium-arena": "portraits/bosses/stadium-arena.png",
+      "sunny-meadow-dojo": "portraits/bosses/sunny-meadow-dojo.png"
+    }
+  },
+  "icons": {
+    "stats": {
+      "health": "icons/stats/health.png",
+      "speed": "icons/stats/speed.png",
+      "stamina": "icons/stats/stamina.png",
+      "strength": "icons/stats/strength.png"
+    },
+    "supers": {
+      "boxer": "icons/supers/boxer.png",
+      "climber": "icons/supers/climber.png",
+      "dancer": "icons/supers/dancer.png",
+      "dragon": "icons/supers/dragon.png",
+      "footballer": "icons/supers/footballer.png",
+      "gymnast": "icons/supers/gymnast.png",
+      "ninja": "icons/supers/ninja.png",
+      "robot": "icons/supers/robot.png",
+      "runner": "icons/supers/runner.png",
+      "skater": "icons/supers/skater.png",
+      "skier": "icons/supers/skier.png",
+      "swimmer": "icons/supers/swimmer.png",
+      "tennis": "icons/supers/tennis.png",
+      "unicorn": "icons/supers/unicorn.png",
+      "weightlifter": "icons/supers/weightlifter.png"
+    }
+  },
+  "rewards": {
+    "coin_128": "rewards/coin_128.png",
+    "coin_256": "rewards/coin_256.png",
+    "coin_64": "rewards/coin_64.png",
+    "levelup_card": "rewards/levelup_card.png",
+    "quest_available": "rewards/quest_available.png",
+    "quest_claimed": "rewards/quest_claimed.png",
+    "quest_done": "rewards/quest_done.png",
+    "streak_1d": "rewards/streak_1d.png",
+    "streak_30d": "rewards/streak_30d.png",
+    "streak_3d": "rewards/streak_3d.png",
+    "streak_7d": "rewards/streak_7d.png",
+    "unlock_sheet": "rewards/unlock_sheet.png"
+  },
+  "screens": {
+    "calibration_silhouette": "screens/calibration_silhouette.png",
+    "empty_energy": "screens/empty_energy.png",
+    "empty_offline": "screens/empty_offline.png",
+    "error_oops": "screens/error_oops.png",
+    "loading_hero": "screens/loading_hero.png",
+    "onboarding_fight": "screens/onboarding_fight.png",
+    "onboarding_hero": "screens/onboarding_hero.png",
+    "onboarding_train": "screens/onboarding_train.png",
+    "sleep_hero": "screens/sleep_hero.png"
+  },
+  "heroes3d": {
+    "footballer": "heroes3d/footballer.glb"
   }
 }
