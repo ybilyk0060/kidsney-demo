@@ -1,0 +1,344 @@
+{
+  "/docs/3d/footballer/rigged.glb": {
+    "hero": "footballer",
+    "skinYaw": 0,
+    "source": "single-view, лист профиль"
+  },
+  "/docs/3d/boxer/rigged.glb": {
+    "hero": "boxer",
+    "skinYaw": 0,
+    "source": "multiview 4 ракурса"
+  },
+  "/docs/3d/gymnast/rigged.glb": {
+    "hero": "gymnast",
+    "skinYaw": 0,
+    "source": "single-view, лист профиль"
+  },
+  "/docs/3d/runner/rigged.glb": {
+    "hero": "runner",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса"
+  },
+  "/docs/3d/swimmer/rigged.glb": {
+    "hero": "swimmer",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса, без ласт (ласты ломали rig-check)"
+  },
+  "/docs/3d/climber/rigged.glb": {
+    "hero": "climber",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса"
+  },
+  "_heroes": {
+    "footballer": {
+      "status": "ready",
+      "glb": "/public/heroes3d/footballer.glb",
+      "store": "/public/heroes3d/footballer-store.glb",
+      "skinYaw": 0
+    },
+    "boxer": {
+      "status": "ready",
+      "glb": "/public/heroes3d/boxer.glb",
+      "store": "/public/heroes3d/boxer-store.glb",
+      "skinYaw": 0
+    },
+    "runner": {
+      "status": "ready",
+      "glb": "/public/heroes3d/runner.glb",
+      "store": "/public/heroes3d/runner-store.glb",
+      "skinYaw": 180
+    },
+    "swimmer": {
+      "status": "ready",
+      "glb": "/public/heroes3d/swimmer.glb",
+      "store": "/public/heroes3d/swimmer-store.glb",
+      "skinYaw": 180
+    },
+    "climber": {
+      "status": "ready",
+      "glb": "/public/heroes3d/climber.glb",
+      "store": "/public/heroes3d/climber-store.glb",
+      "skinYaw": 180
+    },
+    "gymnast": {
+      "status": "ready",
+      "glb": "/public/heroes3d/gymnast.glb",
+      "store": "/public/heroes3d/gymnast-store.glb",
+      "skinYaw": 0
+    },
+    "dancer": {
+      "status": "ready",
+      "glb": "/public/heroes3d/dancer.glb",
+      "store": "/public/heroes3d/dancer-store.glb",
+      "skinYaw": 180
+    },
+    "skater": {
+      "status": "ready",
+      "glb": "/public/heroes3d/skater.glb",
+      "store": "/public/heroes3d/skater-store.glb",
+      "skinYaw": 180
+    },
+    "skier": {
+      "status": "ready",
+      "glb": "/public/heroes3d/skier.glb",
+      "store": "/public/heroes3d/skier-store.glb",
+      "skinYaw": 180
+    },
+    "tennis": {
+      "status": "ready",
+      "glb": "/public/heroes3d/tennis.glb",
+      "store": "/public/heroes3d/tennis-store.glb",
+      "skinYaw": 180
+    },
+    "weightlifter": {
+      "status": "cut-r1",
+      "note": "sort_order 11 — за пределами десятки релиза (стартер + боссы р.1–9)"
+    },
+    "ninja": {
+      "status": "pending",
+      "note": "спецквест q_shadow — вне релиза, не генерировать"
+    },
+    "robot": {
+      "status": "pending",
+      "note": "спецквест q_circuits — вне релиза, не генерировать"
+    },
+    "dragon": {
+      "status": "pending",
+      "note": "спецквест q_flames — вне релиза, не генерировать; нечеловек"
+    },
+    "unicorn": {
+      "status": "pending",
+      "note": "спецквест q_rainbow — вне релиза, не генерировать; нечеловек"
+    }
+  },
+  "_bosses": {
+    "1": {
+      "base": "boxer",
+      "tint": 0.62,
+      "accessory": "crown",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.24,
+        0
+      ]
+    },
+    "2": {
+      "base": "runner",
+      "tint": 0.62,
+      "accessory": "laurel",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.3,
+        0
+      ]
+    },
+    "3": {
+      "base": "swimmer",
+      "tint": 0.62,
+      "accessory": "fincrest",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.22,
+        0
+      ]
+    },
+    "4": {
+      "base": "climber",
+      "tint": 0.62,
+      "accessory": "headlamp",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.15,
+        0
+      ]
+    },
+    "5": {
+      "base": "dancer",
+      "tint": 0.62,
+      "accessory": "headphones",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.1,
+        0
+      ]
+    },
+    "6": {
+      "base": "skater",
+      "tint": 0.62,
+      "accessory": "cap",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    "7": {
+      "base": "skier",
+      "tint": 0.62,
+      "accessory": "goldgoggles",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.06,
+        0.06
+      ]
+    },
+    "8": {
+      "base": "gymnast",
+      "tint": 0.62,
+      "accessory": "tiara",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    "9": {
+      "base": "tennis",
+      "tint": 0.62,
+      "accessory": "visor",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.16,
+        0.04
+      ]
+    },
+    "10": {
+      "base": "boxer",
+      "tint": 0.55,
+      "accessory": "bigcrown",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.28,
+        0
+      ],
+      "note": "маппинг: базовый weightlifter не входит в десятку релиза → ближайший по спорту из десятки (силовой/бокс)"
+    }
+  },
+  "_notes": {
+    "skinYaw": "коррекция yaw скин-бинда Tripo-rig (°), подбирается стоп-кадром харнесса. Артефакты бывают любые: single-view boxer — 90°, multiview runner/swimmer/climber — 180° (меш «задом наперёд» при корректных костях). boxer-mv и footballer/gymnast — чистые (0). Правило: КАЖДУЮ новую модель проверять стоп-кадром бок/профиль ДО выкладки.",
+    "rule": "по умолчанию для ростера — multiview (4 ракурса), кредиты те же, см. pipeline.md",
+    "rigcheck": "подвешенные на кисти предметы (ласты swimmer) ломают rig-check — генерировать виды с пустыми руками; отдельные предметы — отдельными мешами в коде",
+    "ten": "релизная десятка: sort_order 1–10 из hero_catalog (footballer + боссы регионов 1–9); weightlifter (р.10) — cut, босс р.10 маппится на boxer"
+  },
+  "/docs/3d/dancer/rigged.glb": {
+    "hero": "dancer",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса"
+  },
+  "/docs/3d/skater/rigged.glb": {
+    "hero": "skater",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса"
+  },
+  "/docs/3d/skier/rigged.glb": {
+    "hero": "skier",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса"
+  },
+  "/docs/3d/tennis/rigged.glb": {
+    "hero": "tennis",
+    "skinYaw": 180,
+    "source": "multiview 4 ракурса"
+  },
+  "_superprops": {
+    "footballer": {
+      "mesh": "ball",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        16,
+        38
+      ]
+    },
+    "boxer": {
+      "mesh": "gloves",
+      "bones": [
+        "mixamorigLeftHand",
+        "mixamorigRightHand"
+      ],
+      "frames": [
+        20,
+        56
+      ]
+    },
+    "runner": {
+      "mesh": "baton",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        5,
+        14
+      ]
+    },
+    "swimmer": {
+      "mesh": "fins",
+      "bones": [
+        "mixamorigLeftFoot",
+        "mixamorigRightFoot"
+      ],
+      "frames": [
+        45,
+        115
+      ]
+    },
+    "climber": {
+      "mesh": "rope",
+      "bone": "mixamorigHips",
+      "frames": [
+        18,
+        50
+      ]
+    },
+    "dancer": {
+      "mesh": "mic",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        60,
+        160
+      ]
+    },
+    "skater": {
+      "mesh": "board",
+      "bone": "mixamorigSpine2",
+      "frames": [
+        9,
+        26
+      ]
+    },
+    "skier": {
+      "mesh": "poles",
+      "bones": [
+        "mixamorigLeftHand",
+        "mixamorigRightHand"
+      ],
+      "frames": [
+        14,
+        39
+      ]
+    },
+    "gymnast": {
+      "mesh": "ribbon",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        40,
+        105
+      ]
+    },
+    "tennis": {
+      "mesh": "racket",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        18,
+        50
+      ]
+    }
+  }
+}

@@ -394,6 +394,15 @@
     "sleep_hero": "screens/sleep_hero.png"
   },
   "heroes3d": {
-    "footballer": "heroes3d/footballer.glb"
+    "footballer": "heroes3d/footballer.glb",
+    "boxer": "heroes3d/boxer.glb",
+    "runner": "heroes3d/runner.glb",
+    "swimmer": "heroes3d/swimmer.glb",
+    "climber": "heroes3d/climber.glb",
+    "gymnast": "heroes3d/gymnast.glb",
+    "dancer": "heroes3d/dancer.glb",
+    "skater": "heroes3d/skater.glb",
+    "skier": "heroes3d/skier.glb",
+    "tennis": "heroes3d/tennis.glb"
   }
 }
