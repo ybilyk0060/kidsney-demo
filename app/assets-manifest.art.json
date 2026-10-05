@@ -1,0 +1,821 @@
+{
+  "_meta": {
+    "branch": "art",
+    "source": "docs/art/ASSETS.md",
+    "generated_by": "docs/art/make-manifest-art.py",
+    "note": "Фрагмент для слияния в assets-manifest.json. Пути от корня репозитория. fps — предложение, финально решает игра."
+  },
+  "heroes": {
+    "footballer": {
+      "skin_path": "public/heroes/footballer/footballer.json",
+      "atlas": "public/heroes/footballer/footballer.atlas",
+      "texture": "public/heroes/footballer/footballer.png",
+      "portrait": "public/portraits/footballer.png",
+      "super_icon": "public/icons/supers/footballer.png",
+      "face_slot": "docs/art/faces/footballer-slot-region.png"
+    },
+    "boxer": {
+      "skin_path": "public/heroes/boxer/boxer.json",
+      "atlas": "public/heroes/boxer/boxer.atlas",
+      "texture": "public/heroes/boxer/boxer.png",
+      "portrait": "public/portraits/boxer.png",
+      "super_icon": "public/icons/supers/boxer.png",
+      "face_slot": "docs/art/faces/boxer-slot-region.png"
+    },
+    "runner": {
+      "skin_path": "public/heroes/runner/runner.json",
+      "atlas": "public/heroes/runner/runner.atlas",
+      "texture": "public/heroes/runner/runner.png",
+      "portrait": "public/portraits/runner.png",
+      "super_icon": "public/icons/supers/runner.png",
+      "face_slot": "docs/art/faces/runner-slot-region.png"
+    },
+    "swimmer": {
+      "skin_path": "public/heroes/swimmer/swimmer.json",
+      "atlas": "public/heroes/swimmer/swimmer.atlas",
+      "texture": "public/heroes/swimmer/swimmer.png",
+      "portrait": "public/portraits/swimmer.png",
+      "super_icon": "public/icons/supers/swimmer.png",
+      "face_slot": "docs/art/faces/swimmer-slot-region.png"
+    },
+    "climber": {
+      "skin_path": "public/heroes/climber/climber.json",
+      "atlas": "public/heroes/climber/climber.atlas",
+      "texture": "public/heroes/climber/climber.png",
+      "portrait": "public/portraits/climber.png",
+      "super_icon": "public/icons/supers/climber.png",
+      "face_slot": "docs/art/faces/climber-slot-region.png"
+    },
+    "dancer": {
+      "skin_path": "public/heroes/dancer/dancer.json",
+      "atlas": "public/heroes/dancer/dancer.atlas",
+      "texture": "public/heroes/dancer/dancer.png",
+      "portrait": "public/portraits/dancer.png",
+      "super_icon": "public/icons/supers/dancer.png",
+      "face_slot": "docs/art/faces/dancer-slot-region.png"
+    },
+    "skater": {
+      "skin_path": "public/heroes/skater/skater.json",
+      "atlas": "public/heroes/skater/skater.atlas",
+      "texture": "public/heroes/skater/skater.png",
+      "portrait": "public/portraits/skater.png",
+      "super_icon": "public/icons/supers/skater.png",
+      "face_slot": "docs/art/faces/skater-slot-region.png"
+    },
+    "skier": {
+      "skin_path": "public/heroes/skier/skier.json",
+      "atlas": "public/heroes/skier/skier.atlas",
+      "texture": "public/heroes/skier/skier.png",
+      "portrait": "public/portraits/skier.png",
+      "super_icon": "public/icons/supers/skier.png",
+      "face_slot": "docs/art/faces/skier-slot-region.png"
+    },
+    "gymnast": {
+      "skin_path": "public/heroes/gymnast/gymnast.json",
+      "atlas": "public/heroes/gymnast/gymnast.atlas",
+      "texture": "public/heroes/gymnast/gymnast.png",
+      "portrait": "public/portraits/gymnast.png",
+      "super_icon": "public/icons/supers/gymnast.png",
+      "face_slot": "docs/art/faces/gymnast-slot-region.png"
+    },
+    "tennis": {
+      "skin_path": "public/heroes/tennis/tennis.json",
+      "atlas": "public/heroes/tennis/tennis.atlas",
+      "texture": "public/heroes/tennis/tennis.png",
+      "portrait": "public/portraits/tennis.png",
+      "super_icon": "public/icons/supers/tennis.png",
+      "face_slot": "docs/art/faces/tennis-slot-region.png"
+    },
+    "weightlifter": {
+      "skin_path": "public/heroes/weightlifter/weightlifter.json",
+      "atlas": "public/heroes/weightlifter/weightlifter.atlas",
+      "texture": "public/heroes/weightlifter/weightlifter.png",
+      "portrait": "public/portraits/weightlifter.png",
+      "super_icon": "public/icons/supers/weightlifter.png",
+      "face_slot": "docs/art/faces/weightlifter-slot-region.png"
+    },
+    "ninja": {
+      "skin_path": "public/heroes/ninja/ninja.json",
+      "atlas": "public/heroes/ninja/ninja.atlas",
+      "texture": "public/heroes/ninja/ninja.png",
+      "portrait": "public/portraits/ninja.png",
+      "super_icon": "public/icons/supers/ninja.png",
+      "face_slot": "docs/art/faces/ninja-slot-region.png"
+    },
+    "robot": {
+      "skin_path": "public/heroes/robot/robot.json",
+      "atlas": "public/heroes/robot/robot.atlas",
+      "texture": "public/heroes/robot/robot.png",
+      "portrait": "public/portraits/robot.png",
+      "super_icon": "public/icons/supers/robot.png",
+      "face_slot": "docs/art/faces/robot-slot-region.png"
+    },
+    "dragon": {
+      "skin_path": "public/heroes/dragon/dragon.json",
+      "atlas": "public/heroes/dragon/dragon.atlas",
+      "texture": "public/heroes/dragon/dragon.png",
+      "portrait": "public/portraits/dragon.png",
+      "super_icon": "public/icons/supers/dragon.png",
+      "face_slot": "docs/art/faces/dragon-slot-region.png"
+    },
+    "unicorn": {
+      "skin_path": "public/heroes/unicorn/unicorn.json",
+      "atlas": "public/heroes/unicorn/unicorn.atlas",
+      "texture": "public/heroes/unicorn/unicorn.png",
+      "portrait": "public/portraits/unicorn.png",
+      "super_icon": "public/icons/supers/unicorn.png",
+      "face_slot": "docs/art/faces/unicorn-slot-region.png"
+    }
+  },
+  "bosses": {
+    "sunny-meadow-dojo": {
+      "base_hero": "boxer",
+      "skin_path": "public/bosses/sunny-meadow-dojo/boss.json",
+      "atlas": "public/bosses/sunny-meadow-dojo/boss.atlas",
+      "texture": "public/bosses/sunny-meadow-dojo/boss.png",
+      "portrait": "public/portraits/bosses/sunny-meadow-dojo.png",
+      "aura_dark": "public/bosses/sunny-meadow-dojo/aura_dark.png"
+    },
+    "riverside-dojo": {
+      "base_hero": "runner",
+      "skin_path": "public/bosses/riverside-dojo/boss.json",
+      "atlas": "public/bosses/riverside-dojo/boss.atlas",
+      "texture": "public/bosses/riverside-dojo/boss.png",
+      "portrait": "public/portraits/bosses/riverside-dojo.png",
+      "aura_dark": "public/bosses/riverside-dojo/aura_dark.png"
+    },
+    "neon-boardwalk": {
+      "base_hero": "swimmer",
+      "skin_path": "public/bosses/neon-boardwalk/boss.json",
+      "atlas": "public/bosses/neon-boardwalk/boss.atlas",
+      "texture": "public/bosses/neon-boardwalk/boss.png",
+      "portrait": "public/portraits/bosses/neon-boardwalk.png",
+      "aura_dark": "public/bosses/neon-boardwalk/aura_dark.png"
+    },
+    "cliffside-ring": {
+      "base_hero": "climber",
+      "skin_path": "public/bosses/cliffside-ring/boss.json",
+      "atlas": "public/bosses/cliffside-ring/boss.atlas",
+      "texture": "public/bosses/cliffside-ring/boss.png",
+      "portrait": "public/portraits/bosses/cliffside-ring.png",
+      "aura_dark": "public/bosses/cliffside-ring/aura_dark.png"
+    },
+    "skate-park-sunset": {
+      "base_hero": "dancer",
+      "skin_path": "public/bosses/skate-park-sunset/boss.json",
+      "atlas": "public/bosses/skate-park-sunset/boss.atlas",
+      "texture": "public/bosses/skate-park-sunset/boss.png",
+      "portrait": "public/portraits/bosses/skate-park-sunset.png",
+      "aura_dark": "public/bosses/skate-park-sunset/aura_dark.png"
+    },
+    "night-park-neon": {
+      "base_hero": "skater",
+      "skin_path": "public/bosses/night-park-neon/boss.json",
+      "atlas": "public/bosses/night-park-neon/boss.atlas",
+      "texture": "public/bosses/night-park-neon/boss.png",
+      "portrait": "public/portraits/bosses/night-park-neon.png",
+      "aura_dark": "public/bosses/night-park-neon/aura_dark.png"
+    },
+    "snow-temple-dojo": {
+      "base_hero": "skier",
+      "skin_path": "public/bosses/snow-temple-dojo/boss.json",
+      "atlas": "public/bosses/snow-temple-dojo/boss.atlas",
+      "texture": "public/bosses/snow-temple-dojo/boss.png",
+      "portrait": "public/portraits/bosses/snow-temple-dojo.png",
+      "aura_dark": "public/bosses/snow-temple-dojo/aura_dark.png"
+    },
+    "stadium-arena": {
+      "base_hero": "gymnast",
+      "skin_path": "public/bosses/stadium-arena/boss.json",
+      "atlas": "public/bosses/stadium-arena/boss.atlas",
+      "texture": "public/bosses/stadium-arena/boss.png",
+      "portrait": "public/portraits/bosses/stadium-arena.png",
+      "aura_dark": "public/bosses/stadium-arena/aura_dark.png"
+    },
+    "sky-garden-park": {
+      "base_hero": "tennis",
+      "skin_path": "public/bosses/sky-garden-park/boss.json",
+      "atlas": "public/bosses/sky-garden-park/boss.atlas",
+      "texture": "public/bosses/sky-garden-park/boss.png",
+      "portrait": "public/portraits/bosses/sky-garden-park.png",
+      "aura_dark": "public/bosses/sky-garden-park/aura_dark.png"
+    },
+    "ember-dojo": {
+      "base_hero": "weightlifter",
+      "skin_path": "public/bosses/ember-dojo/boss.json",
+      "atlas": "public/bosses/ember-dojo/boss.atlas",
+      "texture": "public/bosses/ember-dojo/boss.png",
+      "portrait": "public/portraits/bosses/ember-dojo.png",
+      "aura_dark": "public/bosses/ember-dojo/aura_dark.png"
+    }
+  },
+  "arenas": {
+    "sunny-meadow-dojo": {
+      "far": "public/arenas/sunny-meadow-dojo/far.png",
+      "mid": "public/arenas/sunny-meadow-dojo/mid.png",
+      "near": "public/arenas/sunny-meadow-dojo/near.png"
+    },
+    "riverside-dojo": {
+      "far": "public/arenas/riverside-dojo/far.png",
+      "mid": "public/arenas/riverside-dojo/mid.png",
+      "near": "public/arenas/riverside-dojo/near.png"
+    },
+    "neon-boardwalk": {
+      "far": "public/arenas/neon-boardwalk/far.png",
+      "mid": "public/arenas/neon-boardwalk/mid.png",
+      "near": "public/arenas/neon-boardwalk/near.png"
+    },
+    "cliffside-ring": {
+      "far": "public/arenas/cliffside-ring/far.png",
+      "mid": "public/arenas/cliffside-ring/mid.png",
+      "near": "public/arenas/cliffside-ring/near.png"
+    },
+    "skate-park-sunset": {
+      "far": "public/arenas/skate-park-sunset/far.png",
+      "mid": "public/arenas/skate-park-sunset/mid.png",
+      "near": "public/arenas/skate-park-sunset/near.png"
+    },
+    "night-park-neon": {
+      "far": "public/arenas/night-park-neon/far.png",
+      "mid": "public/arenas/night-park-neon/mid.png",
+      "near": "public/arenas/night-park-neon/near.png"
+    },
+    "snow-temple-dojo": {
+      "far": "public/arenas/snow-temple-dojo/far.png",
+      "mid": "public/arenas/snow-temple-dojo/mid.png",
+      "near": "public/arenas/snow-temple-dojo/near.png"
+    },
+    "stadium-arena": {
+      "far": "public/arenas/stadium-arena/far.png",
+      "mid": "public/arenas/stadium-arena/mid.png",
+      "near": "public/arenas/stadium-arena/near.png"
+    },
+    "sky-garden-park": {
+      "far": "public/arenas/sky-garden-park/far.png",
+      "mid": "public/arenas/sky-garden-park/mid.png",
+      "near": "public/arenas/sky-garden-park/near.png"
+    },
+    "ember-dojo": {
+      "far": "public/arenas/ember-dojo/far.png",
+      "mid": "public/arenas/ember-dojo/mid.png",
+      "near": "public/arenas/ember-dojo/near.png"
+    }
+  },
+  "map": {
+    "background": "public/map/bg.png",
+    "regions": {
+      "sunny-meadow-dojo": "public/map/regions/sunny-meadow-dojo.png",
+      "riverside-dojo": "public/map/regions/riverside-dojo.png",
+      "neon-boardwalk": "public/map/regions/neon-boardwalk.png",
+      "cliffside-ring": "public/map/regions/cliffside-ring.png",
+      "skate-park-sunset": "public/map/regions/skate-park-sunset.png",
+      "night-park-neon": "public/map/regions/night-park-neon.png",
+      "snow-temple-dojo": "public/map/regions/snow-temple-dojo.png",
+      "stadium-arena": "public/map/regions/stadium-arena.png",
+      "sky-garden-park": "public/map/regions/sky-garden-park.png",
+      "ember-dojo": "public/map/regions/ember-dojo.png"
+    }
+  },
+  "vfx": {
+    "hit_light": {
+      "sheet": "public/vfx/hit_light.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "hit_heavy": {
+      "sheet": "public/vfx/hit_heavy.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "block": {
+      "sheet": "public/vfx/block.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "dust": {
+      "sheet": "public/vfx/dust.png",
+      "frames": 10,
+      "fps": 10,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "super_flash": {
+      "sheet": "public/vfx/super_flash.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "aura_level2": {
+      "sheet": "public/vfx/aura_level2.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "aura_level5": {
+      "sheet": "public/vfx/aura_level5.png",
+      "frames": 10,
+      "fps": 10,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "aura_level8": {
+      "sheet": "public/vfx/aura_level8.png",
+      "frames": 10,
+      "fps": 10,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "aura_level10": {
+      "sheet": "public/vfx/aura_level10.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": true,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "grow_levelup": {
+      "sheet": "public/vfx/grow_levelup.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "sleep_zzz": {
+      "sheet": "public/vfx/sleep_zzz.png",
+      "frames": 10,
+      "fps": 8,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "wake_up": {
+      "sheet": "public/vfx/wake_up.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal"
+    },
+    "shockwave_ring": {
+      "sheet": "public/vfx/shockwave_ring.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "footballer",
+        "weightlifter",
+        "boxer"
+      ]
+    },
+    "energy_ball": {
+      "sheet": "public/vfx/energy_ball.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "footballer",
+        "tennis"
+      ]
+    },
+    "ghost_clones": {
+      "sheet": "public/vfx/ghost_clones.png",
+      "frames": 10,
+      "fps": 10,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "runner",
+        "ninja",
+        "dancer"
+      ]
+    },
+    "water_wave": {
+      "sheet": "public/vfx/water_wave.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "swimmer"
+      ]
+    },
+    "rock_debris": {
+      "sheet": "public/vfx/rock_debris.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "climber"
+      ]
+    },
+    "snow_fan": {
+      "sheet": "public/vfx/snow_fan.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "skier"
+      ]
+    },
+    "speed_lines": {
+      "sheet": "public/vfx/speed_lines.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "runner",
+        "gymnast"
+      ]
+    },
+    "fire_arc": {
+      "sheet": "public/vfx/fire_arc.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "dragon"
+      ]
+    },
+    "electric_arc": {
+      "sheet": "public/vfx/electric_arc.png",
+      "frames": 10,
+      "fps": 14,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "robot"
+      ]
+    },
+    "rainbow_arc": {
+      "sheet": "public/vfx/rainbow_arc.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "unicorn"
+      ]
+    },
+    "eq_waves": {
+      "sheet": "public/vfx/eq_waves.png",
+      "frames": 10,
+      "fps": 10,
+      "loop": true,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "dancer"
+      ]
+    },
+    "skateboard": {
+      "sheet": "public/vfx/skateboard.png",
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "skater"
+      ]
+    },
+    "smoke_clones": {
+      "sheet": "public/vfx/smoke_clones.png",
+      "frames": 10,
+      "fps": 10,
+      "loop": false,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "ninja"
+      ]
+    },
+    "super_charge": {
+      "sheet": "public/vfx/super_charge.png",
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "frame_size": 256,
+      "layout": "horizontal",
+      "heroes": [
+        "footballer",
+        "boxer",
+        "runner",
+        "swimmer",
+        "climber",
+        "dancer",
+        "skater",
+        "skier",
+        "gymnast",
+        "tennis",
+        "weightlifter",
+        "ninja",
+        "robot",
+        "dragon",
+        "unicorn"
+      ]
+    }
+  },
+  "ui": {
+    "_style": "public/ui/README.md",
+    "button_primary": {
+      "normal": "public/ui/button_primary_normal.png",
+      "pressed": "public/ui/button_primary_pressed.png",
+      "disabled": "public/ui/button_primary_disabled.png",
+      "nine_slice": {
+        "left": 32,
+        "right": 32,
+        "stretch": "width",
+        "fixed_height": [
+          64,
+          96
+        ]
+      }
+    },
+    "button_amber": {
+      "normal": "public/ui/button_amber_normal.png",
+      "pressed": "public/ui/button_amber_pressed.png",
+      "disabled": "public/ui/button_amber_disabled.png",
+      "nine_slice": {
+        "left": 32,
+        "right": 32,
+        "stretch": "width",
+        "fixed_height": [
+          64,
+          96
+        ]
+      }
+    },
+    "bar_hp_green": {
+      "track": "public/ui/bar_hp_green.png",
+      "fill": "public/ui/bar_hp_green_fill.png",
+      "nine_slice": {
+        "corners_radius": 48,
+        "stretch": "width"
+      }
+    },
+    "bar_hp_red": {
+      "track": "public/ui/bar_hp_red.png",
+      "fill": "public/ui/bar_hp_red_fill.png",
+      "nine_slice": {
+        "corners_radius": 48,
+        "stretch": "width"
+      }
+    },
+    "bar_super": {
+      "track": "public/ui/bar_super.png",
+      "fill": "public/ui/bar_super_fill.png",
+      "nine_slice": {
+        "corners_radius": 48,
+        "stretch": "width"
+      }
+    },
+    "energy_pip": {
+      "full": "public/ui/energy_pip.png",
+      "empty": "public/ui/energy_pip_empty.png"
+    },
+    "card_panel": {
+      "path": "public/ui/card_panel.png",
+      "nine_slice": {
+        "corner_size": 96,
+        "corner_radius": 48,
+        "stretch": "both"
+      }
+    },
+    "map_nodes": {
+      "available": "public/ui/node_available.png",
+      "current": "public/ui/node_current.png",
+      "completed": "public/ui/node_completed.png",
+      "locked": "public/ui/node_locked.png",
+      "map_diameter": [
+        120,
+        160
+      ]
+    },
+    "exercises": {
+      "squats": "public/ui/exercise_squats.png",
+      "push_ups": "public/ui/exercise_push_ups.png",
+      "jumping_jacks": "public/ui/exercise_jumping_jacks.png",
+      "high_knees": "public/ui/exercise_high_knees.png",
+      "jump": "public/ui/exercise_jump.png",
+      "plank": "public/ui/exercise_plank.png",
+      "punches": "public/ui/exercise_punches.png",
+      "kicks": "public/ui/exercise_kicks.png"
+    },
+    "stats": {
+      "strength": "public/ui/stat_strength.png",
+      "speed": "public/ui/stat_speed.png",
+      "stamina": "public/ui/stat_stamina.png",
+      "health": "public/ui/stat_health.png"
+    },
+    "stats_large": {
+      "strength": "public/icons/stats/strength.png",
+      "speed": "public/icons/stats/speed.png",
+      "stamina": "public/icons/stats/stamina.png",
+      "health": "public/icons/stats/health.png"
+    },
+    "misc": {
+      "star_level": "public/ui/star_level.png",
+      "coin": "public/ui/coin.png",
+      "lock": "public/ui/lock.png"
+    }
+  },
+  "rewards": {
+    "levelup_card": {
+      "path": "public/rewards/levelup_card.png",
+      "size": 1024
+    },
+    "streak": {
+      "1": {
+        "path": "public/rewards/streak_1d.png",
+        "size": 256
+      },
+      "3": {
+        "path": "public/rewards/streak_3d.png",
+        "size": 256
+      },
+      "7": {
+        "path": "public/rewards/streak_7d.png",
+        "size": 256
+      },
+      "30": {
+        "path": "public/rewards/streak_30d.png",
+        "size": 256
+      }
+    },
+    "daily_quest": {
+      "available": {
+        "path": "public/rewards/quest_available.png",
+        "size": 256
+      },
+      "done": {
+        "path": "public/rewards/quest_done.png",
+        "size": 256
+      },
+      "claimed": {
+        "path": "public/rewards/quest_claimed.png",
+        "size": 256
+      }
+    },
+    "coin": {
+      "64": {
+        "path": "public/rewards/coin_64.png",
+        "size": 64
+      },
+      "128": {
+        "path": "public/rewards/coin_128.png",
+        "size": 128
+      },
+      "256": {
+        "path": "public/rewards/coin_256.png",
+        "size": 256
+      }
+    },
+    "unlock": {
+      "sheet": "public/rewards/unlock_sheet.png",
+      "frames": 8,
+      "frame_size": 256,
+      "fps": 12,
+      "loop": false,
+      "layout": "horizontal"
+    }
+  },
+  "faces": {
+    "footballer": {
+      "slot": "docs/art/faces/footballer-slot.png",
+      "slot_region": "docs/art/faces/footballer-slot-region.png",
+      "source_crop": "docs/art/faces/footballer.png"
+    },
+    "boxer": {
+      "slot": "docs/art/faces/boxer-slot.png",
+      "slot_region": "docs/art/faces/boxer-slot-region.png",
+      "source_crop": "docs/art/faces/boxer.png"
+    },
+    "runner": {
+      "slot": "docs/art/faces/runner-slot.png",
+      "slot_region": "docs/art/faces/runner-slot-region.png",
+      "source_crop": "docs/art/faces/runner.png"
+    },
+    "swimmer": {
+      "slot": "docs/art/faces/swimmer-slot.png",
+      "slot_region": "docs/art/faces/swimmer-slot-region.png",
+      "source_crop": "docs/art/faces/swimmer.png"
+    },
+    "climber": {
+      "slot": "docs/art/faces/climber-slot.png",
+      "slot_region": "docs/art/faces/climber-slot-region.png",
+      "source_crop": "docs/art/faces/climber.png"
+    },
+    "dancer": {
+      "slot": "docs/art/faces/dancer-slot.png",
+      "slot_region": "docs/art/faces/dancer-slot-region.png",
+      "source_crop": "docs/art/faces/dancer.png"
+    },
+    "skater": {
+      "slot": "docs/art/faces/skater-slot.png",
+      "slot_region": "docs/art/faces/skater-slot-region.png",
+      "source_crop": "docs/art/faces/skater.png"
+    },
+    "skier": {
+      "slot": "docs/art/faces/skier-slot.png",
+      "slot_region": "docs/art/faces/skier-slot-region.png",
+      "source_crop": "docs/art/faces/skier.png"
+    },
+    "gymnast": {
+      "slot": "docs/art/faces/gymnast-slot.png",
+      "slot_region": "docs/art/faces/gymnast-slot-region.png",
+      "source_crop": "docs/art/faces/gymnast.png"
+    },
+    "tennis": {
+      "slot": "docs/art/faces/tennis-slot.png",
+      "slot_region": "docs/art/faces/tennis-slot-region.png",
+      "source_crop": "docs/art/faces/tennis.png"
+    },
+    "weightlifter": {
+      "slot": "docs/art/faces/weightlifter-slot.png",
+      "slot_region": "docs/art/faces/weightlifter-slot-region.png",
+      "source_crop": "docs/art/faces/weightlifter.png"
+    },
+    "ninja": {
+      "slot": "docs/art/faces/ninja-slot.png",
+      "slot_region": "docs/art/faces/ninja-slot-region.png",
+      "source_crop": "docs/art/faces/ninja.png"
+    },
+    "robot": {
+      "slot": "docs/art/faces/robot-slot.png",
+      "slot_region": "docs/art/faces/robot-slot-region.png",
+      "source_crop": "docs/art/faces/robot.png"
+    },
+    "dragon": {
+      "slot": "docs/art/faces/dragon-slot.png",
+      "slot_region": "docs/art/faces/dragon-slot-region.png",
+      "source_crop": "docs/art/faces/dragon.png"
+    },
+    "unicorn": {
+      "slot": "docs/art/faces/unicorn-slot.png",
+      "slot_region": "docs/art/faces/unicorn-slot-region.png",
+      "source_crop": "docs/art/faces/unicorn.png"
+    }
+  },
+  "screens": {
+    "calibration_silhouette": {
+      "path": "public/screens/calibration_silhouette.png"
+    },
+    "error_oops": {
+      "path": "public/screens/error_oops.png"
+    },
+    "empty_energy": {
+      "path": "public/screens/empty_energy.png"
+    },
+    "empty_offline": {
+      "path": "public/screens/empty_offline.png"
+    },
+    "loading_hero": {
+      "path": "public/screens/loading_hero.png"
+    },
+    "sleep_hero": {
+      "path": "public/screens/sleep_hero.png"
+    },
+    "onboarding_hero": {
+      "path": "public/screens/onboarding_hero.png"
+    },
+    "onboarding_train": {
+      "path": "public/screens/onboarding_train.png"
+    },
+    "onboarding_fight": {
+      "path": "public/screens/onboarding_fight.png"
+    }
+  }
+}
