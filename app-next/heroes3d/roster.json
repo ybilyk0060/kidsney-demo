@@ -1,182 +1,159 @@
 {
   "_heroes": {
-    "footballer": {
-      "status": "ready",
-      "glb": "/public/heroes3d/footballer.glb",
-      "store": "/public/heroes3d/footballer-store.glb",
-      "skinYaw": 180
-    },
-    "boxer": {
-      "status": "ready",
-      "glb": "/public/heroes3d/boxer.glb",
-      "store": "/public/heroes3d/boxer-store.glb",
-      "skinYaw": 0
-    },
-    "runner": {
-      "status": "ready",
-      "glb": "/public/heroes3d/runner.glb",
-      "store": "/public/heroes3d/runner-store.glb",
-      "skinYaw": 180
-    },
-    "swimmer": {
-      "status": "ready",
-      "glb": "/public/heroes3d/swimmer.glb",
-      "store": "/public/heroes3d/swimmer-store.glb",
-      "skinYaw": 180
-    },
-    "climber": {
-      "status": "ready",
-      "glb": "/public/heroes3d/climber.glb",
-      "store": "/public/heroes3d/climber-store.glb",
-      "skinYaw": 180
-    },
-    "gymnast": {
-      "status": "ready",
-      "glb": "/public/heroes3d/gymnast.glb",
-      "store": "/public/heroes3d/gymnast-store.glb",
-      "skinYaw": 180
-    },
-    "dancer": {
-      "status": "ready",
-      "glb": "/public/heroes3d/dancer.glb",
-      "store": "/public/heroes3d/dancer-store.glb",
-      "skinYaw": 180
-    },
-    "skater": {
-      "status": "ready",
-      "glb": "/public/heroes3d/skater.glb",
-      "store": "/public/heroes3d/skater-store.glb",
-      "skinYaw": 180
-    },
-    "skier": {
-      "status": "ready",
-      "glb": "/public/heroes3d/skier.glb",
-      "store": "/public/heroes3d/skier-store.glb",
-      "skinYaw": 180
-    },
-    "tennis": {
-      "status": "ready",
-      "glb": "/public/heroes3d/tennis.glb",
-      "store": "/public/heroes3d/tennis-store.glb",
-      "skinYaw": 180
-    },
-    "weightlifter": {
-      "status": "cut-r1",
-      "note": "sort_order 11 — за пределами десятки релиза (стартер + боссы р.1–9)"
-    },
-    "ninja": {
-      "status": "pending",
-      "note": "спецквест q_shadow — вне релиза, не генерировать"
-    },
-    "robot": {
-      "status": "pending",
-      "note": "спецквест q_circuits — вне релиза, не генерировать"
-    },
-    "dragon": {
-      "status": "pending",
-      "note": "спецквест q_flames — вне релиза, не генерировать; нечеловек"
-    },
-    "unicorn": {
-      "status": "pending",
-      "note": "спецквест q_rainbow — вне релиза, не генерировать; нечеловек"
-    },
     "football_boy": {
       "status": "ready",
       "glb": "/public/heroes3d/footballer.glb",
       "store": "/public/heroes3d/footballer-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "footballer"
+      "gender": "boy",
+      "sport": "football",
+      "starter": true,
+      "base": "footballer"
     },
     "football_girl": {
       "status": "ready",
       "glb": "/public/heroes3d/footballer.glb",
       "store": "/public/heroes3d/footballer-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "footballer"
+      "gender": "girl",
+      "sport": "football",
+      "starter": true,
+      "base": "footballer"
     },
     "karate_boy": {
       "status": "ready",
-      "glb": "/public/heroes3d/boxer.glb",
-      "store": "/public/heroes3d/boxer-store.glb",
-      "skinYaw": 0,
-      "placeholderOf": "boxer"
+      "glb": "/public/heroes3d/ninja.glb",
+      "store": "/public/heroes3d/ninja-store.glb",
+      "skinYaw": 180,
+      "source": "multiview (виды сгенерированы из листа 05.10), риг v1.0 mixamo",
+      "skins": [
+        "/public/heroes3d/ninja-skin2.glb",
+        "/public/heroes3d/ninja-skin3.glb"
+      ],
+      "gender": "boy",
+      "sport": "karate",
+      "starter": true,
+      "base": "ninja"
     },
     "karate_girl": {
       "status": "ready",
-      "glb": "/public/heroes3d/boxer.glb",
-      "store": "/public/heroes3d/boxer-store.glb",
-      "skinYaw": 0,
-      "placeholderOf": "boxer"
+      "glb": "/public/heroes3d/ninja.glb",
+      "store": "/public/heroes3d/ninja-store.glb",
+      "skinYaw": 180,
+      "source": "multiview (виды сгенерированы из листа 05.10), риг v1.0 mixamo",
+      "skins": [
+        "/public/heroes3d/ninja-skin2.glb",
+        "/public/heroes3d/ninja-skin3.glb"
+      ],
+      "gender": "girl",
+      "sport": "karate",
+      "starter": true,
+      "base": "ninja"
     },
     "boxing_boy": {
       "status": "ready",
       "glb": "/public/heroes3d/boxer.glb",
       "store": "/public/heroes3d/boxer-store.glb",
       "skinYaw": 0,
-      "placeholderOf": "boxer"
+      "gender": "boy",
+      "sport": "boxing",
+      "starter": true,
+      "base": "boxer"
     },
     "boxing_girl": {
       "status": "ready",
       "glb": "/public/heroes3d/boxer.glb",
       "store": "/public/heroes3d/boxer-store.glb",
       "skinYaw": 0,
-      "placeholderOf": "boxer"
+      "gender": "girl",
+      "sport": "boxing",
+      "starter": true,
+      "base": "boxer"
     },
     "athletics_boy": {
       "status": "ready",
       "glb": "/public/heroes3d/runner.glb",
       "store": "/public/heroes3d/runner-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "runner"
+      "gender": "boy",
+      "sport": "athletics",
+      "starter": true,
+      "base": "runner"
     },
     "athletics_girl": {
       "status": "ready",
       "glb": "/public/heroes3d/runner.glb",
       "store": "/public/heroes3d/runner-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "runner"
+      "gender": "girl",
+      "sport": "athletics",
+      "starter": true,
+      "base": "runner"
     },
     "judo_boy": {
       "status": "ready",
       "glb": "/public/heroes3d/climber.glb",
       "store": "/public/heroes3d/climber-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "climber"
+      "gender": "boy",
+      "sport": "judo",
+      "starter": false,
+      "base": "climber"
     },
     "basketball_boy": {
       "status": "ready",
       "glb": "/public/heroes3d/dancer.glb",
       "store": "/public/heroes3d/dancer-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "dancer"
+      "gender": "boy",
+      "sport": "basketball",
+      "starter": false,
+      "base": "dancer"
     },
     "wrestling_boy": {
       "status": "ready",
-      "glb": "/public/heroes3d/skier.glb",
-      "store": "/public/heroes3d/skier-store.glb",
+      "glb": "/public/heroes3d/weightlifter.glb",
+      "store": "/public/heroes3d/weightlifter-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "skier"
+      "source": "multiview (виды сгенерированы из листа 05.10), риг v1.0 mixamo",
+      "skins": [
+        "/public/heroes3d/weightlifter-skin2.glb",
+        "/public/heroes3d/weightlifter-skin3.glb"
+      ],
+      "gender": "boy",
+      "sport": "wrestling",
+      "starter": false,
+      "base": "weightlifter"
     },
     "gymnastics_girl": {
       "status": "ready",
       "glb": "/public/heroes3d/gymnast.glb",
       "store": "/public/heroes3d/gymnast-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "gymnast"
+      "gender": "girl",
+      "sport": "gymnastics",
+      "starter": false,
+      "base": "gymnast"
     },
     "swimming_girl": {
       "status": "ready",
       "glb": "/public/heroes3d/swimmer.glb",
       "store": "/public/heroes3d/swimmer-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "swimmer"
+      "gender": "girl",
+      "sport": "swimming",
+      "starter": false,
+      "base": "swimmer"
     },
     "taekwondo_girl": {
       "status": "ready",
       "glb": "/public/heroes3d/tennis.glb",
       "store": "/public/heroes3d/tennis-store.glb",
       "skinYaw": 180,
-      "placeholderOf": "tennis"
+      "gender": "girl",
+      "sport": "taekwondo",
+      "starter": false,
+      "base": "tennis"
     }
   },
   "_bosses": {
@@ -191,8 +168,7 @@
         0.45,
         0
       ],
-      "accessoryScale": 0.32,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.32
     },
     "2": {
       "base": "karate_boy",
@@ -205,8 +181,7 @@
         0.18,
         0
       ],
-      "accessoryScale": 0.24,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.24
     },
     "3": {
       "base": "football_boy",
@@ -219,8 +194,7 @@
         0.2,
         0
       ],
-      "accessoryScale": 0.3,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.3
     },
     "4": {
       "base": "basketball_boy",
@@ -233,8 +207,7 @@
         0.14,
         0.12
       ],
-      "accessoryScale": 0.24,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.24
     },
     "5": {
       "base": "gymnastics_girl",
@@ -247,8 +220,7 @@
         0.12,
         0
       ],
-      "accessoryScale": 0.24,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.24
     },
     "6": {
       "base": "boxing_boy",
@@ -261,8 +233,7 @@
         0.16,
         0
       ],
-      "accessoryScale": 0.24,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.24
     },
     "7": {
       "base": "swimming_girl",
@@ -275,8 +246,7 @@
         0.06,
         0.15
       ],
-      "accessoryScale": 0.26,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.26
     },
     "8": {
       "base": "athletics_boy",
@@ -289,8 +259,7 @@
         0.1,
         0.15
       ],
-      "accessoryScale": 0.28,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.28
     },
     "9": {
       "base": "wrestling_boy",
@@ -303,8 +272,7 @@
         0.11,
         0.15
       ],
-      "accessoryScale": 0.3,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
+      "accessoryScale": 0.3
     },
     "10": {
       "base": "taekwondo_girl",
@@ -317,265 +285,228 @@
         0.45,
         0
       ],
-      "accessoryScale": 0.34,
-      "note": "M19: база = герой спорта региона; Lovable-модель — позже"
-    }
-  },
-  "_notes": {
-    "skinYaw": "коррекция yaw скин-бинда Tripo-rig (°), подбирается стоп-кадром харнесса. Артефакты бывают любые: single-view boxer — 90°, multiview runner/swimmer/climber — 180° (меш «задом наперёд» при корректных костях). boxer-mv и footballer/gymnast — чистые (0). Правило: КАЖДУЮ новую модель проверять стоп-кадром бок/профиль ДО выкладки.",
-    "rule": "по умолчанию для ростера — multiview (4 ракурса), кредиты те же, см. pipeline.md",
-    "rigcheck": "подвешенные на кисти предметы (ласты swimmer) ломают rig-check — генерировать виды с пустыми руками; отдельные предметы — отдельными мешами в коде",
-    "ten": "релизная десятка: sort_order 1–10 из hero_catalog (footballer + боссы регионов 1–9); weightlifter (р.10) — cut, босс р.10 маппится на boxer",
-    "m19": "14 новых героев на плейсхолдер-GLB старого ростера до Lovable-моделей; _intros/_bossIntros/_sleep — клипы-заглушки (victory/heavy_f/crouch); босс = герой спорта региона. Старые 15 записей сохранены для истории."
-  },
-  "_superprops": {
-    "footballer": {
-      "mesh": "ball",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        16,
-        38
-      ]
-    },
-    "boxer": {
-      "mesh": "gloves",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        20,
-        56
-      ]
-    },
-    "runner": {
-      "mesh": "baton",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        5,
-        14
-      ]
-    },
-    "swimmer": {
-      "mesh": "fins",
-      "bones": [
-        "mixamorigLeftFoot",
-        "mixamorigRightFoot"
-      ],
-      "frames": [
-        45,
-        115
-      ]
-    },
-    "climber": {
-      "mesh": "rope",
-      "bone": "mixamorigHips",
-      "frames": [
-        18,
-        50
-      ]
-    },
-    "dancer": {
-      "mesh": "mic",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        60,
-        160
-      ]
-    },
-    "skater": {
-      "mesh": "board",
-      "bone": "mixamorigSpine2",
-      "frames": [
-        9,
-        26
-      ]
-    },
-    "skier": {
-      "mesh": "poles",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        14,
-        39
-      ]
-    },
-    "gymnast": {
-      "mesh": "ribbon",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        40,
-        105
-      ]
-    },
-    "tennis": {
-      "mesh": "racket",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        18,
-        50
-      ]
-    },
-    "football_boy": {
-      "mesh": "ball",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        16,
-        38
-      ]
-    },
-    "football_girl": {
-      "mesh": "ball",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        16,
-        38
-      ]
-    },
-    "karate_boy": {
-      "mesh": "gloves",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        20,
-        56
-      ]
-    },
-    "karate_girl": {
-      "mesh": "gloves",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        20,
-        56
-      ]
-    },
-    "boxing_boy": {
-      "mesh": "gloves",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        20,
-        56
-      ]
-    },
-    "boxing_girl": {
-      "mesh": "gloves",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        20,
-        56
-      ]
-    },
-    "athletics_boy": {
-      "mesh": "baton",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        5,
-        14
-      ]
-    },
-    "athletics_girl": {
-      "mesh": "baton",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        5,
-        14
-      ]
-    },
-    "judo_boy": {
-      "mesh": "rope",
-      "bone": "mixamorigHips",
-      "frames": [
-        18,
-        50
-      ]
-    },
-    "basketball_boy": {
-      "mesh": "mic",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        60,
-        160
-      ]
-    },
-    "wrestling_boy": {
-      "mesh": "poles",
-      "bones": [
-        "mixamorigLeftHand",
-        "mixamorigRightHand"
-      ],
-      "frames": [
-        14,
-        39
-      ]
-    },
-    "gymnastics_girl": {
-      "mesh": "ribbon",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        40,
-        105
-      ]
-    },
-    "swimming_girl": {
-      "mesh": "fins",
-      "bones": [
-        "mixamorigLeftFoot",
-        "mixamorigRightFoot"
-      ],
-      "frames": [
-        45,
-        115
-      ]
-    },
-    "taekwondo_girl": {
-      "mesh": "racket",
-      "bone": "mixamorigRightHand",
-      "frames": [
-        18,
-        50
-      ]
+      "accessoryScale": 0.34
     }
   },
   "_intros": {
-    "football_boy": "victory",
-    "football_girl": "victory",
-    "karate_boy": "victory",
-    "karate_girl": "victory",
-    "boxing_boy": "victory",
-    "boxing_girl": "victory",
-    "athletics_boy": "victory",
-    "athletics_girl": "victory",
-    "judo_boy": "victory",
-    "basketball_boy": "victory",
-    "wrestling_boy": "victory",
-    "gymnastics_girl": "victory",
-    "swimming_girl": "victory",
-    "taekwondo_girl": "victory"
+    "football_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "football_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "karate_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "karate_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "boxing_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 180,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "boxing_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 180,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "athletics_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "athletics_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "judo_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "basketball_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "wrestling_boy": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "gymnastics_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "swimming_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "taekwondo_girl": {
+      "clip": "idle_fight",
+      "time": 0.8,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    }
   },
   "_bossIntros": {
-    "1": "heavy_f",
-    "2": "heavy_f",
-    "3": "heavy_f",
-    "4": "heavy_f",
-    "5": "heavy_f",
-    "6": "heavy_f",
-    "7": "heavy_f",
-    "8": "heavy_f",
-    "9": "heavy_f",
-    "10": "heavy_f"
+    "1": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "2": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "3": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "4": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "5": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "6": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 180,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "7": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "8": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "9": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    },
+    "10": {
+      "clip": "heavy_f",
+      "time": 0.7,
+      "cam": {
+        "az": 0,
+        "d": 2.6,
+        "h": 0.5
+      }
+    }
   },
   "_sleep": {
     "football_boy": "crouch",
@@ -592,5 +523,175 @@
     "gymnastics_girl": "crouch",
     "swimming_girl": "crouch",
     "taekwondo_girl": "crouch"
-  }
+  },
+  "_sleepProps": {
+    "pillow": {
+      "glb": "/public/heroes3d/sleep-pillow.glb",
+      "bone": "mixamorigHead",
+      "offset": [
+        0,
+        0.02,
+        0.1
+      ],
+      "note": "под головой лежащего героя; меш 0.34×0.12×0.24 м"
+    },
+    "blanket": {
+      "glb": "/public/heroes3d/sleep-blanket.glb",
+      "bone": "mixamorigSpine1",
+      "offset": [
+        0,
+        0.06,
+        0.02
+      ],
+      "note": "одеяло 0.95×0.70 м поверх лежащего героя; центр — на животе"
+    },
+    "zzz": {
+      "type": "sprite",
+      "text": "Z",
+      "color": "#9fd0ff",
+      "size": 0.12,
+      "rise": 0.25,
+      "rate": 1.2,
+      "lifetime": 2.0,
+      "from": "mixamorigHead",
+      "offset": [
+        0,
+        0.18,
+        0
+      ],
+      "note": "частицы делает HeroRenderer (спрайты), меш не нужен"
+    },
+    "pose": {
+      "clip": "knockdown",
+      "time": 3.5,
+      "note": "конец knockdown — герой лежит на спине; лёжа для сна подходит, отдельного клипа сна нет"
+    }
+  },
+  "_superprops": {
+    "football_boy": {
+      "mesh": "ball",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        16,
+        38
+      ]
+    },
+    "football_girl": {
+      "mesh": "ball",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        16,
+        38
+      ]
+    },
+    "karate_boy": {
+      "mesh": "shuriken",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        12,
+        38
+      ]
+    },
+    "karate_girl": {
+      "mesh": "shuriken",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        12,
+        38
+      ]
+    },
+    "boxing_boy": {
+      "mesh": "gloves",
+      "bones": [
+        "mixamorigLeftHand",
+        "mixamorigRightHand"
+      ],
+      "frames": [
+        20,
+        56
+      ]
+    },
+    "boxing_girl": {
+      "mesh": "gloves",
+      "bones": [
+        "mixamorigLeftHand",
+        "mixamorigRightHand"
+      ],
+      "frames": [
+        20,
+        56
+      ]
+    },
+    "athletics_boy": {
+      "mesh": "baton",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        5,
+        14
+      ]
+    },
+    "athletics_girl": {
+      "mesh": "baton",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        5,
+        14
+      ]
+    },
+    "judo_boy": {
+      "mesh": "rope",
+      "bone": "mixamorigHips",
+      "frames": [
+        18,
+        50
+      ]
+    },
+    "basketball_boy": {
+      "mesh": "mic",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        60,
+        160
+      ]
+    },
+    "wrestling_boy": {
+      "mesh": "barbell",
+      "bones": [
+        "mixamorigLeftHand",
+        "mixamorigRightHand"
+      ],
+      "frames": [
+        15,
+        50
+      ]
+    },
+    "gymnastics_girl": {
+      "mesh": "ribbon",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        40,
+        105
+      ]
+    },
+    "swimming_girl": {
+      "mesh": "fins",
+      "bones": [
+        "mixamorigLeftFoot",
+        "mixamorigRightFoot"
+      ],
+      "frames": [
+        45,
+        115
+      ]
+    },
+    "taekwondo_girl": {
+      "mesh": "racket",
+      "bone": "mixamorigRightHand",
+      "frames": [
+        18,
+        50
+      ]
+    }
+  },
+  "_notes": "M20: 14 спортивных героев на v2-моделях heroes3d (base = файл модели).  retired-heroes и их GLB удалены из манифеста и репо. _sleep — стемы для баннера сна; _sleepProps — реквизит (подушка/одеяло/zzz) на будущее."
 }
