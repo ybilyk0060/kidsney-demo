@@ -1,0 +1,520 @@
+{
+  "$schema": "../scripts/assets-manifest.schema.json",
+  "version": 5,
+  "arenas": {
+    "dojo": {
+      "label": "Dojo",
+      "layers": {
+        "far": "arenas-v2/01-judo/far.webp",
+        "mid": "arenas-v2/01-judo/mid.webp",
+        "near": "arenas-v2/01-judo/near.webp"
+      },
+      "decor": [
+        "arenas-v2/01-judo/decor-flags.webp",
+        "arenas-v2/01-judo/decor-scoreboard.webp"
+      ]
+    },
+    "ring": {
+      "label": "Ring",
+      "layers": {
+        "far": null,
+        "mid": null,
+        "near": null
+      }
+    },
+    "park": {
+      "label": "Park",
+      "layers": {
+        "far": null,
+        "mid": null,
+        "near": null
+      }
+    },
+    "sunny-meadow-dojo": {
+      "label": "Sunny Meadow Dojo",
+      "layers": {
+        "far": "arenas-v2/08-athletics/far.webp",
+        "mid": "arenas-v2/08-athletics/mid.webp",
+        "near": "arenas-v2/08-athletics/near.webp"
+      },
+      "decor": [
+        "arenas-v2/08-athletics/decor-hurdle.webp",
+        "arenas-v2/08-athletics/decor-starting-block.webp"
+      ]
+    },
+    "riverside-dojo": {
+      "label": "Riverside Dojo",
+      "layers": {
+        "far": "arenas-v2/07-swimming/far.webp",
+        "mid": "arenas-v2/07-swimming/mid.webp",
+        "near": "arenas-v2/07-swimming/near.webp"
+      },
+      "decor": [
+        "arenas-v2/07-swimming/decor-kickboard.webp",
+        "arenas-v2/07-swimming/decor-lane-rope.webp"
+      ]
+    },
+    "neon-boardwalk": {
+      "label": "Neon Boardwalk",
+      "layers": {
+        "far": "arenas-v2/04-basketball/far.webp",
+        "mid": "arenas-v2/04-basketball/mid.webp",
+        "near": "arenas-v2/04-basketball/near.webp"
+      },
+      "decor": [
+        "arenas-v2/04-basketball/decor-cone.webp",
+        "arenas-v2/04-basketball/decor-hoop.webp"
+      ]
+    },
+    "cliffside-ring": {
+      "label": "Cliffside Ring",
+      "layers": {
+        "far": "arenas-v2/06-boxing/far.webp",
+        "mid": "arenas-v2/06-boxing/mid.webp",
+        "near": "arenas-v2/06-boxing/near.webp"
+      },
+      "decor": [
+        "arenas-v2/06-boxing/decor-bell.webp",
+        "arenas-v2/06-boxing/decor-stool.webp"
+      ]
+    },
+    "skate-park-sunset": {
+      "label": "Skate Park Sunset",
+      "layers": {
+        "far": "arenas-v2/10-taekwondo/far.webp",
+        "mid": "arenas-v2/10-taekwondo/mid.webp",
+        "near": "arenas-v2/10-taekwondo/near.webp"
+      },
+      "decor": [
+        "arenas-v2/10-taekwondo/decor-flags.webp",
+        "arenas-v2/10-taekwondo/decor-kick-pad.webp"
+      ]
+    },
+    "night-park-neon": {
+      "label": "Night Park Neon",
+      "layers": {
+        "far": "arenas-v2/09-wrestling/far.webp",
+        "mid": "arenas-v2/09-wrestling/mid.webp",
+        "near": "arenas-v2/09-wrestling/near.webp"
+      },
+      "decor": [
+        "arenas-v2/09-wrestling/decor-belt.webp",
+        "arenas-v2/09-wrestling/decor-stool.webp"
+      ]
+    },
+    "snow-temple-dojo": {
+      "label": "Snow Temple Dojo",
+      "layers": {
+        "far": "arenas-v2/02-karate/far.webp",
+        "mid": "arenas-v2/02-karate/mid.webp",
+        "near": "arenas-v2/02-karate/near.webp"
+      },
+      "decor": [
+        "arenas-v2/02-karate/decor-lantern.webp",
+        "arenas-v2/02-karate/decor-master-dummy.webp"
+      ]
+    },
+    "stadium-arena": {
+      "label": "Stadium Arena",
+      "layers": {
+        "far": "arenas-v2/03-football/far.webp",
+        "mid": "arenas-v2/03-football/mid.webp",
+        "near": "arenas-v2/03-football/near.webp"
+      },
+      "decor": [
+        "arenas-v2/03-football/decor-corner-flag.webp",
+        "arenas-v2/03-football/decor-goal.webp"
+      ]
+    },
+    "sky-garden-park": {
+      "label": "Sky Garden Park",
+      "layers": {
+        "far": "arenas-v2/05-gymnastics/far.webp",
+        "mid": "arenas-v2/05-gymnastics/mid.webp",
+        "near": "arenas-v2/05-gymnastics/near.webp"
+      },
+      "decor": [
+        "arenas-v2/05-gymnastics/decor-ball-prop.webp",
+        "arenas-v2/05-gymnastics/decor-ribbon-pole.webp"
+      ]
+    },
+    "ember-dojo": {
+      "label": "Ember Dojo",
+      "layers": {
+        "far": "arenas-v2/01-judo/far.webp",
+        "mid": "arenas-v2/01-judo/mid.webp",
+        "near": "arenas-v2/01-judo/near.webp"
+      },
+      "decor": [
+        "arenas-v2/01-judo/decor-flags.webp",
+        "arenas-v2/01-judo/decor-scoreboard.webp"
+      ]
+    },
+    "01-judo": {
+      "label": "Ember Dojo",
+      "layers": {
+        "far": "arenas-v2/01-judo/far.webp",
+        "mid": "arenas-v2/01-judo/mid.webp",
+        "near": "arenas-v2/01-judo/near.webp"
+      },
+      "decor": [
+        "arenas-v2/01-judo/decor-flags.webp",
+        "arenas-v2/01-judo/decor-scoreboard.webp"
+      ]
+    },
+    "02-karate": {
+      "label": "Snow Temple Dojo",
+      "layers": {
+        "far": "arenas-v2/02-karate/far.webp",
+        "mid": "arenas-v2/02-karate/mid.webp",
+        "near": "arenas-v2/02-karate/near.webp"
+      },
+      "decor": [
+        "arenas-v2/02-karate/decor-lantern.webp",
+        "arenas-v2/02-karate/decor-master-dummy.webp"
+      ]
+    },
+    "03-football": {
+      "label": "Stadium Arena",
+      "layers": {
+        "far": "arenas-v2/03-football/far.webp",
+        "mid": "arenas-v2/03-football/mid.webp",
+        "near": "arenas-v2/03-football/near.webp"
+      },
+      "decor": [
+        "arenas-v2/03-football/decor-corner-flag.webp",
+        "arenas-v2/03-football/decor-goal.webp"
+      ]
+    },
+    "04-basketball": {
+      "label": "Neon Boardwalk",
+      "layers": {
+        "far": "arenas-v2/04-basketball/far.webp",
+        "mid": "arenas-v2/04-basketball/mid.webp",
+        "near": "arenas-v2/04-basketball/near.webp"
+      },
+      "decor": [
+        "arenas-v2/04-basketball/decor-cone.webp",
+        "arenas-v2/04-basketball/decor-hoop.webp"
+      ]
+    },
+    "05-gymnastics": {
+      "label": "Sky Garden Park",
+      "layers": {
+        "far": "arenas-v2/05-gymnastics/far.webp",
+        "mid": "arenas-v2/05-gymnastics/mid.webp",
+        "near": "arenas-v2/05-gymnastics/near.webp"
+      },
+      "decor": [
+        "arenas-v2/05-gymnastics/decor-ball-prop.webp",
+        "arenas-v2/05-gymnastics/decor-ribbon-pole.webp"
+      ]
+    },
+    "06-boxing": {
+      "label": "Cliffside Ring",
+      "layers": {
+        "far": "arenas-v2/06-boxing/far.webp",
+        "mid": "arenas-v2/06-boxing/mid.webp",
+        "near": "arenas-v2/06-boxing/near.webp"
+      },
+      "decor": [
+        "arenas-v2/06-boxing/decor-bell.webp",
+        "arenas-v2/06-boxing/decor-stool.webp"
+      ]
+    },
+    "07-swimming": {
+      "label": "Riverside Dojo",
+      "layers": {
+        "far": "arenas-v2/07-swimming/far.webp",
+        "mid": "arenas-v2/07-swimming/mid.webp",
+        "near": "arenas-v2/07-swimming/near.webp"
+      },
+      "decor": [
+        "arenas-v2/07-swimming/decor-kickboard.webp",
+        "arenas-v2/07-swimming/decor-lane-rope.webp"
+      ]
+    },
+    "08-athletics": {
+      "label": "Sunny Meadow Dojo",
+      "layers": {
+        "far": "arenas-v2/08-athletics/far.webp",
+        "mid": "arenas-v2/08-athletics/mid.webp",
+        "near": "arenas-v2/08-athletics/near.webp"
+      },
+      "decor": [
+        "arenas-v2/08-athletics/decor-hurdle.webp",
+        "arenas-v2/08-athletics/decor-starting-block.webp"
+      ]
+    },
+    "09-wrestling": {
+      "label": "Night Park Neon",
+      "layers": {
+        "far": "arenas-v2/09-wrestling/far.webp",
+        "mid": "arenas-v2/09-wrestling/mid.webp",
+        "near": "arenas-v2/09-wrestling/near.webp"
+      },
+      "decor": [
+        "arenas-v2/09-wrestling/decor-belt.webp",
+        "arenas-v2/09-wrestling/decor-stool.webp"
+      ]
+    },
+    "10-taekwondo": {
+      "label": "Skate Park Sunset",
+      "layers": {
+        "far": "arenas-v2/10-taekwondo/far.webp",
+        "mid": "arenas-v2/10-taekwondo/mid.webp",
+        "near": "arenas-v2/10-taekwondo/near.webp"
+      },
+      "decor": [
+        "arenas-v2/10-taekwondo/decor-flags.webp",
+        "arenas-v2/10-taekwondo/decor-kick-pad.webp"
+      ]
+    }
+  },
+  "vfx": {
+    "hit_spark_light": "vfx/hit_light.png",
+    "hit_spark_heavy": "vfx/hit_heavy.png",
+    "block_spark": "vfx/block.png",
+    "whiff": null,
+    "super_aura_charge": "vfx/aura_level5.png",
+    "super_strike": "vfx/super_flash.png",
+    "dust_step": "vfx/dust.png",
+    "dust_land": "vfx/dust.png",
+    "jump_dust": "vfx/dust.png",
+    "ko_burst": "vfx/super_flash.png",
+    "ko_stars": "vfx/sleep_zzz.png",
+    "aura_level_2": "vfx/aura_level2.png",
+    "aura_level_5": "vfx/aura_level5.png",
+    "aura_level_8": "vfx/aura_level8.png",
+    "aura_level_10": "vfx/aura_level10.png",
+    "grow_levelup_burst": "vfx/grow_levelup.png",
+    "sleep_z": "vfx/sleep_zzz.png",
+    "wake_up_flash": "vfx/wake_up.png",
+    "energy_refill": null,
+    "heal_sparkle": null,
+    "shadow_oval": null,
+    "electric_arc": "vfx/electric_arc.png",
+    "energy_ball": "vfx/energy_ball.png",
+    "eq_waves": "vfx/eq_waves.png",
+    "fire_arc": "vfx/fire_arc.png",
+    "ghost_clones": "vfx/ghost_clones.png",
+    "rainbow_arc": "vfx/rainbow_arc.png",
+    "rock_debris": "vfx/rock_debris.png",
+    "shockwave_ring": "vfx/shockwave_ring.png",
+    "skateboard": "vfx/skateboard.png",
+    "smoke_clones": "vfx/smoke_clones.png",
+    "snow_fan": "vfx/snow_fan.png",
+    "speed_lines": "vfx/speed_lines.png",
+    "super_charge": "vfx/super_charge.png",
+    "water_wave": "vfx/water_wave.png"
+  },
+  "ui": {
+    "button_primary_normal": "ui/button_primary_normal.png",
+    "button_primary_pressed": "ui/button_primary_pressed.png",
+    "button_primary_disabled": "ui/button_primary_disabled.png",
+    "button_amber_normal": "ui/button_amber_normal.png",
+    "button_amber_pressed": "ui/button_amber_pressed.png",
+    "button_amber_disabled": "ui/button_amber_disabled.png",
+    "bar_hp_green": "ui/bar_hp_green.png",
+    "bar_hp_green_fill": "ui/bar_hp_green_fill.png",
+    "bar_hp_red": "ui/bar_hp_red.png",
+    "bar_hp_red_fill": "ui/bar_hp_red_fill.png",
+    "bar_super": "ui/bar_super.png",
+    "bar_super_fill": "ui/bar_super_fill.png",
+    "card_panel": "ui/card_panel.png",
+    "coin": "ui/coin.png",
+    "energy_pip": "ui/energy_pip.png",
+    "energy_pip_empty": "ui/energy_pip_empty.png",
+    "lock": "ui/lock.png",
+    "star_level": "ui/star_level.png",
+    "node_available": "ui/node_available.png",
+    "node_completed": "ui/node_completed.png",
+    "node_current": "ui/node_current.png",
+    "node_locked": "ui/node_locked.png",
+    "exercise_jumping_jacks": "ui/exercise_jumping_jacks.png",
+    "exercise_squats": "ui/exercise_squats.png",
+    "exercise_push_ups": "ui/exercise_push_ups.png",
+    "exercise_high_knees": "ui/exercise_high_knees.png",
+    "exercise_punches": "ui/exercise_punches.png",
+    "exercise_kicks": "ui/exercise_kicks.png",
+    "exercise_plank": "ui/exercise_plank.png",
+    "exercise_jump": "ui/exercise_jump.png",
+    "stat_health": "ui/stat_health.png",
+    "stat_speed": "ui/stat_speed.png",
+    "stat_stamina": "ui/stat_stamina.png",
+    "stat_strength": "ui/stat_strength.png"
+  },
+  "audio": {
+    "sfx": {
+      "punch_hit_1": "audio/sfx/punch_hit_1.m4a",
+      "punch_hit_2": "audio/sfx/punch_hit_2.m4a",
+      "punch_hit_3": "audio/sfx/punch_hit_3.m4a",
+      "block": "audio/sfx/block.m4a",
+      "whiff": "audio/sfx/whiff.m4a",
+      "jump": "audio/sfx/jump.m4a",
+      "land": "audio/sfx/land.m4a",
+      "super_charge": "audio/sfx/super_charge.m4a",
+      "super_fire": "audio/sfx/super_fire.m4a",
+      "ko": "audio/sfx/ko.m4a",
+      "round_bell": "audio/sfx/round_bell.m4a",
+      "round_start": "audio/sfx/round_start.m4a",
+      "victory": "audio/sfx/victory.m4a",
+      "defeat": "audio/sfx/defeat.m4a",
+      "count_tick": "audio/sfx/count_tick.m4a",
+      "ui_click": "audio/sfx/ui_click.m4a",
+      "ui_confirm": "audio/sfx/ui_confirm.m4a",
+      "xp_gain": "audio/sfx/xp_gain.m4a",
+      "levelup_grow": "audio/sfx/levelup_grow.m4a",
+      "quest_complete": "audio/sfx/quest_complete.m4a",
+      "energy_refill": "audio/sfx/energy_refill.m4a",
+      "wake_up": "audio/sfx/wake_up.m4a",
+      "star_1": "audio/sfx/star_1.m4a",
+      "star_2": "audio/sfx/star_2.m4a",
+      "star_3": "audio/sfx/star_3.m4a"
+    },
+    "music": {
+      "menu": "audio/music/menu.m4a",
+      "training": "audio/music/training.m4a",
+      "battle": "audio/music/battle.m4a"
+    },
+    "voice": {
+      "en": "audio/coach/en",
+      "uk": "audio/coach/uk",
+      "de": "audio/coach/de"
+    }
+  },
+  "map": {
+    "background": "map-v2/background.webp",
+    "regions": {
+      "1": "map-v2/region-01-judo.webp",
+      "2": "map-v2/region-02-karate.webp",
+      "3": "map-v2/region-03-football.webp",
+      "4": "map-v2/region-04-basketball.webp",
+      "5": "map-v2/region-05-gymnastics.webp",
+      "6": "map-v2/region-06-boxing.webp",
+      "7": "map-v2/region-07-swimming.webp",
+      "8": "map-v2/region-08-athletics.webp",
+      "9": "map-v2/region-09-wrestling.webp",
+      "10": "map-v2/region-10-taekwondo.webp"
+    },
+    "legacy_jpg": {
+      "1": "map/region-01.jpg",
+      "2": "map/region-02.jpg",
+      "3": "map/region-03.jpg",
+      "4": "map/region-04.jpg",
+      "5": "map/region-05.jpg",
+      "6": "map/region-06.jpg",
+      "7": "map/region-07.jpg",
+      "8": "map/region-08.jpg",
+      "9": "map/region-09.jpg",
+      "10": "map/region-10.jpg"
+    }
+  },
+  "portraits": {
+    "heroes": {
+      "boxer": "portraits/boxer.png",
+      "climber": "portraits/climber.png",
+      "dancer": "portraits/dancer.png",
+      "dragon": "portraits/dragon.png",
+      "footballer": "portraits/footballer.png",
+      "gymnast": "portraits/gymnast.png",
+      "ninja": "portraits/ninja.png",
+      "robot": "portraits/robot.png",
+      "runner": "portraits/runner.png",
+      "skater": "portraits/skater.png",
+      "skier": "portraits/skier.png",
+      "swimmer": "portraits/swimmer.png",
+      "tennis": "portraits/tennis.png",
+      "unicorn": "portraits/unicorn.png",
+      "weightlifter": "portraits/weightlifter.png",
+      "football_boy": "portraits/footballer.png",
+      "football_girl": "portraits/footballer.png",
+      "karate_boy": "portraits/ninja.png",
+      "karate_girl": "portraits/ninja.png",
+      "boxing_boy": "portraits/boxer.png",
+      "boxing_girl": "portraits/boxer.png",
+      "athletics_boy": "portraits/runner.png",
+      "athletics_girl": "portraits/runner.png",
+      "judo_boy": "portraits/climber.png",
+      "basketball_boy": "portraits/dancer.png",
+      "wrestling_boy": "portraits/weightlifter.png",
+      "gymnastics_girl": "portraits/gymnast.png",
+      "swimming_girl": "portraits/swimmer.png",
+      "taekwondo_girl": "portraits/tennis.png"
+    },
+    "bosses": {
+      "cliffside-ring": "portraits/bosses/cliffside-ring.png",
+      "ember-dojo": "portraits/bosses/ember-dojo.png",
+      "neon-boardwalk": "portraits/bosses/neon-boardwalk.png",
+      "night-park-neon": "portraits/bosses/night-park-neon.png",
+      "riverside-dojo": "portraits/bosses/riverside-dojo.png",
+      "skate-park-sunset": "portraits/bosses/skate-park-sunset.png",
+      "sky-garden-park": "portraits/bosses/sky-garden-park.png",
+      "snow-temple-dojo": "portraits/bosses/snow-temple-dojo.png",
+      "stadium-arena": "portraits/bosses/stadium-arena.png",
+      "sunny-meadow-dojo": "portraits/bosses/sunny-meadow-dojo.png"
+    }
+  },
+  "icons": {
+    "stats": {
+      "health": "icons/stats/health.png",
+      "speed": "icons/stats/speed.png",
+      "stamina": "icons/stats/stamina.png",
+      "strength": "icons/stats/strength.png"
+    },
+    "supers": {
+      "boxer": "icons/supers/boxer.png",
+      "climber": "icons/supers/climber.png",
+      "dancer": "icons/supers/dancer.png",
+      "dragon": "icons/supers/dragon.png",
+      "footballer": "icons/supers/footballer.png",
+      "gymnast": "icons/supers/gymnast.png",
+      "ninja": "icons/supers/ninja.png",
+      "robot": "icons/supers/robot.png",
+      "runner": "icons/supers/runner.png",
+      "skater": "icons/supers/skater.png",
+      "skier": "icons/supers/skier.png",
+      "swimmer": "icons/supers/swimmer.png",
+      "tennis": "icons/supers/tennis.png",
+      "unicorn": "icons/supers/unicorn.png",
+      "weightlifter": "icons/supers/weightlifter.png"
+    }
+  },
+  "rewards": {
+    "coin_128": "rewards/coin_128.png",
+    "coin_256": "rewards/coin_256.png",
+    "coin_64": "rewards/coin_64.png",
+    "levelup_card": "rewards/levelup_card.png",
+    "quest_available": "rewards/quest_available.png",
+    "quest_claimed": "rewards/quest_claimed.png",
+    "quest_done": "rewards/quest_done.png",
+    "streak_1d": "rewards/streak_1d.png",
+    "streak_30d": "rewards/streak_30d.png",
+    "streak_3d": "rewards/streak_3d.png",
+    "streak_7d": "rewards/streak_7d.png",
+    "unlock_sheet": "rewards/unlock_sheet.png"
+  },
+  "screens": {
+    "calibration_silhouette": "screens/calibration_silhouette.png",
+    "empty_energy": "screens/empty_energy.png",
+    "empty_offline": "screens/empty_offline.png",
+    "error_oops": "screens/error_oops.png",
+    "loading_hero": "screens/loading_hero.png",
+    "onboarding_fight": "screens/onboarding_fight.png",
+    "onboarding_hero": "screens/onboarding_hero.png",
+    "onboarding_train": "screens/onboarding_train.png",
+    "sleep_hero": "screens/sleep_hero.png"
+  },
+  "heroes3d": {
+    "footballer": "heroes3d/footballer.glb",
+    "boxer": "heroes3d/boxer.glb",
+    "runner": "heroes3d/runner.glb",
+    "swimmer": "heroes3d/swimmer.glb",
+    "climber": "heroes3d/climber.glb",
+    "gymnast": "heroes3d/gymnast.glb",
+    "dancer": "heroes3d/dancer.glb",
+    "skater": "heroes3d/skater.glb",
+    "skier": "heroes3d/skier.glb",
+    "tennis": "heroes3d/tennis.glb"
+  }
+}
