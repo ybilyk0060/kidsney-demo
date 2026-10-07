@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kidsney — sport meets play</title>
+<meta name="description" content="Kidsney turns kids' exercise into a cartoon fighting adventure. Camera-powered workouts, a quest world of 10 sports, and heroes that grow with your child." />
+<style>
+  :root {
+    --bg: #0e1220; --surface: #1a2138; --primary: #4f7cff; --accent: #ffb020;
+    --success: #34d17b; --danger: #ff5c6c; --text: #f4f6ff; --dim: #9aa7c7;
+    --stroke: #2c3555;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: radial-gradient(120% 80% at 50% -10%, #1a2450 0%, var(--bg) 55%);
+    color: var(--text);
+    font-family: "Nunito", "Segoe UI", system-ui, sans-serif;
+    min-height: 100vh;
+  }
+  .lang { position: fixed; top: 14px; right: 14px; display: flex; gap: 6px; z-index: 10; }
+  .lang button {
+    background: var(--surface); color: var(--dim);
+    border: 1px solid var(--stroke); border-radius: 999px; padding: 6px 14px;
+    font-weight: 800; cursor: pointer; font-size: 14px;
+  }
+  .lang button.on { background: var(--primary); color: #fff; }
+  header { max-width: 1024px; margin: 0 auto; padding: 64px 20px 8px; text-align: center; }
+  .badge {
+    display: inline-block; background: var(--surface); color: var(--accent);
+    border-radius: 999px; padding: 6px 16px; font-weight: 800; font-size: 13px;
+    letter-spacing: .08em; text-transform: uppercase; margin-bottom: 18px;
+  }
+  h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.12; font-weight: 900; }
+  h1 em { color: var(--accent); font-style: normal; }
+  .sub { color: var(--dim); font-size: clamp(16px, 2.4vw, 20px); max-width: 660px; margin: 16px auto 0; line-height: 1.5; }
+  .stores { display: flex; gap: 14px; justify-content: center; margin-top: 26px; flex-wrap: wrap; }
+  .store {
+    display: inline-flex; align-items: center; gap: 12px; text-decoration: none;
+    background: #000; border: 1px solid #3a4468; border-radius: 14px; padding: 10px 20px;
+  }
+  .store svg { width: 28px; height: 28px; fill: #fff; }
+  .store small { display: block; color: var(--dim); font-size: 11px; font-weight: 700; letter-spacing: .04em; }
+  .store b { color: #fff; font-size: 18px; font-weight: 900; }
+
+  .wrap { max-width: 1024px; margin: 0 auto; padding: 0 20px; }
+
+  /* heroes strip */
+  .heroes { margin: 44px auto 8px; overflow: hidden; border-block: 1px solid var(--stroke); }
+  .heroes img { display: block; width: 100%; }
+
+  section h2 {
+    text-align: center; font-size: clamp(24px, 4vw, 34px); font-weight: 900;
+    margin: 56px 0 8px;
+  }
+  .lead { text-align: center; color: var(--dim); max-width: 640px; margin: 0 auto 28px; line-height: 1.55; }
+
+  /* phone frames */
+  .phones { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; }
+  .phone {
+    width: 230px; border-radius: 34px; padding: 10px;
+    background: linear-gradient(180deg, #2b3352, #141a30);
+    box-shadow: 0 24px 50px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.12);
+  }
+  .phone img { display: block; width: 100%; border-radius: 26px; }
+  .phone p { text-align: center; color: var(--dim); font-size: 13px; font-weight: 700; padding: 10px 4px 4px; }
+
+  .arena { margin: 48px auto; border-radius: 24px; overflow: hidden; border: 1px solid var(--stroke);
+    box-shadow: 0 24px 60px rgba(0,0,0,.5); }
+  .arena img { display: block; width: 100%; }
+
+  .cards {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;
+    margin: 8px auto 40px;
+  }
+  .card {
+    background: var(--surface); border-radius: 18px; padding: 22px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.07);
+  }
+  .card h3 { font-size: 19px; margin-bottom: 8px; }
+  .card p { color: var(--dim); font-size: 15px; line-height: 1.55; }
+
+  /* FAQ */
+  .faq { max-width: 760px; margin: 0 auto 48px; }
+  details {
+    background: var(--surface); border: 1px solid var(--stroke); border-radius: 14px;
+    margin-bottom: 10px; padding: 4px 18px;
+  }
+  summary {
+    cursor: pointer; font-weight: 800; font-size: 16px; padding: 12px 0;
+    list-style: none; position: relative; padding-right: 30px;
+  }
+  summary::after {
+    content: "+"; position: absolute; right: 4px; top: 10px;
+    font-size: 22px; color: var(--accent); font-weight: 900;
+  }
+  details[open] summary::after { content: "–"; }
+  details p { color: var(--dim); font-size: 15px; line-height: 1.6; padding: 0 0 14px; }
+
+  footer { text-align: center; color: var(--dim); font-size: 14px; padding: 0 20px 40px; }
+  footer a { color: var(--primary); text-decoration: none; margin: 0 8px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+  <nav class="lang" aria-label="Language">
+    <button data-lang="en" class="on">EN</button>
+    <button data-lang="uk">УКР</button>
+    <button data-lang="de">DE</button>
+  </nav>
+
+  <header>
+    <div class="badge" data-i18n="badge"></div>
+    <h1 data-i18n="h1"></h1>
+    <p class="sub" data-i18n="sub"></p>
+    <div class="stores">
+      <a class="store" href="#" aria-label="Download on the App Store">
+        <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        <span><small>Download on the</small><b>App Store</b></span>
+      </a>
+      <a class="store" href="#" aria-label="Get it on Google Play">
+        <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+        <span><small>Get it on</small><b>Google Play</b></span>
+      </a>
+    </div>
+    <img src="assets/v2/hero.png" alt="Kidsney hero — a young footballer in the plush v2 style" style="display:block;margin:30px auto 0;width:min(300px,64vw)" />
+  </header>
+
+  <div class="heroes"><img src="assets/v2/heroes-strip.png" alt="14 Kidsney heroes across 10 sports — plush v2 style" /></div>
+
+  <section class="wrap">
+    <h2 data-i18n="s1h"></h2>
+    <p class="lead" data-i18n="s1p"></p>
+    <div class="phones">
+      <div class="phone"><img src="assets/v2/mockup-starter-v2.jpg" alt="Starter screen: pick a boy or a girl and one of four starter sports" /><p data-i18n="p1"></p></div>
+      <div class="phone"><img src="assets/v2/mockup-hero-v2.jpg" alt="Hero screen: level, stats and move progress" /><p data-i18n="p2"></p></div>
+      <div class="phone"><img src="assets/v2/mockup-hud-v2.jpg" alt="Battle HUD on a boxing arena" /><p data-i18n="p3"></p></div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2 data-i18n="s2h"></h2>
+    <p class="lead" data-i18n="s2p"></p>
+    <div class="arena"><img src="assets/v2/arena-band.png" alt="Kidsney football arena — three parallax layers in the plush v2 style" /></div>
+    <div class="cards">
+      <div class="card"><h3 data-i18n="c1h"></h3><p data-i18n="c1p"></p></div>
+      <div class="card"><h3 data-i18n="c2h"></h3><p data-i18n="c2p"></p></div>
+      <div class="card"><h3 data-i18n="c3h"></h3><p data-i18n="c3p"></p></div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2 data-i18n="faqh"></h2>
+    <p class="lead" data-i18n="faqp"></p>
+    <div class="faq">
+      <details><summary data-i18n="q1"></summary><p data-i18n="a1"></p></details>
+      <details><summary data-i18n="q2"></summary><p data-i18n="a2"></p></details>
+      <details><summary data-i18n="q3"></summary><p data-i18n="a3"></p></details>
+      <details><summary data-i18n="q4"></summary><p data-i18n="a4"></p></details>
+      <details><summary data-i18n="q5"></summary><p data-i18n="a5"></p></details>
+      <details><summary data-i18n="q6"></summary><p data-i18n="a6"></p></details>
+    </div>
+  </section>
+
+  <footer>
+    <a href="privacy.html" data-i18n="privacy"></a>
+    <a href="terms.html" data-i18n="terms"></a>
+    <a href="support.html" data-i18n="support"></a>
+    <div style="margin-top:12px" data-i18n="foot"></div>
+  </footer>
+
+<script>
+const T = {
+  en: {
+    badge: "For kids 6–12",
+    h1: "Real workouts.<br><em>Cartoon battles.</em>",
+    sub: "Kidsney turns exercise into a plush fighting adventure: the camera sees the workout, the hero fights with your child's moves — squats become punches, jumps become kicks — across 10 sport worlds.",
+    s1h: "Pick your champion",
+    s1p: "Four starter sports for both boys and girls — football, karate, boxing and athletics. Wins unlock the rest: judo, basketball, gymnastics, swimming, wrestling and taekwondo. 14 heroes, one grows with your child.",
+    p1: "Starter screen", p2: "Hero & move progress", p3: "Battle HUD",
+    s2h: "A quest world with real stakes",
+    s2p: "10 regions, 50 fights and a boss in every world. Every session counts: training unlocks signature moves, victories level the hero up.",
+    c1h: "The body is the controller",
+    c1p: "Pose tracking runs on the device and turns squats, jumps, punches and planks into the hero's moves. No controllers, no thumbs — kids play with their whole body.",
+    c2h: "Parents stay in the loop",
+    c2p: "A weekly email report shows sessions, streaks and progress. Premium unlocks every hero and region; the core adventure stays playable for free.",
+    c3h: "Private by design",
+    c3p: "Video never leaves the device — only pose landmarks and stats are stored. COPPA / GDPR-K aligned, account deletion in two taps from the Parents area.",
+    faqh: "For parents",
+    faqp: "The questions we hear most often — answered straight.",
+    q1: "How does the camera tracking work?",
+    a1: "The front camera reads your child's body position on the device itself and converts it into game controls: a squat becomes a punch, a jump becomes a kick, a plank charges the hero. The camera image is processed in memory and discarded — it is never recorded or uploaded.",
+    q2: "Is my child's video stored or sent anywhere?",
+    a2: "No. Only pose landmarks (numeric joint positions) and game statistics ever leave the device, and they are stored on protected servers for sync and the weekly parent report. You can delete the profile and all its data in two taps from the Parents area.",
+    q3: "What age is Kidsney for?",
+    a3: "The game is designed for children 6–12. Younger kids can play with shorter sessions and an adult nearby; older ones go for the full 10-region quest and boss fights.",
+    q4: "How long is one session?",
+    a4: "About 10 active minutes — a battle or a training session. Daily quests and streaks (1/3/7/30 days) reward coming back regularly without ever asking for more than a short burst of movement.",
+    q5: "How do subscriptions work?",
+    a5: "Kidsney is free to start with the full first regions. Premium (monthly) unlocks all 14 heroes, all 10 regions and bonus daily quests. Purchases are handled by the app stores with their parental controls, and you can restore a subscription on a new device from the Parents area.",
+    q6: "Can my child play without the camera?",
+    a6: "The camera is core to Kidsney — the whole point is moving for real. There is no thumb-controlled alternative mode in the product. The camera sees the room, so kids need a little open space (about 2 × 2 metres) and some light.",
+    privacy: "Privacy Policy", terms: "Terms", support: "Support",
+    foot: "© 2026 Kidsney",
+  },
+  uk: {
+    badge: "Для дітей 6–12 років",
+    h1: "Справжні тренування.<br><em>Мультяшні бої.</em>",
+    sub: "Kidsney перетворює вправи на плюшеве бойове пригодництво: камера бачить тренування, а герой б'ється рухами дитини — присідання стають ударами, стрибки — кіками — крізь 10 спортивних світів.",
+    s1h: "Обери свого чемпіона",
+    s1p: "Чотири стартових види спорту для хлопчиків і дівчаток — футбол, карате, бокс і легка атлетика. Перемоги відкривають решту: дзюдо, баскетбол, художню гімнастику, плавання, рестлінг і тхеквондо. 14 героїв, один росте разом із дитиною.",
+    p1: "Екран старту", p2: "Герой і прогрес прийомів", p3: "HUD бою",
+    s2h: "Світ квестів із справжніми ставками",
+    s2p: "10 регіонів, 50 боїв і бос у кожному світі. Кожна сесія має значення: тренування відкриває сигнатурні прийоми, перемоги підіймають рівень героя.",
+    c1h: "Тіло — це контролер",
+    c1p: "Відстеження пози працює на пристрої та перетворює присідання, стрибки, удари й планку на прийоми героя. Без контролерів і пальців — діти грають усе тілом.",
+    c2h: "Батьки в курсі",
+    c2p: "Щотижневий email-звіт показує сесії, серії та прогрес. Premium відкриває всіх героїв і регіони; базова пригода лишається безкоштовною.",
+    c3h: "Приватність за замовчуванням",
+    c3p: "Відео не полишає пристрій — зберігаються лише опорні точки пози та статистика. Відповідно до COPPA / GDPR-K, видалення акаунта за два дотики в розділі «Батьки».",
+    faqh: "Для батьків",
+    faqp: "Питання, які ми чуємо найчастіше, — із прямими відповідями.",
+    q1: "Як працює відстеження камерою?",
+    a1: "Фронтальна камера зчитує позу дитини безпосередньо на пристрої та перетворює її на керування грою: присідання стає ударом, стрибок — кіком, планка заряджає суперприйом. Зображення обробляється в пам'яті й одразу зникає — воно ніколи не записується і не вивантажується.",
+    q2: "Чи зберігається чи кудись надсилається відео моєї дитини?",
+    a2: "Ні. З пристрою виходять лише опорні точки пози (числові координати суглобів) та ігрова статистика; вони зберігаються на захищених серверах для синхронізації та щотижневого звіту для батьків. Видалити профіль і всі дані можна за два дотики в розділі «Батьки».",
+    q3: "Для якого віку це гра?",
+    a3: "Гра розрахована на дітей 6–12 років. Молодші можуть грати короткими сесіями з дорослим поруч; старші — на повний квест із 10 регіонів і боями з босами.",
+    q4: "Скільки триває одна сесія?",
+    a4: "Близько 10 активних хвилин — бій або тренування. Щоденні квести та серії (1/3/7/30 днів) винагороджують регулярність, ніколи не вимагаючи більше ніж коротку порцію руху.",
+    q5: "Як працює підписка?",
+    a5: "Kidsney безкоштовно стартує з повними першими регіонами. Premium (щомісяця) відкриває всіх 14 героїв, усі 10 регіонів і бонусні щоденні квести. Покупки проходять через магазини застосунків із їхніми батьківськими контролями; підписку можна відновити на новому пристрої в розділі «Батьки».",
+    q6: "Чи може дитина грати без камери?",
+    a6: "Камера — основа Kidsney: уся суть у тому, щоб рухатися по-справжньому. Режиму керування пальцями в продукті немає. Камера бачить кімнату, тож дитині потрібно трохи вільного місця (приблизно 2 × 2 метри) та світло.",
+    privacy: "Конфіденційність", terms: "Умови", support: "Підтримка",
+    foot: "© 2026 Kidsney",
+  },
+  de: {
+    badge: "Für Kinder von 6–12",
+    h1: "Echtes Training.<br><em>Comic-Kämpfe.</em>",
+    sub: "Kidsney verwandelt Bewegung in ein plüschiges Kampfabenteuer: Die Kamera erkennt das Training, und der Held kämpft mit den Bewegungen deines Kindes — Kniebeugen werden zu Schlägen, Sprünge zu Tritten — durch 10 Sportwelten.",
+    s1h: "Wähl deinen Champion",
+    s1p: "Vier Startsportarten für Jungen und Mädchen — Fußball, Karate, Boxen und Leichtathletik. Siege schalten den Rest frei: Judo, Basketball, Turnen, Schwimmen, Wrestling und Taekwondo. 14 Helden, einer wächst mit deinem Kind.",
+    p1: "Startbildschirm", p2: "Held & Technik-Fortschritt", p3: "Kampf-HUD",
+    s2h: "Eine Quest-Welt mit echten Einsätzen",
+    s2p: "10 Regionen, 50 Kämpfe und ein Boss in jeder Welt. Jede Einheit zählt: Training schaltet Unterschriftstechniken frei, Siege lassen den Helden aufsteigen.",
+    c1h: "Der Körper ist der Controller",
+    c1p: "Die Posenerkennung läuft auf dem Gerät und verwandelt Kniebeugen, Sprünge, Schläge und Plank in die Bewegungen des Helden. Keine Controller, keine Daumen — Kinder spielen mit dem ganzen Körper.",
+    c2h: "Eltern bleiben informiert",
+    c2p: "Ein wöchentlicher E-Mail-Bericht zeigt Einheiten, Serien und Fortschritt. Premium schaltet alle Helden und Regionen frei; das Basis-Abenteuer bleibt kostenlos spielbar.",
+    c3h: "Privatsphäre by design",
+    c3p: "Video verlässt das Gerät nie — es werden nur Pose-Landmarks und Statistik gespeichert. COPPA- / DSGVO-K-konform, Kontolöschung in zwei Tippsern im Elternbereich.",
+    faqh: "Für Eltern",
+    faqp: "Die häufigsten Fragen — klar beantwortet.",
+    q1: "Wie funktioniert die Kamera-Verfolgung?",
+    a1: "Die Frontkamera liest die Körperhaltung deines Kindes direkt auf dem Gerät und macht daraus Spielsteuerung: Eine Kniebeuge wird zum Schlag, ein Sprung zum Tritt, ein Plank lädt den Super-Angriff auf. Das Bild wird im Arbeitsspeicher verarbeitet und verworfen — es wird nie aufgezeichnet oder hochgeladen.",
+    q2: "Wird das Video meines Kindes gespeichert oder übertragen?",
+    a2: "Nein. Das Gerät verlässt nur Pose-Landmarks (numerische Gelenkpositionen) und Spielstatistik; sie liegen auf geschützten Servern für Synchronisation und den wöchentlichen Elternbericht. Profil und alle Daten lassen sich in zwei Tippsern im Elternbereich löschen.",
+    q3: "Für welches Alter ist Kidsney gedacht?",
+    a3: "Das Spiel ist für Kinder von 6–12 Jahren gemacht. Jüngere spielen kürzere Einheiten mit Erwachsenen an der Seite; Ältere kämpfen sich durch die volle 10-Regionen-Quest mit Bossen.",
+    q4: "Wie lange dauert eine Einheit?",
+    a4: "Etwa 10 aktive Minuten — ein Kampf oder eine Trainingseinheit. Tägliche Quests und Serien (1/3/7/30 Tage) belohnen Regelmäßigkeit, ohne je mehr als eine kurze Bewegungseinheit zu verlangen.",
+    q5: "Wie funktioniert das Abo?",
+    a5: "Kidsney startet kostenlos mit den ersten Regionen. Premium (monatlich) schaltet alle 14 Helden, alle 10 Regionen und Bonus-Quests frei. Käufe laufen über die App Stores mit deren Elternkontrollen; das Abo lässt sich auf einem neuen Gerät im Elternbereich wiederherstellen.",
+    q6: "Kann mein Kind auch ohne Kamera spielen?",
+    a6: "Die Kamera ist der Kern von Kidsney — es geht ums echte Bewegen. Ein Daumen-Steuerungsmodus existiert im Produkt nicht. Die Kamera sieht den Raum, also braucht das Kind etwas freien Platz (etwa 2 × 2 Meter) und etwas Licht.",
+    privacy: "Datenschutz", terms: "AGB", support: "Support",
+    foot: "© 2026 Kidsney",
+  },
+};
+function setLang(l) {
+  document.documentElement.lang = l === "uk" ? "uk" : l;
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const v = T[l][el.dataset.i18n];
+    if (v != null) el.innerHTML = v;
+  });
+  document.querySelectorAll(".lang button").forEach((b) => b.classList.toggle("on", b.dataset.lang === l));
+  try { localStorage.setItem("kidsney-site-lang", l); } catch {}
+}
+document.querySelectorAll(".lang button").forEach((b) => (b.onclick = () => setLang(b.dataset.lang)));
+let lang = "en";
+try { lang = localStorage.getItem("kidsney-site-lang") || ((navigator.language || "").startsWith("uk") ? "uk" : (navigator.language || "").startsWith("de") ? "de" : "en"); } catch {}
+setLang(T[lang] ? lang : "en");
+</script>
+</body>
+</html>

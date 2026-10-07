@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kidsney Hero — Privacy Policy</title>
+<style>
+  :root { --bg:#0e1220; --surface:#1a2138; --text:#f4f6ff; --dim:#9aa7c7; --primary:#4f7cff; --accent:#ffb020; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--text); font-family:"Nunito","Segoe UI",system-ui,sans-serif; line-height:1.65; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:30px; margin-bottom:6px; }
+  .upd { color:var(--dim); font-size:14px; margin-bottom:28px; }
+  h2 { font-size:20px; margin:26px 0 8px; color:var(--accent); }
+  p, li { color:var(--dim); font-size:15.5px; }
+  ul { padding-left:22px; margin:6px 0; }
+  a { color:var(--primary); }
+  strong { color:var(--text); }
+  nav { padding:16px 20px; }
+  nav a { color:var(--primary); text-decoration:none; font-weight:800; }
+</style>
+</head>
+<body>
+<nav><a href="index.html">← Kidsney Hero</a></nav>
+<main>
+  <h1>Privacy Policy</h1>
+  <div class="upd">Last updated: October 2026 · Applies to the Kidsney Hero mobile app (tech.kidsney.hero) and this website</div>
+
+  <p><strong>Kidsney Hero is a children's fitness game by Kidsney.</strong> It is designed for kids aged 6–12 and is operated in line with the Children's Online Privacy Protection Act (COPPA) and the GDPR children's-privacy provisions (GDPR-K / Art. 8). This policy explains, in plain language, what we collect, why, and how to delete it.</p>
+
+  <h2>1. What we never do</h2>
+  <ul>
+    <li><strong>Camera video never leaves the device.</strong> Workouts are analysed on-device with a pose-estimation model. We transmit and store only anonymous pose landmarks (coordinates of body joints) and derived exercise counters — never photos, never video, never audio recordings of your child.</li>
+    <li>We do not show behavioural advertising to children.</li>
+    <li>We do not sell or share personal data with data brokers.</li>
+    <li>We do not use third-party trackers or analytics SDKs inside the kids' experience.</li>
+  </ul>
+
+  <h2>2. What we store (parent account)</h2>
+  <ul>
+    <li>Parent email address and authentication credentials (managed by our authentication provider, Supabase, EU region).</li>
+    <li>Child profile: first name or nickname, year of birth, and in-game progress (levels, regions cleared, heroes unlocked, exercise statistics).</li>
+    <li>Install attribution, stored once per device (first touch wins): the marketing channel that brought you to the app — <strong>only</strong> the campaign labels (utm_source / utm_medium / utm_campaign) and the referring site's domain name. No advertising identifiers, no click IDs, no full referrer URLs. Used solely to understand which of our own campaigns work.</li>
+    <li>Optional weekly email report setting (off by default).</li>
+  </ul>
+
+  <h2>3. Legal basis and consent</h2>
+  <p>The parent creates the account and gives verifiable consent for the child's data during setup (GDPR Art. 6(1)(a), Art. 8; COPPA). Consent can be withdrawn at any time by deleting the account or the child profile — see below.</p>
+
+  <h2>4. Subscription payments</h2>
+  <p>Purchases are processed by the app stores (Apple App Store / Google Play) and, for subscription status, by RevenueCat. We receive only a purchase token and entitlement status — never card numbers. The paywall offers a «Restore purchases» option for re-installs and new devices.</p>
+
+  <h2>5. Data retention and security</h2>
+  <p>Pose landmarks are processed in memory on the device and discarded after each session; only session summaries (exercise counts, form score) are stored. Server data is encrypted in transit (TLS) and at rest. Access is restricted by row-level security policies so a parent can only ever read their own children's data.</p>
+
+  <h2>6. Your rights (delete everything)</h2>
+  <p>Parents can, at any time:</p>
+  <ul>
+    <li>delete a child profile (progress and stats for that child are removed);</li>
+    <li>delete the whole parent account together with all children and all stored data — in the app: <strong>Parent zone → Settings → Delete account</strong>;</li>
+    <li>request export or deletion by email: <a href="mailto:support@kidsney.app">support@kidsney.app</a>. We answer within 72 hours and complete deletion within 30 days.</li>
+  </ul>
+
+  <h2>7. Changes</h2>
+  <p>If we materially change this policy, we will notify parents by email before the change takes effect.</p>
+
+  <h2>8. Contact</h2>
+  <p>Questions or complaints: <a href="mailto:support@kidsney.app">support@kidsney.app</a>. You may also contact your local data-protection authority; we cooperate with them fully.</p>
+</main>
+</body>
+</html>
