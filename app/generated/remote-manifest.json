@@ -1,0 +1,2666 @@
+{
+ "version": 1,
+ "cdn": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets",
+ "assets": {
+  "arenas-v2/04-basketball/decor-cone.webp": {
+   "bytes": 25994,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/04-basketball/decor-cone.webp"
+  },
+  "arenas-v2/04-basketball/decor-hoop.webp": {
+   "bytes": 37760,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/04-basketball/decor-hoop.webp"
+  },
+  "arenas-v2/04-basketball/far.webp": {
+   "bytes": 146144,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/04-basketball/far.webp"
+  },
+  "arenas-v2/04-basketball/mid.webp": {
+   "bytes": 104492,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/04-basketball/mid.webp"
+  },
+  "arenas-v2/04-basketball/near.webp": {
+   "bytes": 398012,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/04-basketball/near.webp"
+  },
+  "arenas-v2/05-gymnastics/decor-ball-prop.webp": {
+   "bytes": 59440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/05-gymnastics/decor-ball-prop.webp"
+  },
+  "arenas-v2/05-gymnastics/decor-ribbon-pole.webp": {
+   "bytes": 67344,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/05-gymnastics/decor-ribbon-pole.webp"
+  },
+  "arenas-v2/05-gymnastics/far.webp": {
+   "bytes": 125742,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/05-gymnastics/far.webp"
+  },
+  "arenas-v2/05-gymnastics/mid.webp": {
+   "bytes": 164496,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/05-gymnastics/mid.webp"
+  },
+  "arenas-v2/05-gymnastics/near.webp": {
+   "bytes": 143332,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/05-gymnastics/near.webp"
+  },
+  "arenas-v2/06-boxing/decor-bell.webp": {
+   "bytes": 46586,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/06-boxing/decor-bell.webp"
+  },
+  "arenas-v2/06-boxing/decor-stool.webp": {
+   "bytes": 48666,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/06-boxing/decor-stool.webp"
+  },
+  "arenas-v2/06-boxing/far.webp": {
+   "bytes": 113994,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/06-boxing/far.webp"
+  },
+  "arenas-v2/06-boxing/mid.webp": {
+   "bytes": 94654,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/06-boxing/mid.webp"
+  },
+  "arenas-v2/06-boxing/near.webp": {
+   "bytes": 338212,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/06-boxing/near.webp"
+  },
+  "arenas-v2/07-swimming/decor-kickboard.webp": {
+   "bytes": 33848,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/07-swimming/decor-kickboard.webp"
+  },
+  "arenas-v2/07-swimming/decor-lane-rope.webp": {
+   "bytes": 46474,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/07-swimming/decor-lane-rope.webp"
+  },
+  "arenas-v2/07-swimming/far.webp": {
+   "bytes": 146900,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/07-swimming/far.webp"
+  },
+  "arenas-v2/07-swimming/mid.webp": {
+   "bytes": 130570,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/07-swimming/mid.webp"
+  },
+  "arenas-v2/07-swimming/near.webp": {
+   "bytes": 279510,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/07-swimming/near.webp"
+  },
+  "arenas-v2/08-athletics/decor-hurdle.webp": {
+   "bytes": 36600,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/08-athletics/decor-hurdle.webp"
+  },
+  "arenas-v2/08-athletics/decor-starting-block.webp": {
+   "bytes": 41030,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/08-athletics/decor-starting-block.webp"
+  },
+  "arenas-v2/08-athletics/far.webp": {
+   "bytes": 104962,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/08-athletics/far.webp"
+  },
+  "arenas-v2/08-athletics/mid.webp": {
+   "bytes": 141294,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/08-athletics/mid.webp"
+  },
+  "arenas-v2/08-athletics/near.webp": {
+   "bytes": 398288,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/08-athletics/near.webp"
+  },
+  "arenas-v2/09-wrestling/decor-belt.webp": {
+   "bytes": 59846,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/09-wrestling/decor-belt.webp"
+  },
+  "arenas-v2/09-wrestling/decor-stool.webp": {
+   "bytes": 38518,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/09-wrestling/decor-stool.webp"
+  },
+  "arenas-v2/09-wrestling/far.webp": {
+   "bytes": 116682,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/09-wrestling/far.webp"
+  },
+  "arenas-v2/09-wrestling/mid.webp": {
+   "bytes": 184400,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/09-wrestling/mid.webp"
+  },
+  "arenas-v2/09-wrestling/near.webp": {
+   "bytes": 254386,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/09-wrestling/near.webp"
+  },
+  "arenas-v2/10-taekwondo/decor-flags.webp": {
+   "bytes": 66116,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/10-taekwondo/decor-flags.webp"
+  },
+  "arenas-v2/10-taekwondo/decor-kick-pad.webp": {
+   "bytes": 33466,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/10-taekwondo/decor-kick-pad.webp"
+  },
+  "arenas-v2/10-taekwondo/far.webp": {
+   "bytes": 71684,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/10-taekwondo/far.webp"
+  },
+  "arenas-v2/10-taekwondo/mid.webp": {
+   "bytes": 135654,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/10-taekwondo/mid.webp"
+  },
+  "arenas-v2/10-taekwondo/near.webp": {
+   "bytes": 334344,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/arenas-v2/10-taekwondo/near.webp"
+  },
+  "assets/wardrobe/fitted/accessories/kiro_accessory_champion_medal.webp": {
+   "bytes": 151908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/kiro_accessory_champion_medal.webp"
+  },
+  "assets/wardrobe/fitted/accessories/kiro_accessory_power_wristbands.webp": {
+   "bytes": 141552,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/kiro_accessory_power_wristbands.webp"
+  },
+  "assets/wardrobe/fitted/accessories/kiro_accessory_sport_watch.webp": {
+   "bytes": 155570,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/kiro_accessory_sport_watch.webp"
+  },
+  "assets/wardrobe/fitted/accessories/leo_accessory_champion_medal.webp": {
+   "bytes": 140682,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/leo_accessory_champion_medal.webp"
+  },
+  "assets/wardrobe/fitted/accessories/leo_accessory_power_wristbands.webp": {
+   "bytes": 149230,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/leo_accessory_power_wristbands.webp"
+  },
+  "assets/wardrobe/fitted/accessories/leo_accessory_sport_watch.webp": {
+   "bytes": 149898,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/leo_accessory_sport_watch.webp"
+  },
+  "assets/wardrobe/fitted/accessories/lumi_accessory_champion_medal.webp": {
+   "bytes": 141418,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/lumi_accessory_champion_medal.webp"
+  },
+  "assets/wardrobe/fitted/accessories/lumi_accessory_power_wristbands.webp": {
+   "bytes": 139564,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/lumi_accessory_power_wristbands.webp"
+  },
+  "assets/wardrobe/fitted/accessories/lumi_accessory_sport_watch.webp": {
+   "bytes": 139346,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/lumi_accessory_sport_watch.webp"
+  },
+  "assets/wardrobe/fitted/accessories/nori_accessory_champion_medal.webp": {
+   "bytes": 170330,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/nori_accessory_champion_medal.webp"
+  },
+  "assets/wardrobe/fitted/accessories/nori_accessory_power_wristbands.webp": {
+   "bytes": 167526,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/nori_accessory_power_wristbands.webp"
+  },
+  "assets/wardrobe/fitted/accessories/nori_accessory_sport_watch.webp": {
+   "bytes": 151130,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/nori_accessory_sport_watch.webp"
+  },
+  "assets/wardrobe/fitted/accessories/tora_accessory_champion_medal.webp": {
+   "bytes": 168456,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/tora_accessory_champion_medal.webp"
+  },
+  "assets/wardrobe/fitted/accessories/tora_accessory_power_wristbands.webp": {
+   "bytes": 168834,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/tora_accessory_power_wristbands.webp"
+  },
+  "assets/wardrobe/fitted/accessories/tora_accessory_sport_watch.webp": {
+   "bytes": 169196,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/tora_accessory_sport_watch.webp"
+  },
+  "assets/wardrobe/fitted/accessories/vela_accessory_champion_medal.webp": {
+   "bytes": 136524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/vela_accessory_champion_medal.webp"
+  },
+  "assets/wardrobe/fitted/accessories/vela_accessory_power_wristbands.webp": {
+   "bytes": 134908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/vela_accessory_power_wristbands.webp"
+  },
+  "assets/wardrobe/fitted/accessories/vela_accessory_sport_watch.webp": {
+   "bytes": 136934,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/accessories/vela_accessory_sport_watch.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/kiro_bottom_club_track.webp": {
+   "bytes": 151476,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/kiro_bottom_club_track.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/kiro_bottom_flex_joggers.webp": {
+   "bytes": 141742,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/kiro_bottom_flex_joggers.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/kiro_bottom_sprint_shorts.webp": {
+   "bytes": 149514,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/kiro_bottom_sprint_shorts.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/leo_bottom_club_track.webp": {
+   "bytes": 140326,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/leo_bottom_club_track.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/leo_bottom_flex_joggers.webp": {
+   "bytes": 143538,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/leo_bottom_flex_joggers.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/leo_bottom_sprint_shorts.webp": {
+   "bytes": 144332,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/leo_bottom_sprint_shorts.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/lumi_bottom_club_track.webp": {
+   "bytes": 127104,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/lumi_bottom_club_track.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/lumi_bottom_flex_joggers.webp": {
+   "bytes": 125592,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/lumi_bottom_flex_joggers.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/lumi_bottom_sprint_shorts.webp": {
+   "bytes": 132954,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/lumi_bottom_sprint_shorts.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/nori_bottom_club_track.webp": {
+   "bytes": 169172,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/nori_bottom_club_track.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/nori_bottom_flex_joggers.webp": {
+   "bytes": 162250,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/nori_bottom_flex_joggers.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/nori_bottom_sprint_shorts.webp": {
+   "bytes": 170056,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/nori_bottom_sprint_shorts.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/tora_bottom_club_track.webp": {
+   "bytes": 164408,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/tora_bottom_club_track.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/tora_bottom_flex_joggers.webp": {
+   "bytes": 163774,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/tora_bottom_flex_joggers.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/tora_bottom_sprint_shorts.webp": {
+   "bytes": 169308,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/tora_bottom_sprint_shorts.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/vela_bottom_club_track.webp": {
+   "bytes": 130822,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/vela_bottom_club_track.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/vela_bottom_flex_joggers.webp": {
+   "bytes": 134468,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/vela_bottom_flex_joggers.webp"
+  },
+  "assets/wardrobe/fitted/bottoms/vela_bottom_sprint_shorts.webp": {
+   "bytes": 134350,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/bottoms/vela_bottom_sprint_shorts.webp"
+  },
+  "assets/wardrobe/fitted/head/kiro_head_energy_band.webp": {
+   "bytes": 153012,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/kiro_head_energy_band.webp"
+  },
+  "assets/wardrobe/fitted/head/kiro_head_quest_cap.webp": {
+   "bytes": 151028,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/kiro_head_quest_cap.webp"
+  },
+  "assets/wardrobe/fitted/head/kiro_head_star_visor.webp": {
+   "bytes": 157474,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/kiro_head_star_visor.webp"
+  },
+  "assets/wardrobe/fitted/head/leo_head_energy_band.webp": {
+   "bytes": 152722,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/leo_head_energy_band.webp"
+  },
+  "assets/wardrobe/fitted/head/leo_head_quest_cap.webp": {
+   "bytes": 152550,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/leo_head_quest_cap.webp"
+  },
+  "assets/wardrobe/fitted/head/leo_head_star_visor.webp": {
+   "bytes": 154864,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/leo_head_star_visor.webp"
+  },
+  "assets/wardrobe/fitted/head/lumi_head_energy_band.webp": {
+   "bytes": 132818,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/lumi_head_energy_band.webp"
+  },
+  "assets/wardrobe/fitted/head/lumi_head_quest_cap.webp": {
+   "bytes": 148752,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/lumi_head_quest_cap.webp"
+  },
+  "assets/wardrobe/fitted/head/lumi_head_star_visor.webp": {
+   "bytes": 144856,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/lumi_head_star_visor.webp"
+  },
+  "assets/wardrobe/fitted/head/nori_head_energy_band.webp": {
+   "bytes": 174392,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/nori_head_energy_band.webp"
+  },
+  "assets/wardrobe/fitted/head/nori_head_quest_cap.webp": {
+   "bytes": 184626,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/nori_head_quest_cap.webp"
+  },
+  "assets/wardrobe/fitted/head/nori_head_star_visor.webp": {
+   "bytes": 186304,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/nori_head_star_visor.webp"
+  },
+  "assets/wardrobe/fitted/head/tora_head_energy_band.webp": {
+   "bytes": 175252,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/tora_head_energy_band.webp"
+  },
+  "assets/wardrobe/fitted/head/tora_head_quest_cap.webp": {
+   "bytes": 151566,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/tora_head_quest_cap.webp"
+  },
+  "assets/wardrobe/fitted/head/tora_head_star_visor.webp": {
+   "bytes": 148614,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/tora_head_star_visor.webp"
+  },
+  "assets/wardrobe/fitted/head/vela_head_energy_band.webp": {
+   "bytes": 142324,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/vela_head_energy_band.webp"
+  },
+  "assets/wardrobe/fitted/head/vela_head_quest_cap.webp": {
+   "bytes": 143804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/vela_head_quest_cap.webp"
+  },
+  "assets/wardrobe/fitted/head/vela_head_star_visor.webp": {
+   "bytes": 144680,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/head/vela_head_star_visor.webp"
+  },
+  "assets/wardrobe/fitted/shoes/kiro_shoes_champion_high.webp": {
+   "bytes": 72610,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/kiro_shoes_champion_high.webp"
+  },
+  "assets/wardrobe/fitted/shoes/kiro_shoes_court_trainers.webp": {
+   "bytes": 69846,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/kiro_shoes_court_trainers.webp"
+  },
+  "assets/wardrobe/fitted/shoes/kiro_shoes_speed_runners.webp": {
+   "bytes": 71914,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/kiro_shoes_speed_runners.webp"
+  },
+  "assets/wardrobe/fitted/shoes/leo_shoes_champion_high.webp": {
+   "bytes": 68464,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/leo_shoes_champion_high.webp"
+  },
+  "assets/wardrobe/fitted/shoes/leo_shoes_court_trainers.webp": {
+   "bytes": 77064,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/leo_shoes_court_trainers.webp"
+  },
+  "assets/wardrobe/fitted/shoes/leo_shoes_speed_runners.webp": {
+   "bytes": 64656,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/leo_shoes_speed_runners.webp"
+  },
+  "assets/wardrobe/fitted/shoes/lumi_shoes_champion_high.webp": {
+   "bytes": 64276,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/lumi_shoes_champion_high.webp"
+  },
+  "assets/wardrobe/fitted/shoes/lumi_shoes_court_trainers.webp": {
+   "bytes": 62160,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/lumi_shoes_court_trainers.webp"
+  },
+  "assets/wardrobe/fitted/shoes/lumi_shoes_speed_runners.webp": {
+   "bytes": 68718,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/lumi_shoes_speed_runners.webp"
+  },
+  "assets/wardrobe/fitted/shoes/nori_shoes_champion_high.webp": {
+   "bytes": 76832,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/nori_shoes_champion_high.webp"
+  },
+  "assets/wardrobe/fitted/shoes/nori_shoes_court_trainers.webp": {
+   "bytes": 73252,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/nori_shoes_court_trainers.webp"
+  },
+  "assets/wardrobe/fitted/shoes/nori_shoes_speed_runners.webp": {
+   "bytes": 72354,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/nori_shoes_speed_runners.webp"
+  },
+  "assets/wardrobe/fitted/shoes/tora_shoes_champion_high.webp": {
+   "bytes": 83624,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/tora_shoes_champion_high.webp"
+  },
+  "assets/wardrobe/fitted/shoes/tora_shoes_court_trainers.webp": {
+   "bytes": 78678,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/tora_shoes_court_trainers.webp"
+  },
+  "assets/wardrobe/fitted/shoes/tora_shoes_speed_runners.webp": {
+   "bytes": 78878,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/tora_shoes_speed_runners.webp"
+  },
+  "assets/wardrobe/fitted/shoes/vela_shoes_champion_high.webp": {
+   "bytes": 71848,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/vela_shoes_champion_high.webp"
+  },
+  "assets/wardrobe/fitted/shoes/vela_shoes_court_trainers.webp": {
+   "bytes": 64674,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/vela_shoes_court_trainers.webp"
+  },
+  "assets/wardrobe/fitted/shoes/vela_shoes_speed_runners.webp": {
+   "bytes": 63482,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/shoes/vela_shoes_speed_runners.webp"
+  },
+  "assets/wardrobe/fitted/tops/kiro_top_neon_training.webp": {
+   "bytes": 91742,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/kiro_top_neon_training.webp"
+  },
+  "assets/wardrobe/fitted/tops/kiro_top_quest_long_sleeve.webp": {
+   "bytes": 86246,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/kiro_top_quest_long_sleeve.webp"
+  },
+  "assets/wardrobe/fitted/tops/kiro_top_team_jersey.webp": {
+   "bytes": 94378,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/kiro_top_team_jersey.webp"
+  },
+  "assets/wardrobe/fitted/tops/leo_top_neon_training.webp": {
+   "bytes": 114712,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/leo_top_neon_training.webp"
+  },
+  "assets/wardrobe/fitted/tops/leo_top_quest_long_sleeve.webp": {
+   "bytes": 106744,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/leo_top_quest_long_sleeve.webp"
+  },
+  "assets/wardrobe/fitted/tops/leo_top_team_jersey.webp": {
+   "bytes": 119268,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/leo_top_team_jersey.webp"
+  },
+  "assets/wardrobe/fitted/tops/lumi_top_neon_training.webp": {
+   "bytes": 102862,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/lumi_top_neon_training.webp"
+  },
+  "assets/wardrobe/fitted/tops/lumi_top_quest_long_sleeve.webp": {
+   "bytes": 92028,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/lumi_top_quest_long_sleeve.webp"
+  },
+  "assets/wardrobe/fitted/tops/lumi_top_team_jersey.webp": {
+   "bytes": 85782,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/lumi_top_team_jersey.webp"
+  },
+  "assets/wardrobe/fitted/tops/nori_top_neon_training.webp": {
+   "bytes": 146590,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/nori_top_neon_training.webp"
+  },
+  "assets/wardrobe/fitted/tops/nori_top_quest_long_sleeve.webp": {
+   "bytes": 103924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/nori_top_quest_long_sleeve.webp"
+  },
+  "assets/wardrobe/fitted/tops/nori_top_team_jersey.webp": {
+   "bytes": 137978,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/nori_top_team_jersey.webp"
+  },
+  "assets/wardrobe/fitted/tops/tora_top_neon_training.webp": {
+   "bytes": 147586,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/tora_top_neon_training.webp"
+  },
+  "assets/wardrobe/fitted/tops/tora_top_quest_long_sleeve.webp": {
+   "bytes": 101872,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/tora_top_quest_long_sleeve.webp"
+  },
+  "assets/wardrobe/fitted/tops/tora_top_team_jersey.webp": {
+   "bytes": 126376,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/tora_top_team_jersey.webp"
+  },
+  "assets/wardrobe/fitted/tops/vela_top_neon_training.webp": {
+   "bytes": 128758,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/vela_top_neon_training.webp"
+  },
+  "assets/wardrobe/fitted/tops/vela_top_quest_long_sleeve.webp": {
+   "bytes": 83232,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/vela_top_quest_long_sleeve.webp"
+  },
+  "assets/wardrobe/fitted/tops/vela_top_team_jersey.webp": {
+   "bytes": 106248,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/assets/wardrobe/fitted/tops/vela_top_team_jersey.webp"
+  },
+  "audio/coach/de/vo_de_ann_fight.wav": {
+   "bytes": 20000,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_fight.wav"
+  },
+  "audio/coach/de/vo_de_ann_ko.wav": {
+   "bytes": 25632,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_ko.wav"
+  },
+  "audio/coach/de/vo_de_ann_lose.wav": {
+   "bytes": 30776,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_lose.wav"
+  },
+  "audio/coach/de/vo_de_ann_new_hero.wav": {
+   "bytes": 40510,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_new_hero.wav"
+  },
+  "audio/coach/de/vo_de_ann_round_2.wav": {
+   "bytes": 40978,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_round_2.wav"
+  },
+  "audio/coach/de/vo_de_ann_round_3.wav": {
+   "bytes": 32786,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_round_3.wav"
+  },
+  "audio/coach/de/vo_de_ann_super_ready.wav": {
+   "bytes": 44100,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_super_ready.wav"
+  },
+  "audio/coach/de/vo_de_ann_win.wav": {
+   "bytes": 51532,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_ann_win.wav"
+  },
+  "audio/coach/de/vo_de_count_1.wav": {
+   "bytes": 23078,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_1.wav"
+  },
+  "audio/coach/de/vo_de_count_10.wav": {
+   "bytes": 21136,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_10.wav"
+  },
+  "audio/coach/de/vo_de_count_11.wav": {
+   "bytes": 16804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_11.wav"
+  },
+  "audio/coach/de/vo_de_count_12.wav": {
+   "bytes": 23184,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_12.wav"
+  },
+  "audio/coach/de/vo_de_count_13.wav": {
+   "bytes": 37726,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_13.wav"
+  },
+  "audio/coach/de/vo_de_count_14.wav": {
+   "bytes": 37376,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_14.wav"
+  },
+  "audio/coach/de/vo_de_count_15.wav": {
+   "bytes": 40960,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_15.wav"
+  },
+  "audio/coach/de/vo_de_count_16.wav": {
+   "bytes": 37952,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_16.wav"
+  },
+  "audio/coach/de/vo_de_count_17.wav": {
+   "bytes": 36928,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_17.wav"
+  },
+  "audio/coach/de/vo_de_count_18.wav": {
+   "bytes": 34854,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_18.wav"
+  },
+  "audio/coach/de/vo_de_count_19.wav": {
+   "bytes": 37396,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_19.wav"
+  },
+  "audio/coach/de/vo_de_count_2.wav": {
+   "bytes": 18576,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_2.wav"
+  },
+  "audio/coach/de/vo_de_count_20.wav": {
+   "bytes": 36496,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_20.wav"
+  },
+  "audio/coach/de/vo_de_count_21.wav": {
+   "bytes": 52774,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_21.wav"
+  },
+  "audio/coach/de/vo_de_count_22.wav": {
+   "bytes": 55952,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_22.wav"
+  },
+  "audio/coach/de/vo_de_count_23.wav": {
+   "bytes": 54618,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_23.wav"
+  },
+  "audio/coach/de/vo_de_count_24.wav": {
+   "bytes": 54272,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_24.wav"
+  },
+  "audio/coach/de/vo_de_count_25.wav": {
+   "bytes": 58880,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_25.wav"
+  },
+  "audio/coach/de/vo_de_count_26.wav": {
+   "bytes": 56894,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_26.wav"
+  },
+  "audio/coach/de/vo_de_count_27.wav": {
+   "bytes": 58430,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_27.wav"
+  },
+  "audio/coach/de/vo_de_count_28.wav": {
+   "bytes": 54822,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_28.wav"
+  },
+  "audio/coach/de/vo_de_count_29.wav": {
+   "bytes": 56384,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_29.wav"
+  },
+  "audio/coach/de/vo_de_count_3.wav": {
+   "bytes": 18506,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_3.wav"
+  },
+  "audio/coach/de/vo_de_count_30.wav": {
+   "bytes": 35166,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_30.wav"
+  },
+  "audio/coach/de/vo_de_count_31.wav": {
+   "bytes": 51750,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_31.wav"
+  },
+  "audio/coach/de/vo_de_count_32.wav": {
+   "bytes": 54928,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_32.wav"
+  },
+  "audio/coach/de/vo_de_count_33.wav": {
+   "bytes": 54618,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_33.wav"
+  },
+  "audio/coach/de/vo_de_count_34.wav": {
+   "bytes": 53248,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_34.wav"
+  },
+  "audio/coach/de/vo_de_count_35.wav": {
+   "bytes": 57856,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_35.wav"
+  },
+  "audio/coach/de/vo_de_count_36.wav": {
+   "bytes": 53822,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_36.wav"
+  },
+  "audio/coach/de/vo_de_count_37.wav": {
+   "bytes": 57406,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_37.wav"
+  },
+  "audio/coach/de/vo_de_count_38.wav": {
+   "bytes": 53798,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_38.wav"
+  },
+  "audio/coach/de/vo_de_count_39.wav": {
+   "bytes": 55360,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_39.wav"
+  },
+  "audio/coach/de/vo_de_count_4.wav": {
+   "bytes": 19968,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_4.wav"
+  },
+  "audio/coach/de/vo_de_count_40.wav": {
+   "bytes": 36352,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_40.wav"
+  },
+  "audio/coach/de/vo_de_count_41.wav": {
+   "bytes": 53286,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_41.wav"
+  },
+  "audio/coach/de/vo_de_count_42.wav": {
+   "bytes": 56464,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_42.wav"
+  },
+  "audio/coach/de/vo_de_count_43.wav": {
+   "bytes": 56154,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_43.wav"
+  },
+  "audio/coach/de/vo_de_count_44.wav": {
+   "bytes": 54784,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_44.wav"
+  },
+  "audio/coach/de/vo_de_count_45.wav": {
+   "bytes": 59392,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_45.wav"
+  },
+  "audio/coach/de/vo_de_count_46.wav": {
+   "bytes": 57918,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_46.wav"
+  },
+  "audio/coach/de/vo_de_count_47.wav": {
+   "bytes": 58942,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_47.wav"
+  },
+  "audio/coach/de/vo_de_count_48.wav": {
+   "bytes": 55334,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_48.wav"
+  },
+  "audio/coach/de/vo_de_count_49.wav": {
+   "bytes": 56896,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_49.wav"
+  },
+  "audio/coach/de/vo_de_count_5.wav": {
+   "bytes": 23040,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_5.wav"
+  },
+  "audio/coach/de/vo_de_count_50.wav": {
+   "bytes": 40448,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_50.wav"
+  },
+  "audio/coach/de/vo_de_count_6.wav": {
+   "bytes": 20098,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_6.wav"
+  },
+  "audio/coach/de/vo_de_count_7.wav": {
+   "bytes": 22080,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_7.wav"
+  },
+  "audio/coach/de/vo_de_count_8.wav": {
+   "bytes": 18982,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_8.wav"
+  },
+  "audio/coach/de/vo_de_count_9.wav": {
+   "bytes": 21010,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_count_9.wav"
+  },
+  "audio/coach/de/vo_de_cue_almost.wav": {
+   "bytes": 47046,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_almost.wav"
+  },
+  "audio/coach/de/vo_de_cue_deeper.wav": {
+   "bytes": 24224,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_deeper.wav"
+  },
+  "audio/coach/de/vo_de_cue_faster.wav": {
+   "bytes": 26166,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_faster.wav"
+  },
+  "audio/coach/de/vo_de_cue_go.wav": {
+   "bytes": 21414,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_go.wav"
+  },
+  "audio/coach/de/vo_de_cue_great.wav": {
+   "bytes": 24128,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_great.wav"
+  },
+  "audio/coach/de/vo_de_cue_higher.wav": {
+   "bytes": 21048,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_higher.wav"
+  },
+  "audio/coach/de/vo_de_cue_ready.wav": {
+   "bytes": 36352,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_ready.wav"
+  },
+  "audio/coach/de/vo_de_cue_rest.wav": {
+   "bytes": 22332,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_rest.wav"
+  },
+  "audio/coach/de/vo_de_cue_slower.wav": {
+   "bytes": 34704,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_slower.wav"
+  },
+  "audio/coach/de/vo_de_cue_water.wav": {
+   "bytes": 36542,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_water.wav"
+  },
+  "audio/coach/de/vo_de_hero_grew.wav": {
+   "bytes": 65368,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_hero_grew.wav"
+  },
+  "audio/coach/de/vo_de_intro_high_knees.wav": {
+   "bytes": 35572,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_high_knees.wav"
+  },
+  "audio/coach/de/vo_de_intro_hold.wav": {
+   "bytes": 37418,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_hold.wav"
+  },
+  "audio/coach/de/vo_de_intro_jump.wav": {
+   "bytes": 24630,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_jump.wav"
+  },
+  "audio/coach/de/vo_de_intro_jumping_jacks.wav": {
+   "bytes": 36394,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_jumping_jacks.wav"
+  },
+  "audio/coach/de/vo_de_intro_kicks.wav": {
+   "bytes": 21182,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_kicks.wav"
+  },
+  "audio/coach/de/vo_de_intro_last.wav": {
+   "bytes": 44944,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_last.wav"
+  },
+  "audio/coach/de/vo_de_intro_mirror.wav": {
+   "bytes": 37896,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_mirror.wav"
+  },
+  "audio/coach/de/vo_de_intro_next.wav": {
+   "bytes": 24468,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_next.wav"
+  },
+  "audio/coach/de/vo_de_intro_plank.wav": {
+   "bytes": 45372,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_plank.wav"
+  },
+  "audio/coach/de/vo_de_intro_punches.wav": {
+   "bytes": 24118,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_punches.wav"
+  },
+  "audio/coach/de/vo_de_intro_push_ups.wav": {
+   "bytes": 40848,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_push_ups.wav"
+  },
+  "audio/coach/de/vo_de_intro_squats.wav": {
+   "bytes": 38132,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_squats.wav"
+  },
+  "audio/coach/de/vo_de_intro_warmup.wav": {
+   "bytes": 35366,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_warmup.wav"
+  },
+  "audio/coach/de/vo_de_summary_1.wav": {
+   "bytes": 47046,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_summary_1.wav"
+  },
+  "audio/coach/de/vo_de_summary_2.wav": {
+   "bytes": 31296,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_summary_2.wav"
+  },
+  "audio/coach/de/vo_de_summary_3.wav": {
+   "bytes": 18316,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_summary_3.wav"
+  },
+  "audio/coach/de/vo_de_tutorial_block.wav": {
+   "bytes": 54416,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_tutorial_block.wav"
+  },
+  "audio/coach/de/vo_de_tutorial_combo.wav": {
+   "bytes": 37210,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_tutorial_combo.wav"
+  },
+  "audio/coach/de/vo_de_tutorial_move.wav": {
+   "bytes": 37716,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_tutorial_move.wav"
+  },
+  "audio/coach/de/vo_de_tutorial_punch.wav": {
+   "bytes": 24118,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_tutorial_punch.wav"
+  },
+  "audio/coach/en/vo_en_ann_fight.wav": {
+   "bytes": 23104,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_fight.wav"
+  },
+  "audio/coach/en/vo_en_ann_ko.wav": {
+   "bytes": 28586,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_ko.wav"
+  },
+  "audio/coach/en/vo_en_ann_lose.wav": {
+   "bytes": 35850,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_lose.wav"
+  },
+  "audio/coach/en/vo_en_ann_new_hero.wav": {
+   "bytes": 31524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_new_hero.wav"
+  },
+  "audio/coach/en/vo_en_ann_round_2.wav": {
+   "bytes": 34616,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_round_2.wav"
+  },
+  "audio/coach/en/vo_en_ann_round_3.wav": {
+   "bytes": 36664,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_round_3.wav"
+  },
+  "audio/coach/en/vo_en_ann_super_ready.wav": {
+   "bytes": 40574,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_super_ready.wav"
+  },
+  "audio/coach/en/vo_en_ann_win.wav": {
+   "bytes": 26808,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_ann_win.wav"
+  },
+  "audio/coach/en/vo_en_count_1.wav": {
+   "bytes": 22632,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_1.wav"
+  },
+  "audio/coach/en/vo_en_count_10.wav": {
+   "bytes": 22648,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_10.wav"
+  },
+  "audio/coach/en/vo_en_count_11.wav": {
+   "bytes": 26484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_11.wav"
+  },
+  "audio/coach/en/vo_en_count_12.wav": {
+   "bytes": 24696,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_12.wav"
+  },
+  "audio/coach/en/vo_en_count_13.wav": {
+   "bytes": 33856,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_13.wav"
+  },
+  "audio/coach/en/vo_en_count_14.wav": {
+   "bytes": 36416,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_14.wav"
+  },
+  "audio/coach/en/vo_en_count_15.wav": {
+   "bytes": 33856,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_15.wav"
+  },
+  "audio/coach/en/vo_en_count_16.wav": {
+   "bytes": 37502,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_16.wav"
+  },
+  "audio/coach/en/vo_en_count_17.wav": {
+   "bytes": 41086,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_17.wav"
+  },
+  "audio/coach/en/vo_en_count_18.wav": {
+   "bytes": 32614,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_18.wav"
+  },
+  "audio/coach/en/vo_en_count_19.wav": {
+   "bytes": 35090,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_19.wav"
+  },
+  "audio/coach/en/vo_en_count_2.wav": {
+   "bytes": 20108,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_2.wav"
+  },
+  "audio/coach/en/vo_en_count_20.wav": {
+   "bytes": 23548,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_20.wav"
+  },
+  "audio/coach/en/vo_en_count_21.wav": {
+   "bytes": 36348,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_21.wav"
+  },
+  "audio/coach/en/vo_en_count_22.wav": {
+   "bytes": 35836,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_22.wav"
+  },
+  "audio/coach/en/vo_en_count_23.wav": {
+   "bytes": 35836,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_23.wav"
+  },
+  "audio/coach/en/vo_en_count_24.wav": {
+   "bytes": 33788,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_24.wav"
+  },
+  "audio/coach/en/vo_en_count_25.wav": {
+   "bytes": 36348,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_25.wav"
+  },
+  "audio/coach/en/vo_en_count_26.wav": {
+   "bytes": 38908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_26.wav"
+  },
+  "audio/coach/en/vo_en_count_27.wav": {
+   "bytes": 37884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_27.wav"
+  },
+  "audio/coach/en/vo_en_count_28.wav": {
+   "bytes": 30204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_28.wav"
+  },
+  "audio/coach/en/vo_en_count_29.wav": {
+   "bytes": 36348,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_29.wav"
+  },
+  "audio/coach/en/vo_en_count_3.wav": {
+   "bytes": 23160,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_3.wav"
+  },
+  "audio/coach/en/vo_en_count_30.wav": {
+   "bytes": 25152,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_30.wav"
+  },
+  "audio/coach/en/vo_en_count_31.wav": {
+   "bytes": 35904,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_31.wav"
+  },
+  "audio/coach/en/vo_en_count_32.wav": {
+   "bytes": 35904,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_32.wav"
+  },
+  "audio/coach/en/vo_en_count_33.wav": {
+   "bytes": 37440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_33.wav"
+  },
+  "audio/coach/en/vo_en_count_34.wav": {
+   "bytes": 35392,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_34.wav"
+  },
+  "audio/coach/en/vo_en_count_35.wav": {
+   "bytes": 37440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_35.wav"
+  },
+  "audio/coach/en/vo_en_count_36.wav": {
+   "bytes": 40000,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_36.wav"
+  },
+  "audio/coach/en/vo_en_count_37.wav": {
+   "bytes": 38976,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_37.wav"
+  },
+  "audio/coach/en/vo_en_count_38.wav": {
+   "bytes": 31296,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_38.wav"
+  },
+  "audio/coach/en/vo_en_count_39.wav": {
+   "bytes": 37440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_39.wav"
+  },
+  "audio/coach/en/vo_en_count_4.wav": {
+   "bytes": 22080,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_4.wav"
+  },
+  "audio/coach/en/vo_en_count_40.wav": {
+   "bytes": 26176,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_40.wav"
+  },
+  "audio/coach/en/vo_en_count_41.wav": {
+   "bytes": 37440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_41.wav"
+  },
+  "audio/coach/en/vo_en_count_42.wav": {
+   "bytes": 37440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_42.wav"
+  },
+  "audio/coach/en/vo_en_count_43.wav": {
+   "bytes": 38976,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_43.wav"
+  },
+  "audio/coach/en/vo_en_count_44.wav": {
+   "bytes": 36928,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_44.wav"
+  },
+  "audio/coach/en/vo_en_count_45.wav": {
+   "bytes": 38976,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_45.wav"
+  },
+  "audio/coach/en/vo_en_count_46.wav": {
+   "bytes": 41536,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_46.wav"
+  },
+  "audio/coach/en/vo_en_count_47.wav": {
+   "bytes": 40512,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_47.wav"
+  },
+  "audio/coach/en/vo_en_count_48.wav": {
+   "bytes": 32832,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_48.wav"
+  },
+  "audio/coach/en/vo_en_count_49.wav": {
+   "bytes": 38976,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_49.wav"
+  },
+  "audio/coach/en/vo_en_count_5.wav": {
+   "bytes": 24640,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_5.wav"
+  },
+  "audio/coach/en/vo_en_count_50.wav": {
+   "bytes": 29248,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_50.wav"
+  },
+  "audio/coach/en/vo_en_count_6.wav": {
+   "bytes": 27774,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_6.wav"
+  },
+  "audio/coach/en/vo_en_count_7.wav": {
+   "bytes": 25726,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_7.wav"
+  },
+  "audio/coach/en/vo_en_count_8.wav": {
+   "bytes": 19820,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_8.wav"
+  },
+  "audio/coach/en/vo_en_count_9.wav": {
+   "bytes": 24902,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_count_9.wav"
+  },
+  "audio/coach/en/vo_en_cue_almost.wav": {
+   "bytes": 40082,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_almost.wav"
+  },
+  "audio/coach/en/vo_en_cue_deeper.wav": {
+   "bytes": 22870,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_deeper.wav"
+  },
+  "audio/coach/en/vo_en_cue_faster.wav": {
+   "bytes": 30272,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_faster.wav"
+  },
+  "audio/coach/en/vo_en_cue_go.wav": {
+   "bytes": 20736,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_go.wav"
+  },
+  "audio/coach/en/vo_en_cue_great.wav": {
+   "bytes": 22482,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_great.wav"
+  },
+  "audio/coach/en/vo_en_cue_higher.wav": {
+   "bytes": 22872,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_higher.wav"
+  },
+  "audio/coach/en/vo_en_cue_ready.wav": {
+   "bytes": 22328,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_ready.wav"
+  },
+  "audio/coach/en/vo_en_cue_rest.wav": {
+   "bytes": 23868,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_rest.wav"
+  },
+  "audio/coach/en/vo_en_cue_slower.wav": {
+   "bytes": 26238,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_slower.wav"
+  },
+  "audio/coach/en/vo_en_cue_water.wav": {
+   "bytes": 33458,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_water.wav"
+  },
+  "audio/coach/en/vo_en_hero_grew.wav": {
+   "bytes": 43698,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_hero_grew.wav"
+  },
+  "audio/coach/en/vo_en_intro_high_knees.wav": {
+   "bytes": 27428,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_high_knees.wav"
+  },
+  "audio/coach/en/vo_en_intro_hold.wav": {
+   "bytes": 26968,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_hold.wav"
+  },
+  "audio/coach/en/vo_en_intro_jump.wav": {
+   "bytes": 25696,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_jump.wav"
+  },
+  "audio/coach/en/vo_en_intro_jumping_jacks.wav": {
+   "bytes": 44788,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_jumping_jacks.wav"
+  },
+  "audio/coach/en/vo_en_intro_kicks.wav": {
+   "bytes": 25156,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_kicks.wav"
+  },
+  "audio/coach/en/vo_en_intro_last.wav": {
+   "bytes": 36544,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_last.wav"
+  },
+  "audio/coach/en/vo_en_intro_mirror.wav": {
+   "bytes": 34300,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_mirror.wav"
+  },
+  "audio/coach/en/vo_en_intro_next.wav": {
+   "bytes": 37658,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_next.wav"
+  },
+  "audio/coach/en/vo_en_intro_plank.wav": {
+   "bytes": 52138,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_plank.wav"
+  },
+  "audio/coach/en/vo_en_intro_punches.wav": {
+   "bytes": 28586,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_punches.wav"
+  },
+  "audio/coach/en/vo_en_intro_push_ups.wav": {
+   "bytes": 33706,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_push_ups.wav"
+  },
+  "audio/coach/en/vo_en_intro_squats.wav": {
+   "bytes": 34430,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_squats.wav"
+  },
+  "audio/coach/en/vo_en_intro_warmup.wav": {
+   "bytes": 30306,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_warmup.wav"
+  },
+  "audio/coach/en/vo_en_summary_1.wav": {
+   "bytes": 33612,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_summary_1.wav"
+  },
+  "audio/coach/en/vo_en_summary_2.wav": {
+   "bytes": 33094,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_summary_2.wav"
+  },
+  "audio/coach/en/vo_en_summary_3.wav": {
+   "bytes": 30090,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_summary_3.wav"
+  },
+  "audio/coach/en/vo_en_tutorial_block.wav": {
+   "bytes": 63832,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_tutorial_block.wav"
+  },
+  "audio/coach/en/vo_en_tutorial_combo.wav": {
+   "bytes": 35392,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_tutorial_combo.wav"
+  },
+  "audio/coach/en/vo_en_tutorial_move.wav": {
+   "bytes": 37052,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_tutorial_move.wav"
+  },
+  "audio/coach/en/vo_en_tutorial_punch.wav": {
+   "bytes": 28586,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_tutorial_punch.wav"
+  },
+  "audio/voice/de/count_1.wav": {
+   "bytes": 27164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_1.wav"
+  },
+  "audio/voice/de/count_10.wav": {
+   "bytes": 21404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_10.wav"
+  },
+  "audio/voice/de/count_11.wav": {
+   "bytes": 25244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_11.wav"
+  },
+  "audio/voice/de/count_12.wav": {
+   "bytes": 26684,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_12.wav"
+  },
+  "audio/voice/de/count_13.wav": {
+   "bytes": 30524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_13.wav"
+  },
+  "audio/voice/de/count_14.wav": {
+   "bytes": 43004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_14.wav"
+  },
+  "audio/voice/de/count_15.wav": {
+   "bytes": 32204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_15.wav"
+  },
+  "audio/voice/de/count_16.wav": {
+   "bytes": 43004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_16.wav"
+  },
+  "audio/voice/de/count_17.wav": {
+   "bytes": 39884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_17.wav"
+  },
+  "audio/voice/de/count_18.wav": {
+   "bytes": 36044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_18.wav"
+  },
+  "audio/voice/de/count_19.wav": {
+   "bytes": 34604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_19.wav"
+  },
+  "audio/voice/de/count_2.wav": {
+   "bytes": 28604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_2.wav"
+  },
+  "audio/voice/de/count_20.wav": {
+   "bytes": 40364,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_20.wav"
+  },
+  "audio/voice/de/count_21.wav": {
+   "bytes": 48524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_21.wav"
+  },
+  "audio/voice/de/count_22.wav": {
+   "bytes": 39884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_22.wav"
+  },
+  "audio/voice/de/count_23.wav": {
+   "bytes": 45884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_23.wav"
+  },
+  "audio/voice/de/count_24.wav": {
+   "bytes": 46604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_24.wav"
+  },
+  "audio/voice/de/count_25.wav": {
+   "bytes": 49004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_25.wav"
+  },
+  "audio/voice/de/count_26.wav": {
+   "bytes": 47804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_26.wav"
+  },
+  "audio/voice/de/count_27.wav": {
+   "bytes": 63164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_27.wav"
+  },
+  "audio/voice/de/count_28.wav": {
+   "bytes": 48284,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_28.wav"
+  },
+  "audio/voice/de/count_29.wav": {
+   "bytes": 55244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_29.wav"
+  },
+  "audio/voice/de/count_3.wav": {
+   "bytes": 25004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_3.wav"
+  },
+  "audio/voice/de/count_30.wav": {
+   "bytes": 37724,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_30.wav"
+  },
+  "audio/voice/de/count_4.wav": {
+   "bytes": 25484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_4.wav"
+  },
+  "audio/voice/de/count_5.wav": {
+   "bytes": 27404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_5.wav"
+  },
+  "audio/voice/de/count_6.wav": {
+   "bytes": 27644,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_6.wav"
+  },
+  "audio/voice/de/count_7.wav": {
+   "bytes": 30044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_7.wav"
+  },
+  "audio/voice/de/count_8.wav": {
+   "bytes": 26204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_8.wav"
+  },
+  "audio/voice/de/count_9.wav": {
+   "bytes": 24524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/count_9.wav"
+  },
+  "audio/voice/de/hint_arms_forward_at_bottom.wav": {
+   "bytes": 38684,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_arms_forward_at_bottom.wav"
+  },
+  "audio/voice/de/hint_bend_your_knees.wav": {
+   "bytes": 49964,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_bend_your_knees.wav"
+  },
+  "audio/voice/de/hint_body_too_upright.wav": {
+   "bytes": 44684,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_body_too_upright.wav"
+  },
+  "audio/voice/de/hint_chest_forward_at_bottom.wav": {
+   "bytes": 32444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_chest_forward_at_bottom.wav"
+  },
+  "audio/voice/de/hint_crouch_down_lower.wav": {
+   "bytes": 39404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_crouch_down_lower.wav"
+  },
+  "audio/voice/de/hint_do_a_push_up.wav": {
+   "bytes": 51404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_do_a_push_up.wav"
+  },
+  "audio/voice/de/hint_feet_back_under_you.wav": {
+   "bytes": 37484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_feet_back_under_you.wav"
+  },
+  "audio/voice/de/hint_get_into_plank.wav": {
+   "bytes": 50204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_get_into_plank.wav"
+  },
+  "audio/voice/de/hint_get_into_plank_position.wav": {
+   "bytes": 36044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_get_into_plank_position.wav"
+  },
+  "audio/voice/de/hint_go_lower.wav": {
+   "bytes": 22844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_go_lower.wav"
+  },
+  "audio/voice/de/hint_hold_your_plank.wav": {
+   "bytes": 36044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_hold_your_plank.wav"
+  },
+  "audio/voice/de/hint_keep_arms_in_view.wav": {
+   "bytes": 43244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_keep_arms_in_view.wav"
+  },
+  "audio/voice/de/hint_keep_body_straight.wav": {
+   "bytes": 34124,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_keep_body_straight.wav"
+  },
+  "audio/voice/de/hint_keep_feet_planted.wav": {
+   "bytes": 37724,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_keep_feet_planted.wav"
+  },
+  "audio/voice/de/hint_keep_hips_steady.wav": {
+   "bytes": 29804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_keep_hips_steady.wav"
+  },
+  "audio/voice/de/hint_keep_moving.wav": {
+   "bytes": 38444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_keep_moving.wav"
+  },
+  "audio/voice/de/hint_legs_back_to_plank.wav": {
+   "bytes": 36524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_legs_back_to_plank.wav"
+  },
+  "audio/voice/de/hint_lie_all_the_way_back.wav": {
+   "bytes": 60044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_lie_all_the_way_back.wav"
+  },
+  "audio/voice/de/hint_lie_down_flat.wav": {
+   "bytes": 45404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_lie_down_flat.wav"
+  },
+  "audio/voice/de/hint_lift_knees_higher.wav": {
+   "bytes": 31964,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_lift_knees_higher.wav"
+  },
+  "audio/voice/de/hint_no_knees_on_floor.wav": {
+   "bytes": 50444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_no_knees_on_floor.wav"
+  },
+  "audio/voice/de/hint_raise_your_arm.wav": {
+   "bytes": 32444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_raise_your_arm.wav"
+  },
+  "audio/voice/de/hint_show_full_body.wav": {
+   "bytes": 43244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_show_full_body.wav"
+  },
+  "audio/voice/de/hint_show_your_arm.wav": {
+   "bytes": 77084,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_show_your_arm.wav"
+  },
+  "audio/voice/de/hint_sit_lower.wav": {
+   "bytes": 36284,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_sit_lower.wav"
+  },
+  "audio/voice/de/hint_sit_up_higher.wav": {
+   "bytes": 29084,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_sit_up_higher.wav"
+  },
+  "audio/voice/de/hint_stand_straight_arms_down.wav": {
+   "bytes": 75884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_stand_straight_arms_down.wav"
+  },
+  "audio/voice/de/hint_stand_up_tall.wav": {
+   "bytes": 43724,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_stand_up_tall.wav"
+  },
+  "audio/voice/de/hint_start_high_knees.wav": {
+   "bytes": 80924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_start_high_knees.wav"
+  },
+  "audio/voice/de/hint_swing_all_the_way_down.wav": {
+   "bytes": 51644,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_swing_all_the_way_down.wav"
+  },
+  "audio/voice/de/hint_switch_legs.wav": {
+   "bytes": 35084,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_switch_legs.wav"
+  },
+  "audio/voice/de/hint_turn_sideways.wav": {
+   "bytes": 44444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/hint_turn_sideways.wav"
+  },
+  "audio/voice/de/session_camera_lost.wav": {
+   "bytes": 38444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_camera_lost.wav"
+  },
+  "audio/voice/de/session_finished.wav": {
+   "bytes": 95564,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_finished.wav"
+  },
+  "audio/voice/de/session_get_ready.wav": {
+   "bytes": 53804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_get_ready.wav"
+  },
+  "audio/voice/de/session_halfway.wav": {
+   "bytes": 64364,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_halfway.wav"
+  },
+  "audio/voice/de/session_last_one.wav": {
+   "bytes": 48764,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_last_one.wav"
+  },
+  "audio/voice/de/session_not_counted.wav": {
+   "bytes": 36284,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_not_counted.wav"
+  },
+  "audio/voice/de/session_start.wav": {
+   "bytes": 37964,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_start.wav"
+  },
+  "audio/voice/de/session_three_left.wav": {
+   "bytes": 43244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_three_left.wav"
+  },
+  "audio/voice/de/session_time_up.wav": {
+   "bytes": 47324,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/session_time_up.wav"
+  },
+  "audio/voice/de/word_reps_few.wav": {
+   "bytes": 32924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/word_reps_few.wav"
+  },
+  "audio/voice/de/word_reps_many.wav": {
+   "bytes": 37244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/word_reps_many.wav"
+  },
+  "audio/voice/de/word_reps_one.wav": {
+   "bytes": 30044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/de/word_reps_one.wav"
+  },
+  "audio/voice/en/count_1.wav": {
+   "bytes": 20204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_1.wav"
+  },
+  "audio/voice/en/count_10.wav": {
+   "bytes": 21164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_10.wav"
+  },
+  "audio/voice/en/count_11.wav": {
+   "bytes": 26444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_11.wav"
+  },
+  "audio/voice/en/count_12.wav": {
+   "bytes": 28844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_12.wav"
+  },
+  "audio/voice/en/count_13.wav": {
+   "bytes": 36044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_13.wav"
+  },
+  "audio/voice/en/count_14.wav": {
+   "bytes": 37724,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_14.wav"
+  },
+  "audio/voice/en/count_15.wav": {
+   "bytes": 37484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_15.wav"
+  },
+  "audio/voice/en/count_16.wav": {
+   "bytes": 37244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_16.wav"
+  },
+  "audio/voice/en/count_17.wav": {
+   "bytes": 37484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_17.wav"
+  },
+  "audio/voice/en/count_18.wav": {
+   "bytes": 32444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_18.wav"
+  },
+  "audio/voice/en/count_19.wav": {
+   "bytes": 41084,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_19.wav"
+  },
+  "audio/voice/en/count_2.wav": {
+   "bytes": 16124,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_2.wav"
+  },
+  "audio/voice/en/count_20.wav": {
+   "bytes": 21404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_20.wav"
+  },
+  "audio/voice/en/count_21.wav": {
+   "bytes": 40844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_21.wav"
+  },
+  "audio/voice/en/count_22.wav": {
+   "bytes": 38924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_22.wav"
+  },
+  "audio/voice/en/count_23.wav": {
+   "bytes": 35804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_23.wav"
+  },
+  "audio/voice/en/count_24.wav": {
+   "bytes": 40844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_24.wav"
+  },
+  "audio/voice/en/count_25.wav": {
+   "bytes": 39884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_25.wav"
+  },
+  "audio/voice/en/count_26.wav": {
+   "bytes": 46604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_26.wav"
+  },
+  "audio/voice/en/count_27.wav": {
+   "bytes": 38924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_27.wav"
+  },
+  "audio/voice/en/count_28.wav": {
+   "bytes": 40124,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_28.wav"
+  },
+  "audio/voice/en/count_29.wav": {
+   "bytes": 42524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_29.wav"
+  },
+  "audio/voice/en/count_3.wav": {
+   "bytes": 25484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_3.wav"
+  },
+  "audio/voice/en/count_30.wav": {
+   "bytes": 18044,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_30.wav"
+  },
+  "audio/voice/en/count_4.wav": {
+   "bytes": 23804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_4.wav"
+  },
+  "audio/voice/en/count_5.wav": {
+   "bytes": 25724,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_5.wav"
+  },
+  "audio/voice/en/count_6.wav": {
+   "bytes": 29804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_6.wav"
+  },
+  "audio/voice/en/count_7.wav": {
+   "bytes": 29324,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_7.wav"
+  },
+  "audio/voice/en/count_8.wav": {
+   "bytes": 19964,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_8.wav"
+  },
+  "audio/voice/en/count_9.wav": {
+   "bytes": 23084,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/count_9.wav"
+  },
+  "audio/voice/en/hint_arms_forward_at_bottom.wav": {
+   "bytes": 34604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_arms_forward_at_bottom.wav"
+  },
+  "audio/voice/en/hint_bend_your_knees.wav": {
+   "bytes": 31244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_bend_your_knees.wav"
+  },
+  "audio/voice/en/hint_body_too_upright.wav": {
+   "bytes": 41564,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_body_too_upright.wav"
+  },
+  "audio/voice/en/hint_chest_forward_at_bottom.wav": {
+   "bytes": 32204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_chest_forward_at_bottom.wav"
+  },
+  "audio/voice/en/hint_crouch_down_lower.wav": {
+   "bytes": 33404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_crouch_down_lower.wav"
+  },
+  "audio/voice/en/hint_do_a_push_up.wav": {
+   "bytes": 33644,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_do_a_push_up.wav"
+  },
+  "audio/voice/en/hint_feet_back_under_you.wav": {
+   "bytes": 34604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_feet_back_under_you.wav"
+  },
+  "audio/voice/en/hint_get_into_plank.wav": {
+   "bytes": 63164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_get_into_plank.wav"
+  },
+  "audio/voice/en/hint_get_into_plank_position.wav": {
+   "bytes": 50684,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_get_into_plank_position.wav"
+  },
+  "audio/voice/en/hint_go_lower.wav": {
+   "bytes": 33164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_go_lower.wav"
+  },
+  "audio/voice/en/hint_hold_your_plank.wav": {
+   "bytes": 32924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_hold_your_plank.wav"
+  },
+  "audio/voice/en/hint_keep_arms_in_view.wav": {
+   "bytes": 31004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_keep_arms_in_view.wav"
+  },
+  "audio/voice/en/hint_keep_body_straight.wav": {
+   "bytes": 34844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_keep_body_straight.wav"
+  },
+  "audio/voice/en/hint_keep_feet_planted.wav": {
+   "bytes": 34124,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_keep_feet_planted.wav"
+  },
+  "audio/voice/en/hint_keep_hips_steady.wav": {
+   "bytes": 32924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_keep_hips_steady.wav"
+  },
+  "audio/voice/en/hint_keep_moving.wav": {
+   "bytes": 26924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_keep_moving.wav"
+  },
+  "audio/voice/en/hint_legs_back_to_plank.wav": {
+   "bytes": 38924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_legs_back_to_plank.wav"
+  },
+  "audio/voice/en/hint_lie_all_the_way_back.wav": {
+   "bytes": 58364,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_lie_all_the_way_back.wav"
+  },
+  "audio/voice/en/hint_lie_down_flat.wav": {
+   "bytes": 55484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_lie_down_flat.wav"
+  },
+  "audio/voice/en/hint_lift_knees_higher.wav": {
+   "bytes": 33404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_lift_knees_higher.wav"
+  },
+  "audio/voice/en/hint_no_knees_on_floor.wav": {
+   "bytes": 43484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_no_knees_on_floor.wav"
+  },
+  "audio/voice/en/hint_raise_your_arm.wav": {
+   "bytes": 43004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_raise_your_arm.wav"
+  },
+  "audio/voice/en/hint_show_full_body.wav": {
+   "bytes": 34604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_show_full_body.wav"
+  },
+  "audio/voice/en/hint_show_your_arm.wav": {
+   "bytes": 73244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_show_your_arm.wav"
+  },
+  "audio/voice/en/hint_sit_lower.wav": {
+   "bytes": 31484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_sit_lower.wav"
+  },
+  "audio/voice/en/hint_sit_up_higher.wav": {
+   "bytes": 33884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_sit_up_higher.wav"
+  },
+  "audio/voice/en/hint_stand_straight_arms_down.wav": {
+   "bytes": 63164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_stand_straight_arms_down.wav"
+  },
+  "audio/voice/en/hint_stand_up_tall.wav": {
+   "bytes": 37484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_stand_up_tall.wav"
+  },
+  "audio/voice/en/hint_start_high_knees.wav": {
+   "bytes": 63884,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_start_high_knees.wav"
+  },
+  "audio/voice/en/hint_swing_all_the_way_down.wav": {
+   "bytes": 61244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_swing_all_the_way_down.wav"
+  },
+  "audio/voice/en/hint_switch_legs.wav": {
+   "bytes": 34364,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_switch_legs.wav"
+  },
+  "audio/voice/en/hint_turn_sideways.wav": {
+   "bytes": 37964,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/hint_turn_sideways.wav"
+  },
+  "audio/voice/en/session_camera_lost.wav": {
+   "bytes": 43244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_camera_lost.wav"
+  },
+  "audio/voice/en/session_finished.wav": {
+   "bytes": 94124,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_finished.wav"
+  },
+  "audio/voice/en/session_get_ready.wav": {
+   "bytes": 29564,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_get_ready.wav"
+  },
+  "audio/voice/en/session_halfway.wav": {
+   "bytes": 44444,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_halfway.wav"
+  },
+  "audio/voice/en/session_last_one.wav": {
+   "bytes": 45164,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_last_one.wav"
+  },
+  "audio/voice/en/session_not_counted.wav": {
+   "bytes": 33644,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_not_counted.wav"
+  },
+  "audio/voice/en/session_start.wav": {
+   "bytes": 32924,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_start.wav"
+  },
+  "audio/voice/en/session_three_left.wav": {
+   "bytes": 49004,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_three_left.wav"
+  },
+  "audio/voice/en/session_time_up.wav": {
+   "bytes": 52604,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/session_time_up.wav"
+  },
+  "audio/voice/en/word_reps_few.wav": {
+   "bytes": 31964,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/word_reps_few.wav"
+  },
+  "audio/voice/en/word_reps_many.wav": {
+   "bytes": 20684,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/word_reps_many.wav"
+  },
+  "audio/voice/en/word_reps_one.wav": {
+   "bytes": 19244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/voice/en/word_reps_one.wav"
+  },
+  "heroes3d/athletics-boy-ktx.glb": {
+   "bytes": 251840,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-ktx.glb"
+  },
+  "heroes3d/athletics-boy-lod1-ktx.glb": {
+   "bytes": 218800,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-lod1-ktx.glb"
+  },
+  "heroes3d/athletics-boy-lod1.glb": {
+   "bytes": 176484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-lod1.glb"
+  },
+  "heroes3d/athletics-boy-lod2-ktx.glb": {
+   "bytes": 203572,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-lod2-ktx.glb"
+  },
+  "heroes3d/athletics-boy-lod2.glb": {
+   "bytes": 163384,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-lod2.glb"
+  },
+  "heroes3d/athletics-boy-skin2-ktx.glb": {
+   "bytes": 256824,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-skin2-ktx.glb"
+  },
+  "heroes3d/athletics-boy-skin2.glb": {
+   "bytes": 312700,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-skin2.glb"
+  },
+  "heroes3d/athletics-boy-skin3-ktx.glb": {
+   "bytes": 258816,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-skin3-ktx.glb"
+  },
+  "heroes3d/athletics-boy-skin3.glb": {
+   "bytes": 315868,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-skin3.glb"
+  },
+  "heroes3d/athletics-boy-store.glb": {
+   "bytes": 419412,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-boy-store.glb"
+  },
+  "heroes3d/athletics-girl-ktx.glb": {
+   "bytes": 331272,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-ktx.glb"
+  },
+  "heroes3d/athletics-girl-lod1-ktx.glb": {
+   "bytes": 261368,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-lod1-ktx.glb"
+  },
+  "heroes3d/athletics-girl-lod1.glb": {
+   "bytes": 250736,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-lod1.glb"
+  },
+  "heroes3d/athletics-girl-lod2-ktx.glb": {
+   "bytes": 228068,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-lod2-ktx.glb"
+  },
+  "heroes3d/athletics-girl-lod2.glb": {
+   "bytes": 219216,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-lod2.glb"
+  },
+  "heroes3d/athletics-girl-skin2-ktx.glb": {
+   "bytes": 336256,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-skin2-ktx.glb"
+  },
+  "heroes3d/athletics-girl-skin2.glb": {
+   "bytes": 397940,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-skin2.glb"
+  },
+  "heroes3d/athletics-girl-skin3-ktx.glb": {
+   "bytes": 335288,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-skin3-ktx.glb"
+  },
+  "heroes3d/athletics-girl-skin3.glb": {
+   "bytes": 396540,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-skin3.glb"
+  },
+  "heroes3d/athletics-girl-store.glb": {
+   "bytes": 582288,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/athletics-girl-store.glb"
+  },
+  "heroes3d/basketball-boy-ktx.glb": {
+   "bytes": 322800,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-ktx.glb"
+  },
+  "heroes3d/basketball-boy-lod1-ktx.glb": {
+   "bytes": 262532,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-lod1-ktx.glb"
+  },
+  "heroes3d/basketball-boy-lod1.glb": {
+   "bytes": 262844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-lod1.glb"
+  },
+  "heroes3d/basketball-boy-lod2-ktx.glb": {
+   "bytes": 232456,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-lod2-ktx.glb"
+  },
+  "heroes3d/basketball-boy-lod2.glb": {
+   "bytes": 235600,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-lod2.glb"
+  },
+  "heroes3d/basketball-boy-skin2-ktx.glb": {
+   "bytes": 328752,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-skin2-ktx.glb"
+  },
+  "heroes3d/basketball-boy-skin2.glb": {
+   "bytes": 417908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-skin2.glb"
+  },
+  "heroes3d/basketball-boy-skin3-ktx.glb": {
+   "bytes": 330136,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-skin3-ktx.glb"
+  },
+  "heroes3d/basketball-boy-skin3.glb": {
+   "bytes": 419288,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-skin3.glb"
+  },
+  "heroes3d/basketball-boy-store.glb": {
+   "bytes": 1367640,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-store.glb"
+  },
+  "heroes3d/boxer-ktx.glb": {
+   "bytes": 347752,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-ktx.glb"
+  },
+  "heroes3d/boxer-lod1-ktx.glb": {
+   "bytes": 248136,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod1-ktx.glb"
+  },
+  "heroes3d/boxer-lod1.glb": {
+   "bytes": 244240,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod1.glb"
+  },
+  "heroes3d/boxer-lod2-ktx.glb": {
+   "bytes": 219336,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod2-ktx.glb"
+  },
+  "heroes3d/boxer-lod2.glb": {
+   "bytes": 217676,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod2.glb"
+  },
+  "heroes3d/boxer-store.glb": {
+   "bytes": 1280396,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-store.glb"
+  },
+  "heroes3d/boxing-boy-ktx.glb": {
+   "bytes": 333536,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-ktx.glb"
+  },
+  "heroes3d/boxing-boy-lod1-ktx.glb": {
+   "bytes": 268092,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-lod1-ktx.glb"
+  },
+  "heroes3d/boxing-boy-lod1.glb": {
+   "bytes": 259904,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-lod1.glb"
+  },
+  "heroes3d/boxing-boy-lod2-ktx.glb": {
+   "bytes": 236472,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-lod2-ktx.glb"
+  },
+  "heroes3d/boxing-boy-lod2.glb": {
+   "bytes": 230516,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-lod2.glb"
+  },
+  "heroes3d/boxing-boy-skin2-ktx.glb": {
+   "bytes": 336264,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-skin2-ktx.glb"
+  },
+  "heroes3d/boxing-boy-skin2.glb": {
+   "bytes": 426540,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-skin2.glb"
+  },
+  "heroes3d/boxing-boy-skin3-ktx.glb": {
+   "bytes": 340680,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-skin3-ktx.glb"
+  },
+  "heroes3d/boxing-boy-skin3.glb": {
+   "bytes": 430972,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-skin3.glb"
+  },
+  "heroes3d/boxing-boy-store.glb": {
+   "bytes": 1394340,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-store.glb"
+  },
+  "heroes3d/boxing-girl-ktx.glb": {
+   "bytes": 334264,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-ktx.glb"
+  },
+  "heroes3d/boxing-girl-lod1-ktx.glb": {
+   "bytes": 265576,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-lod1-ktx.glb"
+  },
+  "heroes3d/boxing-girl-lod1.glb": {
+   "bytes": 259200,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-lod1.glb"
+  },
+  "heroes3d/boxing-girl-lod2-ktx.glb": {
+   "bytes": 233532,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-lod2-ktx.glb"
+  },
+  "heroes3d/boxing-girl-lod2.glb": {
+   "bytes": 229376,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-lod2.glb"
+  },
+  "heroes3d/boxing-girl-skin2-ktx.glb": {
+   "bytes": 336608,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-skin2-ktx.glb"
+  },
+  "heroes3d/boxing-girl-skin2.glb": {
+   "bytes": 447656,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-skin2.glb"
+  },
+  "heroes3d/boxing-girl-skin3-ktx.glb": {
+   "bytes": 344544,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-skin3-ktx.glb"
+  },
+  "heroes3d/boxing-girl-skin3.glb": {
+   "bytes": 468212,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-skin3.glb"
+  },
+  "heroes3d/boxing-girl-store.glb": {
+   "bytes": 1364460,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-store.glb"
+  },
+  "heroes3d/climber-ktx.glb": {
+   "bytes": 361728,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-ktx.glb"
+  },
+  "heroes3d/climber-lod1-ktx.glb": {
+   "bytes": 288488,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod1-ktx.glb"
+  },
+  "heroes3d/climber-lod1.glb": {
+   "bytes": 269284,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod1.glb"
+  },
+  "heroes3d/climber-lod2-ktx.glb": {
+   "bytes": 251692,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod2-ktx.glb"
+  },
+  "heroes3d/climber-lod2.glb": {
+   "bytes": 234956,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod2.glb"
+  },
+  "heroes3d/climber-store.glb": {
+   "bytes": 1449324,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-store.glb"
+  },
+  "heroes3d/climber.glb": {
+   "bytes": 317852,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber.glb"
+  },
+  "heroes3d/dancer-ktx.glb": {
+   "bytes": 334364,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-ktx.glb"
+  },
+  "heroes3d/dancer-lod1-ktx.glb": {
+   "bytes": 265560,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod1-ktx.glb"
+  },
+  "heroes3d/dancer-lod1.glb": {
+   "bytes": 263624,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod1.glb"
+  },
+  "heroes3d/dancer-lod2-ktx.glb": {
+   "bytes": 232408,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod2-ktx.glb"
+  },
+  "heroes3d/dancer-lod2.glb": {
+   "bytes": 232348,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod2.glb"
+  },
+  "heroes3d/dancer-store.glb": {
+   "bytes": 617484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-store.glb"
+  },
+  "heroes3d/dancer.glb": {
+   "bytes": 308704,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer.glb"
+  },
+  "heroes3d/football-boy-ktx.glb": {
+   "bytes": 321956,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-ktx.glb"
+  },
+  "heroes3d/football-boy-lod1-ktx.glb": {
+   "bytes": 261804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-lod1-ktx.glb"
+  },
+  "heroes3d/football-boy-lod1.glb": {
+   "bytes": 245860,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-lod1.glb"
+  },
+  "heroes3d/football-boy-lod2-ktx.glb": {
+   "bytes": 230848,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-lod2-ktx.glb"
+  },
+  "heroes3d/football-boy-lod2.glb": {
+   "bytes": 217584,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-lod2.glb"
+  },
+  "heroes3d/football-boy-skin2-ktx.glb": {
+   "bytes": 325212,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-skin2-ktx.glb"
+  },
+  "heroes3d/football-boy-skin2.glb": {
+   "bytes": 364784,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-skin2.glb"
+  },
+  "heroes3d/football-boy-skin3-ktx.glb": {
+   "bytes": 324540,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-skin3-ktx.glb"
+  },
+  "heroes3d/football-boy-skin3.glb": {
+   "bytes": 365204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-skin3.glb"
+  },
+  "heroes3d/football-boy-store.glb": {
+   "bytes": 1284352,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-store.glb"
+  },
+  "heroes3d/football-girl-ktx.glb": {
+   "bytes": 318156,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-ktx.glb"
+  },
+  "heroes3d/football-girl-lod1-ktx.glb": {
+   "bytes": 257928,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-lod1-ktx.glb"
+  },
+  "heroes3d/football-girl-lod1.glb": {
+   "bytes": 245424,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-lod1.glb"
+  },
+  "heroes3d/football-girl-lod2-ktx.glb": {
+   "bytes": 227332,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-lod2-ktx.glb"
+  },
+  "heroes3d/football-girl-lod2.glb": {
+   "bytes": 217112,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-lod2.glb"
+  },
+  "heroes3d/football-girl-skin2-ktx.glb": {
+   "bytes": 323020,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-skin2-ktx.glb"
+  },
+  "heroes3d/football-girl-skin2.glb": {
+   "bytes": 366392,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-skin2.glb"
+  },
+  "heroes3d/football-girl-skin3-ktx.glb": {
+   "bytes": 320052,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-skin3-ktx.glb"
+  },
+  "heroes3d/football-girl-skin3.glb": {
+   "bytes": 364532,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-skin3.glb"
+  },
+  "heroes3d/football-girl-store.glb": {
+   "bytes": 1292460,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-store.glb"
+  },
+  "heroes3d/footballer-ktx.glb": {
+   "bytes": 317512,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-ktx.glb"
+  },
+  "heroes3d/footballer-lod1-ktx.glb": {
+   "bytes": 256596,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod1-ktx.glb"
+  },
+  "heroes3d/footballer-lod1.glb": {
+   "bytes": 253572,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod1.glb"
+  },
+  "heroes3d/footballer-lod2-ktx.glb": {
+   "bytes": 225804,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod2-ktx.glb"
+  },
+  "heroes3d/footballer-lod2.glb": {
+   "bytes": 225112,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod2.glb"
+  },
+  "heroes3d/footballer-store.glb": {
+   "bytes": 290796,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-store.glb"
+  },
+  "heroes3d/gymnast-ktx.glb": {
+   "bytes": 322988,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-ktx.glb"
+  },
+  "heroes3d/gymnast-lod1-ktx.glb": {
+   "bytes": 261628,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod1-ktx.glb"
+  },
+  "heroes3d/gymnast-lod1.glb": {
+   "bytes": 249204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod1.glb"
+  },
+  "heroes3d/gymnast-lod2-ktx.glb": {
+   "bytes": 231548,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod2-ktx.glb"
+  },
+  "heroes3d/gymnast-lod2.glb": {
+   "bytes": 221536,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod2.glb"
+  },
+  "heroes3d/gymnast-store.glb": {
+   "bytes": 285628,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-store.glb"
+  },
+  "heroes3d/gymnast.glb": {
+   "bytes": 285328,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast.glb"
+  },
+  "heroes3d/gymnastics-girl-ktx.glb": {
+   "bytes": 308952,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-ktx.glb"
+  },
+  "heroes3d/gymnastics-girl-lod1-ktx.glb": {
+   "bytes": 255440,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-lod1-ktx.glb"
+  },
+  "heroes3d/gymnastics-girl-lod1.glb": {
+   "bytes": 232268,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-lod1.glb"
+  },
+  "heroes3d/gymnastics-girl-lod2-ktx.glb": {
+   "bytes": 225500,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-lod2-ktx.glb"
+  },
+  "heroes3d/gymnastics-girl-lod2.glb": {
+   "bytes": 204588,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-lod2.glb"
+  },
+  "heroes3d/gymnastics-girl-skin2-ktx.glb": {
+   "bytes": 312048,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-skin2-ktx.glb"
+  },
+  "heroes3d/gymnastics-girl-skin2.glb": {
+   "bytes": 389244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-skin2.glb"
+  },
+  "heroes3d/gymnastics-girl-skin3-ktx.glb": {
+   "bytes": 311000,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-skin3-ktx.glb"
+  },
+  "heroes3d/gymnastics-girl-skin3.glb": {
+   "bytes": 376836,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-skin3.glb"
+  },
+  "heroes3d/gymnastics-girl-store.glb": {
+   "bytes": 1229172,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-store.glb"
+  },
+  "heroes3d/judo-boy-ktx.glb": {
+   "bytes": 333096,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-ktx.glb"
+  },
+  "heroes3d/judo-boy-lod1-ktx.glb": {
+   "bytes": 270716,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-lod1-ktx.glb"
+  },
+  "heroes3d/judo-boy-lod1.glb": {
+   "bytes": 249576,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-lod1.glb"
+  },
+  "heroes3d/judo-boy-lod2-ktx.glb": {
+   "bytes": 237404,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-lod2-ktx.glb"
+  },
+  "heroes3d/judo-boy-lod2.glb": {
+   "bytes": 219324,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-lod2.glb"
+  },
+  "heroes3d/judo-boy-skin2-ktx.glb": {
+   "bytes": 333872,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-skin2-ktx.glb"
+  },
+  "heroes3d/judo-boy-skin2.glb": {
+   "bytes": 370856,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-skin2.glb"
+  },
+  "heroes3d/judo-boy-skin3-ktx.glb": {
+   "bytes": 333712,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-skin3-ktx.glb"
+  },
+  "heroes3d/judo-boy-skin3.glb": {
+   "bytes": 368400,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-skin3.glb"
+  },
+  "heroes3d/judo-boy-store.glb": {
+   "bytes": 1278988,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-store.glb"
+  },
+  "heroes3d/karate-boy-ktx.glb": {
+   "bytes": 300976,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-ktx.glb"
+  },
+  "heroes3d/karate-boy-lod1-ktx.glb": {
+   "bytes": 245800,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-lod1-ktx.glb"
+  },
+  "heroes3d/karate-boy-lod1.glb": {
+   "bytes": 228228,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-lod1.glb"
+  },
+  "heroes3d/karate-boy-lod2-ktx.glb": {
+   "bytes": 216628,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-lod2-ktx.glb"
+  },
+  "heroes3d/karate-boy-lod2.glb": {
+   "bytes": 202116,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-lod2.glb"
+  },
+  "heroes3d/karate-boy-skin2-ktx.glb": {
+   "bytes": 302616,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-skin2-ktx.glb"
+  },
+  "heroes3d/karate-boy-skin2.glb": {
+   "bytes": 350488,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-skin2.glb"
+  },
+  "heroes3d/karate-boy-skin3-ktx.glb": {
+   "bytes": 303712,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-skin3-ktx.glb"
+  },
+  "heroes3d/karate-boy-skin3.glb": {
+   "bytes": 351784,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-skin3.glb"
+  },
+  "heroes3d/karate-boy-store.glb": {
+   "bytes": 1139644,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-boy-store.glb"
+  },
+  "heroes3d/karate-girl-ktx.glb": {
+   "bytes": 306776,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-ktx.glb"
+  },
+  "heroes3d/karate-girl-lod1-ktx.glb": {
+   "bytes": 250616,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-lod1-ktx.glb"
+  },
+  "heroes3d/karate-girl-lod1.glb": {
+   "bytes": 230936,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-lod1.glb"
+  },
+  "heroes3d/karate-girl-lod2-ktx.glb": {
+   "bytes": 220968,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-lod2-ktx.glb"
+  },
+  "heroes3d/karate-girl-lod2.glb": {
+   "bytes": 203800,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-lod2.glb"
+  },
+  "heroes3d/karate-girl-skin2-ktx.glb": {
+   "bytes": 310448,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-skin2-ktx.glb"
+  },
+  "heroes3d/karate-girl-skin2.glb": {
+   "bytes": 361712,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-skin2.glb"
+  },
+  "heroes3d/karate-girl-skin3-ktx.glb": {
+   "bytes": 313496,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-skin3-ktx.glb"
+  },
+  "heroes3d/karate-girl-skin3.glb": {
+   "bytes": 365644,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-skin3.glb"
+  },
+  "heroes3d/karate-girl-store.glb": {
+   "bytes": 1194328,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-store.glb"
+  },
+  "heroes3d/ninja-ktx.glb": {
+   "bytes": 311360,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-ktx.glb"
+  },
+  "heroes3d/ninja-lod1-ktx.glb": {
+   "bytes": 238204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod1-ktx.glb"
+  },
+  "heroes3d/ninja-lod1.glb": {
+   "bytes": 197320,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod1.glb"
+  },
+  "heroes3d/ninja-lod2-ktx.glb": {
+   "bytes": 203692,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod2-ktx.glb"
+  },
+  "heroes3d/ninja-lod2.glb": {
+   "bytes": 164472,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod2.glb"
+  },
+  "heroes3d/ninja-skin2-ktx.glb": {
+   "bytes": 328792,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin2-ktx.glb"
+  },
+  "heroes3d/ninja-skin2.glb": {
+   "bytes": 325676,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin2.glb"
+  },
+  "heroes3d/ninja-skin3-ktx.glb": {
+   "bytes": 330264,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin3-ktx.glb"
+  },
+  "heroes3d/ninja-skin3.glb": {
+   "bytes": 322768,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin3.glb"
+  },
+  "heroes3d/ninja-store.glb": {
+   "bytes": 972596,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-store.glb"
+  },
+  "heroes3d/runner-ktx.glb": {
+   "bytes": 327172,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-ktx.glb"
+  },
+  "heroes3d/runner-lod1-ktx.glb": {
+   "bytes": 263796,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod1-ktx.glb"
+  },
+  "heroes3d/runner-lod1.glb": {
+   "bytes": 260200,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod1.glb"
+  },
+  "heroes3d/runner-lod2-ktx.glb": {
+   "bytes": 233988,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod2-ktx.glb"
+  },
+  "heroes3d/runner-lod2.glb": {
+   "bytes": 233048,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod2.glb"
+  },
+  "heroes3d/runner-store.glb": {
+   "bytes": 1351908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-store.glb"
+  },
+  "heroes3d/swimmer-ktx.glb": {
+   "bytes": 298372,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-ktx.glb"
+  },
+  "heroes3d/swimmer-lod1-ktx.glb": {
+   "bytes": 241972,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod1-ktx.glb"
+  },
+  "heroes3d/swimmer-lod1.glb": {
+   "bytes": 239768,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod1.glb"
+  },
+  "heroes3d/swimmer-lod2-ktx.glb": {
+   "bytes": 211928,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod2-ktx.glb"
+  },
+  "heroes3d/swimmer-lod2.glb": {
+   "bytes": 211844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod2.glb"
+  },
+  "heroes3d/swimmer-store.glb": {
+   "bytes": 1209556,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-store.glb"
+  },
+  "heroes3d/swimmer.glb": {
+   "bytes": 270980,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer.glb"
+  },
+  "heroes3d/swimming-girl-ktx.glb": {
+   "bytes": 308548,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-ktx.glb"
+  },
+  "heroes3d/swimming-girl-lod1-ktx.glb": {
+   "bytes": 251500,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-lod1-ktx.glb"
+  },
+  "heroes3d/swimming-girl-lod1.glb": {
+   "bytes": 237664,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-lod1.glb"
+  },
+  "heroes3d/swimming-girl-lod2-ktx.glb": {
+   "bytes": 220844,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-lod2-ktx.glb"
+  },
+  "heroes3d/swimming-girl-lod2.glb": {
+   "bytes": 209620,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-lod2.glb"
+  },
+  "heroes3d/swimming-girl-skin2-ktx.glb": {
+   "bytes": 312500,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-skin2-ktx.glb"
+  },
+  "heroes3d/swimming-girl-skin2.glb": {
+   "bytes": 377132,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-skin2.glb"
+  },
+  "heroes3d/swimming-girl-skin3-ktx.glb": {
+   "bytes": 314572,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-skin3-ktx.glb"
+  },
+  "heroes3d/swimming-girl-skin3.glb": {
+   "bytes": 379996,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-skin3.glb"
+  },
+  "heroes3d/swimming-girl-store.glb": {
+   "bytes": 1241724,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-store.glb"
+  },
+  "heroes3d/taekwondo-girl-ktx.glb": {
+   "bytes": 314828,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-ktx.glb"
+  },
+  "heroes3d/taekwondo-girl-lod1-ktx.glb": {
+   "bytes": 256376,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-lod1-ktx.glb"
+  },
+  "heroes3d/taekwondo-girl-lod1.glb": {
+   "bytes": 238068,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-lod1.glb"
+  },
+  "heroes3d/taekwondo-girl-lod2-ktx.glb": {
+   "bytes": 225584,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-lod2-ktx.glb"
+  },
+  "heroes3d/taekwondo-girl-lod2.glb": {
+   "bytes": 209100,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-lod2.glb"
+  },
+  "heroes3d/taekwondo-girl-skin2-ktx.glb": {
+   "bytes": 317028,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-skin2-ktx.glb"
+  },
+  "heroes3d/taekwondo-girl-skin2.glb": {
+   "bytes": 352376,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-skin2.glb"
+  },
+  "heroes3d/taekwondo-girl-skin3-ktx.glb": {
+   "bytes": 315620,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-skin3-ktx.glb"
+  },
+  "heroes3d/taekwondo-girl-skin3.glb": {
+   "bytes": 351188,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-skin3.glb"
+  },
+  "heroes3d/taekwondo-girl-store.glb": {
+   "bytes": 1188116,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-store.glb"
+  },
+  "heroes3d/tennis-ktx.glb": {
+   "bytes": 361244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-ktx.glb"
+  },
+  "heroes3d/tennis-lod1-ktx.glb": {
+   "bytes": 283276,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod1-ktx.glb"
+  },
+  "heroes3d/tennis-lod1.glb": {
+   "bytes": 294688,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod1.glb"
+  },
+  "heroes3d/tennis-lod2-ktx.glb": {
+   "bytes": 249212,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod2-ktx.glb"
+  },
+  "heroes3d/tennis-lod2.glb": {
+   "bytes": 263160,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod2.glb"
+  },
+  "heroes3d/tennis-store.glb": {
+   "bytes": 1568752,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-store.glb"
+  },
+  "heroes3d/tennis.glb": {
+   "bytes": 352156,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis.glb"
+  },
+  "heroes3d/weightlifter-ktx.glb": {
+   "bytes": 324216,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-ktx.glb"
+  },
+  "heroes3d/weightlifter-lod1-ktx.glb": {
+   "bytes": 260856,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod1-ktx.glb"
+  },
+  "heroes3d/weightlifter-lod1.glb": {
+   "bytes": 254416,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod1.glb"
+  },
+  "heroes3d/weightlifter-lod2-ktx.glb": {
+   "bytes": 230388,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod2-ktx.glb"
+  },
+  "heroes3d/weightlifter-lod2.glb": {
+   "bytes": 225204,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod2.glb"
+  },
+  "heroes3d/weightlifter-skin2-ktx.glb": {
+   "bytes": 329648,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin2-ktx.glb"
+  },
+  "heroes3d/weightlifter-skin2.glb": {
+   "bytes": 378552,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin2.glb"
+  },
+  "heroes3d/weightlifter-skin3-ktx.glb": {
+   "bytes": 328672,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin3-ktx.glb"
+  },
+  "heroes3d/weightlifter-skin3.glb": {
+   "bytes": 379452,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin3.glb"
+  },
+  "heroes3d/weightlifter-store.glb": {
+   "bytes": 1289524,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-store.glb"
+  },
+  "heroes3d/weightlifter.glb": {
+   "bytes": 294336,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter.glb"
+  },
+  "heroes3d/wrestling-boy-ktx.glb": {
+   "bytes": 317556,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-ktx.glb"
+  },
+  "heroes3d/wrestling-boy-lod1-ktx.glb": {
+   "bytes": 260896,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-lod1-ktx.glb"
+  },
+  "heroes3d/wrestling-boy-lod1.glb": {
+   "bytes": 260480,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-lod1.glb"
+  },
+  "heroes3d/wrestling-boy-lod2-ktx.glb": {
+   "bytes": 230372,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-lod2-ktx.glb"
+  },
+  "heroes3d/wrestling-boy-lod2.glb": {
+   "bytes": 232400,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-lod2.glb"
+  },
+  "heroes3d/wrestling-boy-skin2-ktx.glb": {
+   "bytes": 320052,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-skin2-ktx.glb"
+  },
+  "heroes3d/wrestling-boy-skin2.glb": {
+   "bytes": 416588,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-skin2.glb"
+  },
+  "heroes3d/wrestling-boy-skin3-ktx.glb": {
+   "bytes": 320220,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-skin3-ktx.glb"
+  },
+  "heroes3d/wrestling-boy-skin3.glb": {
+   "bytes": 421036,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-skin3.glb"
+  },
+  "heroes3d/wrestling-boy-store.glb": {
+   "bytes": 1370520,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-store.glb"
+  }
+ }
+}
