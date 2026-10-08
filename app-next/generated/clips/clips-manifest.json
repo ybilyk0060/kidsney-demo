@@ -1,0 +1,324 @@
+{
+ "version": 1,
+ "fps": 30,
+ "clips": {
+  "block": {
+   "bytes": 8836,
+   "frames": 49,
+   "duration": 1.6,
+   "tracks": 21
+  },
+  "crouch": {
+   "bytes": 26777,
+   "frames": 76,
+   "duration": 2.5,
+   "tracks": 42
+  },
+  "defeat": {
+   "bytes": 86455,
+   "frames": 203,
+   "duration": 6.7333,
+   "tracks": 52
+  },
+  "getup": {
+   "bytes": 29499,
+   "frames": 82,
+   "duration": 2.7,
+   "tracks": 43
+  },
+  "heavy_f": {
+   "bytes": 47014,
+   "frames": 107,
+   "duration": 3.5333,
+   "tracks": 53
+  },
+  "heavy_f_alt": {
+   "bytes": 10041,
+   "frames": 51,
+   "duration": 1.6667,
+   "tracks": 23
+  },
+  "hit_heavy": {
+   "bytes": 35886,
+   "frames": 81,
+   "duration": 2.6667,
+   "tracks": 53
+  },
+  "hit_light": {
+   "bytes": 7229,
+   "frames": 56,
+   "duration": 1.8333,
+   "tracks": 15
+  },
+  "idle": {
+   "bytes": 47641,
+   "frames": 251,
+   "duration": 8.3333,
+   "tracks": 23
+  },
+  "idle_fight": {
+   "bytes": 19441,
+   "frames": 101,
+   "duration": 3.3333,
+   "tracks": 23
+  },
+  "jump": {
+   "bytes": 13630,
+   "frames": 29,
+   "duration": 0.9333,
+   "tracks": 53
+  },
+  "jump_kick": {
+   "bytes": 20906,
+   "frames": 46,
+   "duration": 1.5,
+   "tracks": 53
+  },
+  "kick_1": {
+   "bytes": 13049,
+   "frames": 67,
+   "duration": 2.2,
+   "tracks": 23
+  },
+  "kick_2": {
+   "bytes": 33746,
+   "frames": 76,
+   "duration": 2.5,
+   "tracks": 53
+  },
+  "knockdown": {
+   "bytes": 30543,
+   "frames": 85,
+   "duration": 2.8,
+   "tracks": 43
+  },
+  "punch_1": {
+   "bytes": 6281,
+   "frames": 31,
+   "duration": 1,
+   "tracks": 23
+  },
+  "punch_2": {
+   "bytes": 11921,
+   "frames": 61,
+   "duration": 2,
+   "tracks": 23
+  },
+  "punch_3": {
+   "bytes": 12861,
+   "frames": 66,
+   "duration": 2.1667,
+   "tracks": 23
+  },
+  "super_basketball": {
+   "bytes": 32462,
+   "frames": 73,
+   "duration": 2.4,
+   "tracks": 53
+  },
+  "super_boxer": {
+   "bytes": 13611,
+   "frames": 67,
+   "duration": 2.2,
+   "tracks": 24
+  },
+  "super_climber": {
+   "bytes": 22191,
+   "frames": 61,
+   "duration": 2,
+   "tracks": 43
+  },
+  "super_dancer": {
+   "bytes": 51896,
+   "frames": 191,
+   "duration": 6.3333,
+   "tracks": 33
+  },
+  "super_dragon": {
+   "bytes": 44874,
+   "frames": 102,
+   "duration": 3.3667,
+   "tracks": 53
+  },
+  "super_footballer": {
+   "bytes": 9101,
+   "frames": 46,
+   "duration": 1.5,
+   "tracks": 23
+  },
+  "super_gymnast": {
+   "bytes": 54290,
+   "frames": 124,
+   "duration": 4.1,
+   "tracks": 53
+  },
+  "super_judo": {
+   "bytes": 56430,
+   "frames": 129,
+   "duration": 4.2667,
+   "tracks": 53
+  },
+  "super_ninja": {
+   "bytes": 10041,
+   "frames": 51,
+   "duration": 1.6667,
+   "tracks": 23
+  },
+  "super_robot": {
+   "bytes": 36314,
+   "frames": 82,
+   "duration": 2.7,
+   "tracks": 53
+  },
+  "super_runner": {
+   "bytes": 6718,
+   "frames": 17,
+   "duration": 0.5333,
+   "tracks": 42
+  },
+  "super_skater": {
+   "bytes": 12031,
+   "frames": 31,
+   "duration": 1,
+   "tracks": 44
+  },
+  "super_skier": {
+   "bytes": 17319,
+   "frames": 47,
+   "duration": 1.5333,
+   "tracks": 43
+  },
+  "super_swimmer": {
+   "bytes": 57615,
+   "frames": 137,
+   "duration": 4.5333,
+   "tracks": 51
+  },
+  "super_taekwondo": {
+   "bytes": 41022,
+   "frames": 93,
+   "duration": 3.0667,
+   "tracks": 53
+  },
+  "super_tennis": {
+   "bytes": 26898,
+   "frames": 60,
+   "duration": 1.9667,
+   "tracks": 53
+  },
+  "super_unicorn": {
+   "bytes": 25791,
+   "frames": 81,
+   "duration": 2.6667,
+   "tracks": 38
+  },
+  "super_unicorn_alt": {
+   "bytes": 42780,
+   "frames": 101,
+   "duration": 3.3333,
+   "tracks": 51
+  },
+  "super_weightlifter": {
+   "bytes": 122153,
+   "frames": 288,
+   "duration": 9.5667,
+   "tracks": 52
+  },
+  "super_wrestling": {
+   "bytes": 94522,
+   "frames": 218,
+   "duration": 7.2333,
+   "tracks": 53
+  },
+  "sweep": {
+   "bytes": 13807,
+   "frames": 68,
+   "duration": 2.2333,
+   "tracks": 24
+  },
+  "throw": {
+   "bytes": 35458,
+   "frames": 80,
+   "duration": 2.6333,
+   "tracks": 53
+  },
+  "throw_alt": {
+   "bytes": 64134,
+   "frames": 147,
+   "duration": 4.8667,
+   "tracks": 53
+  },
+  "uppercut": {
+   "bytes": 14880,
+   "frames": 41,
+   "duration": 1.3333,
+   "tracks": 42
+  },
+  "victory": {
+   "bytes": 24914,
+   "frames": 136,
+   "duration": 4.5,
+   "tracks": 22
+  },
+  "walk_b": {
+   "bytes": 19251,
+   "frames": 43,
+   "duration": 1.4,
+   "tracks": 52
+  },
+  "walk_f": {
+   "bytes": 11537,
+   "frames": 32,
+   "duration": 1.0333,
+   "tracks": 41
+  },
+  "exercises/air_squat": {
+   "bytes": 24651,
+   "frames": 57,
+   "duration": 1.8667,
+   "tracks": 51
+  },
+  "exercises/high_knees": {
+   "bytes": 9778,
+   "frames": 20,
+   "duration": 0.6333,
+   "tracks": 53
+  },
+  "exercises/jump": {
+   "bytes": 13630,
+   "frames": 29,
+   "duration": 0.9333,
+   "tracks": 53
+  },
+  "exercises/jumping_jacks": {
+   "bytes": 15342,
+   "frames": 33,
+   "duration": 1.0667,
+   "tracks": 53
+  },
+  "exercises/kicking": {
+   "bytes": 13049,
+   "frames": 67,
+   "duration": 2.2,
+   "tracks": 23
+  },
+  "exercises/plank": {
+   "bytes": 22839,
+   "frames": 91,
+   "duration": 3,
+   "tracks": 30
+  },
+  "exercises/punching": {
+   "bytes": 6281,
+   "frames": 31,
+   "duration": 1,
+   "tracks": 23
+  },
+  "exercises/push_up": {
+   "bytes": 9691,
+   "frames": 47,
+   "duration": 1.5333,
+   "tracks": 24
+  }
+ }
+}
