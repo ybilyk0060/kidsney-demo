@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kidsney — приёмка дизайна: эталон Lovable (A) ↔ сейчас</title>
+<style>
+  :root { --ink:#1c2333; --muted:#5b6478; --line:#e4e7ee; --a:#0e7a5f; --b:#3a56c4; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,sans-serif; background:#f2f3f7; color:var(--ink); }
+  .wrap { max-width:480px; margin:0 auto; padding:16px 14px 64px; }
+  h1 { font-size:20px; margin:8px 0 4px; }
+  .meta { font-size:12px; color:var(--muted); line-height:1.55; margin-bottom:6px; }
+  .note { font-size:12px; background:#fff8e1; border:1px solid #f0df9a; border-radius:10px; padding:10px 12px; line-height:1.55; margin:10px 0 18px; }
+  .screen { background:#fff; border:1px solid var(--line); border-radius:14px; margin:0 0 18px; overflow:hidden; }
+  .screen h2 { font-size:15px; margin:0; padding:12px 14px 4px; }
+  .pair { display:flex; gap:8px; padding:8px 12px 0; }
+  .col { flex:1; min-width:0; }
+  .col img { width:100%; border-radius:10px; border:1px solid var(--line); display:block; background:#0b1020; }
+  .tag { font-size:11px; font-weight:700; margin:0 0 4px; }
+  .tag.a { color:var(--a); }
+  .tag.b { color:var(--b); }
+  .cap { font-size:11px; color:var(--muted); margin:2px 0 0; line-height:1.4; }
+  .diff { padding:10px 14px 14px; font-size:13px; line-height:1.55; }
+  .diff b { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+  .diff ul { margin:6px 0 0; padding-left:18px; }
+  .diff li { margin:0 0 4px; }
+  .foot { font-size:11px; color:var(--muted); line-height:1.6; border-top:1px solid var(--line); padding-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Kidsney — приёмка дизайна с владельцем</h1>
+<div class="meta">
+  20 экранов, пара «эталон Lovable (A) ↔ сейчас».<br>
+  <b>A</b> = kidsney-hero-launch @4bbd874, прод hero-trainer-coming-soon.lovable.app, снято 2026-10-08 (декстоп-трубка и мобильный вьюпорт 390×844).<br>
+  <b>Сейчас</b> = main @de10564 (M28), production-сборка демо ybilyk0060.github.io/kidsney-demo/app, вьюпорт 390×844, демо-режим.
+</div>
+<div class="note">
+  <b>Про колонку «сейчас».</b> По плану она должна была быть с TestFlight-сборки на симуляторе iPhone 15 — это не удалось:
+  на машине нет ни одного iOS Runtime (нужно ~18 ГБ, свободно ~12), а <code>pod update PurchasesHybridCommon</code> требует ручного вмешательства.
+  Кадры сняты из production web-сборки в Chromium 390×844 — это web-view, а не нативный рендер.
+  Пересъёмка на симуляторе: <code>xcodebuild -downloadPlatform iOS</code> (≈18 ГБ) → <code>pod update</code> → <code>npx cap sync ios</code> → прогнать те же 20 экранов.
+  Язык кадров «сейчас» — немецкий (locale демо-сессии съёмки), у A — английский; это шум съёмки, не дефект.
+</div>
+
+<!-- 01 -->
+<section class="screen">
+  <h2>01 · Вход / старт</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/01-login.png" alt="A: старт"><p class="cap">Стартовый экран: маскот-львёнок, «Adult sets up the profile», CTA «I am the adult» (удержание 2 с)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/01-login.png" alt="Сейчас: профили"><p class="cap">«Wer spielt heute?» — выбор из 4 профилей, кнопка «Eltern»</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Разные экраны: у B нет стартового лендинга A — вход сразу в выбор профилей. Эталон — ближайший.</li>
+    <li>Фон: у A светлый фотореалистичный стадион с маскотом; у B тёмный синий глянец, эмодзи-аватары вместо 3D-маскота.</li>
+    <li>Общее: тёплый «семейный» тон, CTA-акцент lime, переключатель языков EN/DE/UK.</li>
+  </ul></div>
+</section>
+
+<!-- 02 -->
+<section class="screen">
+  <h2>02 · Сегодня (Today)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/02-today.png" alt="A: Today"><p class="cap">Quest of the Day (Football · Leo, 7 мин), «Practice session», баннер FOR PARENTS Weekly report</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/02-today.png" alt="Сейчас: Today"><p class="cap">«Bereit für die heutige Mission?», 3D-герой Rocket, streak и валюта, CTA «Los geht's»</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Герой: маскот-лев A (2D-арт стадиона) ↔ 3D-персонаж-ребёнок B (Pixar-стиль).</li>
+    <li>Фон: светлое фото стадиона ↔ тёмный градиент; у A заголовок «Today» слева, у B — карточка по центру.</li>
+    <li>Плотность: у A квест + weekly-баннер + Hero Level; у B streak-карточки, счётчики, нижний таб-бар (у A его нет на этом экране).</li>
+    <li>Общее: lime CTA крупным планом, glass-карточки, подпись «это тренировка, не шаг по пути» у A ≈ «7 мин» у B.</li>
+  </ul></div>
+</section>
+
+<!-- 03 -->
+<section class="screen">
+  <h2>03 · Карта</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/03-map.png" alt="A: карта"><p class="cap">Тёмный фотореалистичный кампус, «SPORT CAMPUS 0/15», табы Today/Map/Hero/Rewards</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/03-map.png" alt="Сейчас: карта"><p class="cap">Светлый мультяшный арт регионов, «10/10 Welten wiederhergestellt», хедер Rocket · Lvl 4</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Палитра карты: тёмный неоновый фотореализм A ↔ светлая живописная мультипликация B (обе — AI-арт, разные генерации).</li>
+    <li>Прогресс: 0/15 у A ↔ 10/10 «geschafft» у B (данные демо-профиля).</li>
+    <li>Структура таб-бара идентична: 4 вкладки, активная — lime.</li>
+  </ul></div>
+</section>
+
+<!-- 04 -->
+<section class="screen">
+  <h2>04 · Герой — ростер</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/04-hero-roster.png" alt="A: Your hero"><p class="cap">«Your hero»: один герой Leo, HERO GROWTH, статы Attack/Block/Super move (ближайший экран A — ростера у A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/04-hero-roster.png" alt="Сейчас: ростер"><p class="cap">«Helden wählen»: 14 карточек героев, Rocket выбран ✓, у каждого уровень</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>У A экран про ОДНОГО героя с ростом; у B — выбор из 14 героев (M19/M20, ростер 10 видов спорта × 14 героев).</li>
+    <li>Карточки: у B тёмно-синие glossy с 3D-аватарами; сетки у A здесь нет.</li>
+    <li>Блок стат у B перенесён ниже (см. 05) — у A он в центре экрана.</li>
+  </ul></div>
+</section>
+
+<!-- 05 -->
+<section class="screen">
+  <h2>05 · Герой — рост и приёмы</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/05-hero-select.png" alt="A: рост героя"><p class="cap">HERO GROWTH «3 training days to level 2», статы с пояснениями, 3D-львёнок с мячом</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/05-hero-select.png" alt="Сейчас: приёмы и рост"><p class="cap">Прогресс 12 приёмов (punch/kick/block/super…), «Seht, wie ich wachse!» — 5 стадий (1→25)</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Механика: 3 стат-полосы A ↔ 12 приёмов с прогресс-барами и пометкой «freigeschaltet» у B (анлок приёмами тренировок, M19).</li>
+    <li>Рост: «3 training days to level 2» ↔ 5 стадий формы на уровнях 1/7/13/19/25 с превью персонажа.</li>
+    <li>У B добавлена механика «боссы открывают героев» — у A её нет.</li>
+    <li>Общее: тёмная карточка + lime прогресс + дружелюбные подсказки «что растит что».</li>
+  </ul></div>
+</section>
+
+<!-- 06 -->
+<section class="screen">
+  <h2>06 · Гардероб (Locker)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/06-locker.png" alt="A: wardrobe"><p class="cap">«Hero wardrobe» — СВЕТЛЫЙ экран, карточка Wardrobe 🔒 «OPENS AT LEVEL 5 · 25 training days to go»</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/06-locker.png" alt="Сейчас: Garderobe"><p class="cap">«Garderobe» — ТЁМНЫЙ экран, большое 3D-превью Stella, «Ab Stufe 10», счётчик монет 330</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Тема: A здесь светлая (кремовый фон, тёмные табы) ↔ B тёмный глянец. Это самое заметное расхождение с токенами A на кид-экранах.</li>
+    <li>У A нет превью героя — только иконка футболки; у B крупное 3D-превью выбранного героя.</li>
+    <li>Порог открытия: level 5 (A) ↔ Stufe 10 (B) — расхождение баланса, не дизайна.</li>
+  </ul></div>
+</section>
+
+<!-- 07 -->
+<section class="screen">
+  <h2>07 · Награды (Rewards)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/07-rewards.png" alt="A: rewards"><p class="cap">Streak/XP/Tokens, карточка Streak freeze, достижения 0 of 12</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/07-rewards.png" alt="Сейчас: Preise"><p class="cap">Erfolge 9/20, Tage-Serie 3, Marken 325; грид достижений с замками</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Тон совпадает почти дословно: «Earned by moving — never bought» ↔ «Preise verdienst du dich durch Bewegung — nie gekauft».</li>
+    <li>У A на этом экране карточка Streak freeze — у B её пока нет (UI заморозок — заявка основной задаче, согласовано отдельно).</li>
+    <li>Счётчики: у B крупные числа с иконками (9/20, 3, 325), у A в демо-кадре нули.</li>
+    <li>Грид достижений идентичен по структуре (плитки 2 колонки, замки серые).</li>
+  </ul></div>
+</section>
+
+<!-- 08 -->
+<section class="screen">
+  <h2>08 · Профиль ребёнка (редактирование)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/08-profile-edit.png" alt="A: settings profile"><p class="cap">«Settings»: светлая карточка Profile (имя, дата рождения, чекбокс), lime «Save profile»</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/08-profile-edit.png" alt="Сейчас: Profil bearbeiten"><p class="cap">«Profil bearbeiten»: имя, год, выбор эмодзи-аватара, тёмная CTA «Speichern»</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Обе СВЕТЛЫЕ формы — близкое соответствие токенам A (родительские формы).</li>
+    <li>У B добавлен выбор аватара (7 эмодзи) — у A аватара нет.</li>
+    <li>CTA: lime у A ↔ тёмно-синяя у B; заголовок «Settings» у A тёмным по тёмному — известный дефект контраста A (зафиксирован в аудите), у B заголовок читается.</li>
+  </ul></div>
+</section>
+
+<!-- 09 -->
+<section class="screen">
+  <h2>09 · Перед боем / брифинг</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/09-fight-intro.png" alt="A: mission briefing"><p class="cap">Mission briefing: шаги 0/7, FIRST CHECKPOINT, награды +100 XP / +15 Tokens, «Prepare» / «Leave mission»</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/09-fight-intro.png" alt="Сейчас: FIGHT!"><p class="cap">FIGHT! — бойцы лицом друг к другу, HP-бары, 4 кнопки приёмов</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>У A боя нет — это брифинг тренировки; у B полноценный файтинг-экран (эталон — ближайший «до старта»).</li>
+    <li>Общее: тёмная сцена, lime акценты, плоские HP-бары; у A награды прямо на брифинге, у B — после боя (13).</li>
+  </ul></div>
+</section>
+
+<!-- 10 -->
+<section class="screen">
+  <h2>10 · Бой — начало</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/10-fight-mid.png" alt="A: Your hero"><p class="cap">«Your hero» (ближайший — боёв в A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/10-fight-mid.png" alt="Сейчас: бой"><p class="cap">Бой в стойках: HP lime/красный, энергия cyan, арена с трибунами</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Боя в A нет (UI боя не реализован, зафиксировано в аудите) — эталон условный.</li>
+    <li>У B: полосы HP + шкала энергии, 4 круглые кнопки приёмов справа, 3D-бойцы в полный рост.</li>
+  </ul></div>
+</section>
+
+<!-- 11 -->
+<section class="screen">
+  <h2>11 · Бой — середина (1)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/11-fight-mid.png" alt="A: briefing"><p class="cap">Mission briefing (ближайший — боёв в A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/11-fight-mid.png" alt="Сейчас: бой"><p class="cap">Бойцы в глобальной стойке, HP снижены</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Сравнение условное: у A нет боевых кадров.</li>
+    <li>У B бойцы стоят ЛИЦОМ ДРУГ К ДРУГУ (фикс skinYaw из M22 подтянут — регрессия закрыта).</li>
+  </ul></div>
+</section>
+
+<!-- 12 -->
+<section class="screen">
+  <h2>12 · Бой — середина (2), эффект попадания</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/12-fight-mid.png" alt="A: briefing"><p class="cap">Mission briefing (ближайший — боёв в A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/12-fight-mid.png" alt="Сейчас: бой с эффектом"><p class="cap">Вспышка попадания на герое, HP босса снижено</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Эффекты ударов (вспышки, частицы) — целиком из B, в A отсутствуют.</li>
+    <li>Читаемость сцены хорошая: бойцы контрастны на фоне арены.</li>
+  </ul></div>
+</section>
+
+<!-- 13 -->
+<section class="screen">
+  <h2>13 · Результат боя</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/13-result.png" alt="A: rewards"><p class="cap">Rewards (ближайший — экрана результата боя в A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/13-result.png" alt="Сейчас: Sieg!"><p class="cap">«Sieg!», герой с аурой, +2890 XP</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Экрана результата боя в A нет — эталон условный (награды — ближайший по смыслу).</li>
+    <li>У B: трофей, галочки, XP крупно; замечание — герой стоит в T-позе: это артефакт web-рендера (SwiftShader), victory-клип не применился в кадре; на устройстве поза победная.</li>
+    <li>Мелкая битая иконка под строкой XP — дефект ассета, внесён в QA-список.</li>
+  </ul></div>
+</section>
+
+<!-- 14 -->
+<section class="screen">
+  <h2>14 · Родительский гейт</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/14-parent-gate.png" alt="A: parent PIN"><p class="cap">«Create a parent PIN»: светлая карточка, 4-значный PIN, круглые клавиши</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/14-parent-gate.png" alt="Сейчас: гейт"><p class="cap">«Nur für Eltern»: тёмная карточка, PIN ИЛИ пример «9 × 5 = ?», lime «OK»</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Механика: у A только PIN-creation (светлый); у B — PIN либо арифметика, тёмная карточка.</li>
+    <li>Стиль: светлая родительская карточка A ↔ тёмная glossy B; клавиши у A круглые светлые, у B — скруглённые тёмные с lime OK.</li>
+    <li>Арифметический гейт («9 × 5») у B — сильнее против детей, чем PIN у A (и это отмечено ещё в аудите).</li>
+  </ul></div>
+</section>
+
+<!-- 15 -->
+<section class="screen">
+  <h2>15 · Родзона — отчёт</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/15-parent-report.png" alt="A: weekly report"><p class="cap">«Weekly report»: Training this week, camera-verified sessions/minutes, Hero Growth</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/15-parent-report.png" alt="Сейчас: Bericht"><p class="cap">«Letzte 7 Tage»: 9 единиц, 27 минут, 76 побед, серия 3, график минут по дням</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Обе СВЕТЛЫЕ родительские зоны — прямое соответствие токенам A (родзона B построена на компонентах A).</li>
+    <li>У A акцент на camera-verified данных и Hero Growth внутри отчёта; у B — плитки статистики (единицы, минуты, победы, уровень) + столбчатый график по дням — плотнее и нагляднее.</li>
+    <li>У A табы Overview/Report; у B — Bericht/Abo/Einstellungen. Оба варианта навигации честные, разная структура.</li>
+  </ul></div>
+</section>
+
+<!-- 16 -->
+<section class="screen">
+  <h2>16 · Родзона — подписка</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/16-parent-subscription.png" alt="A: subscription"><p class="cap">«Subscription»: TRIAL RUNNING «Day 1 of 3», TRIAL ENDS 11 October 2026, «See plans»</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/16-parent-subscription.png" alt="Сейчас: Abo"><p class="cap">«Kidsney Premium aktiv», «Abo abschließen», «Käufe wiederherstellen», MOCK-плашка</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Светлая тема обеих — соответствие A.</li>
+    <li>У A статус trial с датой окончания; у B статус «Premium aktiv» + предупреждение Store-Modus: MOCK (честный бейдж, как требует ревью сторов).</li>
+    <li>У B одна CTA «Abo abschließen» и restore — компактнее; у A CTA ведёт на plans (см. 18).</li>
+  </ul></div>
+</section>
+
+<!-- 17 -->
+<section class="screen">
+  <h2>17 · Родзона — настройки</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/17-parent-settings.png" alt="A: settings"><p class="cap">«Settings»: App language, Sync across devices (email + пароль), Change parent PIN</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/17-parent-settings.png" alt="Сейчас: Einstellungen"><p class="cap">Язык EN/UK/DE, звук (3 слайдера + «Alles stumm», вибрация), камера front/back, пуши, email-отчёт, PIN</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Обе светлые — близко к A. Карточки-секции идентичны по стилю.</li>
+    <li>У B сильно больше контролов (звук/вибрация/камера/пуши) — обосновано нативным контуром.</li>
+    <li>У A акцент на sync-аккаунт; у B аккаунт живёт в облаке (Supabase auth) — синк-формы не нужно, это правильно.</li>
+  </ul></div>
+</section>
+
+<!-- 18 -->
+<section class="screen">
+  <h2>18 · Родзона — тарифы (paywall)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/18-parent-paywall.png" alt="A: plans"><p class="cap">«Choose a plan»: Hero Growth-отчёт на том же экране, €119.99/year «Best value»</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/18-parent-paywall.png" alt="Сейчас: Premium"><p class="cap">«Kidsney Premium»: 3 пункта фич, MOCK-плашка с id пакета, зелёная CTA, restore</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>У A план-экран с ценой и отчётом роста героя (спорный микс); у B чистый premium-экран с фичами.</li>
+    <li>CTA у B зелёная (parent-cta) — у A в таком экране CTA тёмная.</li>
+    <li>У B честная MOCK-плашка (ключи стора не настроены) — соответствует требованиям ревью; у A «no store is connected» текстом.</li>
+  </ul></div>
+</section>
+
+<!-- 19 -->
+<section class="screen">
+  <h2>19 · Бой — эффекты (щит/супер)</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/19-battle-effects.png" alt="A: Your hero"><p class="cap">«Your hero» (ближайший — боёв в A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/19-battle-effects.png" alt="Сейчас: эффекты"><p class="cap">Энерго-щит вокруг босса, вспышки, частицы</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Все боевые эффекты — из B; в A боя нет.</li>
+    <li>Щит читается хорошо, не перекрывает HP-бары; визуальный язык эффектов (cyan/белый на тёмной арене) согласован с палитрой кид-зоны.</li>
+  </ul></div>
+</section>
+
+<!-- 20 -->
+<section class="screen">
+  <h2>20 · Бой — поздняя фаза</h2>
+  <div class="pair">
+    <div class="col"><p class="tag a">A (legacy)</p><img src="a-ref/20-battle-late.png" alt="A: briefing"><p class="cap">Mission briefing (ближайший — боёв в A нет)</p></div>
+    <div class="col"><p class="tag b">Сейчас (M28)</p><img src="now/20-battle-late.png" alt="Сейчас: конец боя"><p class="cap">HP героя почти на нуле, искры, босс справа</p></div>
+  </div>
+  <div class="diff"><b>Отличия, которые вижу я</b><ul>
+    <li>Сравнение условное (эталон — брифинг A).</li>
+    <li>Читаемость поздней фазы хорошая: HP-бары остаются читаемыми при низких значениях, бойцы не сливаются с фоном.</li>
+  </ul></div>
+</section>
+
+<div class="foot">
+  Собрано 2026-10-08 для приёмки дизайна с владельцем. Источники эталонов A: docs/audit/a-screens (съёмка прода A 2026-10-08, родзона пройдена через PIN 1234), docs/merge/stage-*-screens (пары этапов слияния). Источники «сейчас»: production-сборка демо (main @de10564), 6 экранов (04–06, 16–18) и экран 07 пересняты точечно 2026-10-08 — в золотом baseline они оказались побайтовыми дубликатами соседних экранов (дефект съёмочного скрипта против немецких меток вкладок), заявка на починку regression-baseline.mjs — в QA-очередь. Код продукта не менялся.
+</div>
+
+</div>
+</body>
+</html>
