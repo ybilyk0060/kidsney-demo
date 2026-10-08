@@ -770,13 +770,33 @@
    "bytes": 34704,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_slower.wav"
   },
+  "audio/coach/de/vo_de_cue_steady.wav": {
+   "bytes": 28178,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_steady.wav"
+  },
   "audio/coach/de/vo_de_cue_water.wav": {
    "bytes": 36542,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_water.wav"
   },
+  "audio/coach/de/vo_de_cue_wider.wav": {
+   "bytes": 27496,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_wider.wav"
+  },
   "audio/coach/de/vo_de_hero_grew.wav": {
    "bytes": 65368,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_hero_grew.wav"
+  },
+  "audio/coach/de/vo_de_intro_arm_raises.wav": {
+   "bytes": 36390,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_arm_raises.wav"
+  },
+  "audio/coach/de/vo_de_intro_balance_stand.wav": {
+   "bytes": 44486,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_balance_stand.wav"
+  },
+  "audio/coach/de/vo_de_intro_guard_stance_hold.wav": {
+   "bytes": 43520,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_guard_stance_hold.wav"
   },
   "audio/coach/de/vo_de_intro_high_knees.wav": {
    "bytes": 35572,
@@ -802,6 +822,10 @@
    "bytes": 44944,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_last.wav"
   },
+  "audio/coach/de/vo_de_intro_lunge.wav": {
+   "bytes": 44070,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_lunge.wav"
+  },
   "audio/coach/de/vo_de_intro_mirror.wav": {
    "bytes": 37896,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_mirror.wav"
@@ -822,9 +846,17 @@
    "bytes": 40848,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_push_ups.wav"
   },
+  "audio/coach/de/vo_de_intro_side_step.wav": {
+   "bytes": 42046,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_side_step.wav"
+  },
   "audio/coach/de/vo_de_intro_squats.wav": {
    "bytes": 38132,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_squats.wav"
+  },
+  "audio/coach/de/vo_de_intro_wall_sit.wav": {
+   "bytes": 46490,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_wall_sit.wav"
   },
   "audio/coach/de/vo_de_intro_warmup.wav": {
    "bytes": 35366,
@@ -1126,13 +1158,33 @@
    "bytes": 26238,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_slower.wav"
   },
+  "audio/coach/en/vo_en_cue_steady.wav": {
+   "bytes": 26750,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_steady.wav"
+  },
   "audio/coach/en/vo_en_cue_water.wav": {
    "bytes": 33458,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_water.wav"
   },
+  "audio/coach/en/vo_en_cue_wider.wav": {
+   "bytes": 26206,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_wider.wav"
+  },
   "audio/coach/en/vo_en_hero_grew.wav": {
    "bytes": 43698,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_hero_grew.wav"
+  },
+  "audio/coach/en/vo_en_intro_arm_raises.wav": {
+   "bytes": 31076,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_arm_raises.wav"
+  },
+  "audio/coach/en/vo_en_intro_balance_stand.wav": {
+   "bytes": 30908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_balance_stand.wav"
+  },
+  "audio/coach/en/vo_en_intro_guard_stance_hold.wav": {
+   "bytes": 26956,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_guard_stance_hold.wav"
   },
   "audio/coach/en/vo_en_intro_high_knees.wav": {
    "bytes": 27428,
@@ -1158,6 +1210,10 @@
    "bytes": 36544,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_last.wav"
   },
+  "audio/coach/en/vo_en_intro_lunge.wav": {
+   "bytes": 30400,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_lunge.wav"
+  },
   "audio/coach/en/vo_en_intro_mirror.wav": {
    "bytes": 34300,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_mirror.wav"
@@ -1178,9 +1234,17 @@
    "bytes": 33706,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_push_ups.wav"
   },
+  "audio/coach/en/vo_en_intro_side_step.wav": {
+   "bytes": 46718,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_side_step.wav"
+  },
   "audio/coach/en/vo_en_intro_squats.wav": {
    "bytes": 34430,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_squats.wav"
+  },
+  "audio/coach/en/vo_en_intro_wall_sit.wav": {
+   "bytes": 59484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_wall_sit.wav"
   },
   "audio/coach/en/vo_en_intro_warmup.wav": {
    "bytes": 30306,
