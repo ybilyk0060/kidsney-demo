@@ -756,8 +756,8 @@
       "mesh": "mic",
       "bone": "mixamorigRightHand",
       "frames": [
-        60,
-        160
+        55,
+        72
       ]
     },
     "wrestling_boy": {
@@ -802,8 +802,8 @@
       "mesh": "mic",
       "bone": "mixamorigRightHand",
       "frames": [
-        60,
-        160
+        55,
+        72
       ]
     },
     "judo_girl": {

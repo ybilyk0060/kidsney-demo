@@ -14,6 +14,14 @@
     "arenas-v2/01-judo/decor-scoreboard.webp"
    ]
   },
+  "dojo-winter": {
+   "label": "Winter Dojo",
+   "layers": {
+    "far": "arenas-v2/01-judo-winter/far.webp",
+    "mid": "arenas-v2/01-judo-winter/mid.webp",
+    "near": "arenas-v2/01-judo-winter/near.webp"
+   }
+  },
   "ring": {
    "label": "Ring",
    "layers": {
