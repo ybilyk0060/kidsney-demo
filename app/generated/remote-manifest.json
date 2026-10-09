@@ -770,13 +770,33 @@
    "bytes": 34704,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_slower.wav"
   },
+  "audio/coach/de/vo_de_cue_steady.wav": {
+   "bytes": 28178,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_steady.wav"
+  },
   "audio/coach/de/vo_de_cue_water.wav": {
    "bytes": 36542,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_water.wav"
   },
+  "audio/coach/de/vo_de_cue_wider.wav": {
+   "bytes": 27496,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_cue_wider.wav"
+  },
   "audio/coach/de/vo_de_hero_grew.wav": {
    "bytes": 65368,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_hero_grew.wav"
+  },
+  "audio/coach/de/vo_de_intro_arm_raises.wav": {
+   "bytes": 36390,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_arm_raises.wav"
+  },
+  "audio/coach/de/vo_de_intro_balance_stand.wav": {
+   "bytes": 44486,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_balance_stand.wav"
+  },
+  "audio/coach/de/vo_de_intro_guard_stance_hold.wav": {
+   "bytes": 43520,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_guard_stance_hold.wav"
   },
   "audio/coach/de/vo_de_intro_high_knees.wav": {
    "bytes": 35572,
@@ -802,6 +822,10 @@
    "bytes": 44944,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_last.wav"
   },
+  "audio/coach/de/vo_de_intro_lunge.wav": {
+   "bytes": 44070,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_lunge.wav"
+  },
   "audio/coach/de/vo_de_intro_mirror.wav": {
    "bytes": 37896,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_mirror.wav"
@@ -822,9 +846,17 @@
    "bytes": 40848,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_push_ups.wav"
   },
+  "audio/coach/de/vo_de_intro_side_step.wav": {
+   "bytes": 42046,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_side_step.wav"
+  },
   "audio/coach/de/vo_de_intro_squats.wav": {
    "bytes": 38132,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_squats.wav"
+  },
+  "audio/coach/de/vo_de_intro_wall_sit.wav": {
+   "bytes": 46490,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/de/vo_de_intro_wall_sit.wav"
   },
   "audio/coach/de/vo_de_intro_warmup.wav": {
    "bytes": 35366,
@@ -1126,13 +1158,33 @@
    "bytes": 26238,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_slower.wav"
   },
+  "audio/coach/en/vo_en_cue_steady.wav": {
+   "bytes": 26750,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_steady.wav"
+  },
   "audio/coach/en/vo_en_cue_water.wav": {
    "bytes": 33458,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_water.wav"
   },
+  "audio/coach/en/vo_en_cue_wider.wav": {
+   "bytes": 26206,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_cue_wider.wav"
+  },
   "audio/coach/en/vo_en_hero_grew.wav": {
    "bytes": 43698,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_hero_grew.wav"
+  },
+  "audio/coach/en/vo_en_intro_arm_raises.wav": {
+   "bytes": 31076,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_arm_raises.wav"
+  },
+  "audio/coach/en/vo_en_intro_balance_stand.wav": {
+   "bytes": 30908,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_balance_stand.wav"
+  },
+  "audio/coach/en/vo_en_intro_guard_stance_hold.wav": {
+   "bytes": 26956,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_guard_stance_hold.wav"
   },
   "audio/coach/en/vo_en_intro_high_knees.wav": {
    "bytes": 27428,
@@ -1158,6 +1210,10 @@
    "bytes": 36544,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_last.wav"
   },
+  "audio/coach/en/vo_en_intro_lunge.wav": {
+   "bytes": 30400,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_lunge.wav"
+  },
   "audio/coach/en/vo_en_intro_mirror.wav": {
    "bytes": 34300,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_mirror.wav"
@@ -1178,9 +1234,17 @@
    "bytes": 33706,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_push_ups.wav"
   },
+  "audio/coach/en/vo_en_intro_side_step.wav": {
+   "bytes": 46718,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_side_step.wav"
+  },
   "audio/coach/en/vo_en_intro_squats.wav": {
    "bytes": 34430,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_squats.wav"
+  },
+  "audio/coach/en/vo_en_intro_wall_sit.wav": {
+   "bytes": 59484,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/audio/coach/en/vo_en_intro_wall_sit.wav"
   },
   "audio/coach/en/vo_en_intro_warmup.wav": {
    "bytes": 30306,
@@ -1926,6 +1990,46 @@
    "bytes": 1367640,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-boy-store.glb"
   },
+  "heroes3d/basketball-girl-ktx.glb": {
+   "bytes": 326476,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-ktx.glb"
+  },
+  "heroes3d/basketball-girl-lod1-ktx.glb": {
+   "bytes": 261148,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-lod1-ktx.glb"
+  },
+  "heroes3d/basketball-girl-lod1.glb": {
+   "bytes": 250200,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-lod1.glb"
+  },
+  "heroes3d/basketball-girl-lod2-ktx.glb": {
+   "bytes": 229132,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-lod2-ktx.glb"
+  },
+  "heroes3d/basketball-girl-lod2.glb": {
+   "bytes": 220732,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-lod2.glb"
+  },
+  "heroes3d/basketball-girl-skin2-ktx.glb": {
+   "bytes": 334236,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-skin2-ktx.glb"
+  },
+  "heroes3d/basketball-girl-skin2.glb": {
+   "bytes": 380464,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-skin2.glb"
+  },
+  "heroes3d/basketball-girl-skin3-ktx.glb": {
+   "bytes": 330180,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-skin3-ktx.glb"
+  },
+  "heroes3d/basketball-girl-skin3.glb": {
+   "bytes": 374168,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-skin3.glb"
+  },
+  "heroes3d/basketball-girl-store.glb": {
+   "bytes": 1301240,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-store.glb"
+  },
   "heroes3d/boxer-ktx.glb": {
    "bytes": 347752,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-ktx.glb"
@@ -2190,34 +2294,6 @@
    "bytes": 290796,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-store.glb"
   },
-  "heroes3d/gymnast-ktx.glb": {
-   "bytes": 322988,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-ktx.glb"
-  },
-  "heroes3d/gymnast-lod1-ktx.glb": {
-   "bytes": 261628,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod1-ktx.glb"
-  },
-  "heroes3d/gymnast-lod1.glb": {
-   "bytes": 249204,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod1.glb"
-  },
-  "heroes3d/gymnast-lod2-ktx.glb": {
-   "bytes": 231548,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod2-ktx.glb"
-  },
-  "heroes3d/gymnast-lod2.glb": {
-   "bytes": 221536,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-lod2.glb"
-  },
-  "heroes3d/gymnast-store.glb": {
-   "bytes": 285628,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast-store.glb"
-  },
-  "heroes3d/gymnast.glb": {
-   "bytes": 285328,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnast.glb"
-  },
   "heroes3d/gymnastics-girl-ktx.glb": {
    "bytes": 308952,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/gymnastics-girl-ktx.glb"
@@ -2297,6 +2373,46 @@
   "heroes3d/judo-boy-store.glb": {
    "bytes": 1278988,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-boy-store.glb"
+  },
+  "heroes3d/judo-girl-ktx.glb": {
+   "bytes": 318624,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-ktx.glb"
+  },
+  "heroes3d/judo-girl-lod1-ktx.glb": {
+   "bytes": 258952,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-lod1-ktx.glb"
+  },
+  "heroes3d/judo-girl-lod1.glb": {
+   "bytes": 240120,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-lod1.glb"
+  },
+  "heroes3d/judo-girl-lod2-ktx.glb": {
+   "bytes": 227244,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-lod2-ktx.glb"
+  },
+  "heroes3d/judo-girl-lod2.glb": {
+   "bytes": 210776,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-lod2.glb"
+  },
+  "heroes3d/judo-girl-skin2-ktx.glb": {
+   "bytes": 320592,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-skin2-ktx.glb"
+  },
+  "heroes3d/judo-girl-skin2.glb": {
+   "bytes": 356616,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-skin2.glb"
+  },
+  "heroes3d/judo-girl-skin3-ktx.glb": {
+   "bytes": 320808,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-skin3-ktx.glb"
+  },
+  "heroes3d/judo-girl-skin3.glb": {
+   "bytes": 354208,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-skin3.glb"
+  },
+  "heroes3d/judo-girl-store.glb": {
+   "bytes": 1210572,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/judo-girl-store.glb"
   },
   "heroes3d/karate-boy-ktx.glb": {
    "bytes": 300976,
@@ -2470,6 +2586,46 @@
    "bytes": 270980,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer.glb"
   },
+  "heroes3d/swimming-boy-ktx.glb": {
+   "bytes": 325788,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-ktx.glb"
+  },
+  "heroes3d/swimming-boy-lod1-ktx.glb": {
+   "bytes": 265552,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-lod1-ktx.glb"
+  },
+  "heroes3d/swimming-boy-lod1.glb": {
+   "bytes": 257808,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-lod1.glb"
+  },
+  "heroes3d/swimming-boy-lod2-ktx.glb": {
+   "bytes": 234080,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-lod2-ktx.glb"
+  },
+  "heroes3d/swimming-boy-lod2.glb": {
+   "bytes": 228900,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-lod2.glb"
+  },
+  "heroes3d/swimming-boy-skin2-ktx.glb": {
+   "bytes": 330548,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-skin2-ktx.glb"
+  },
+  "heroes3d/swimming-boy-skin2.glb": {
+   "bytes": 387380,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-skin2.glb"
+  },
+  "heroes3d/swimming-boy-skin3-ktx.glb": {
+   "bytes": 333716,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-skin3-ktx.glb"
+  },
+  "heroes3d/swimming-boy-skin3.glb": {
+   "bytes": 391256,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-skin3.glb"
+  },
+  "heroes3d/swimming-boy-store.glb": {
+   "bytes": 1369416,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-store.glb"
+  },
   "heroes3d/swimming-girl-ktx.glb": {
    "bytes": 308548,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-ktx.glb"
@@ -2509,6 +2665,46 @@
   "heroes3d/swimming-girl-store.glb": {
    "bytes": 1241724,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-girl-store.glb"
+  },
+  "heroes3d/taekwondo-boy-ktx.glb": {
+   "bytes": 321508,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-ktx.glb"
+  },
+  "heroes3d/taekwondo-boy-lod1-ktx.glb": {
+   "bytes": 261028,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-lod1-ktx.glb"
+  },
+  "heroes3d/taekwondo-boy-lod1.glb": {
+   "bytes": 246536,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-lod1.glb"
+  },
+  "heroes3d/taekwondo-boy-lod2-ktx.glb": {
+   "bytes": 229764,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-lod2-ktx.glb"
+  },
+  "heroes3d/taekwondo-boy-lod2.glb": {
+   "bytes": 218144,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-lod2.glb"
+  },
+  "heroes3d/taekwondo-boy-skin2-ktx.glb": {
+   "bytes": 324996,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-skin2-ktx.glb"
+  },
+  "heroes3d/taekwondo-boy-skin2.glb": {
+   "bytes": 367488,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-skin2.glb"
+  },
+  "heroes3d/taekwondo-boy-skin3-ktx.glb": {
+   "bytes": 323716,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-skin3-ktx.glb"
+  },
+  "heroes3d/taekwondo-boy-skin3.glb": {
+   "bytes": 362868,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-skin3.glb"
+  },
+  "heroes3d/taekwondo-boy-store.glb": {
+   "bytes": 1255568,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-boy-store.glb"
   },
   "heroes3d/taekwondo-girl-ktx.glb": {
    "bytes": 314828,
@@ -2661,6 +2857,46 @@
   "heroes3d/wrestling-boy-store.glb": {
    "bytes": 1370520,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-boy-store.glb"
+  },
+  "heroes3d/wrestling-girl-ktx.glb": {
+   "bytes": 315292,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-ktx.glb"
+  },
+  "heroes3d/wrestling-girl-lod1-ktx.glb": {
+   "bytes": 271828,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-lod1-ktx.glb"
+  },
+  "heroes3d/wrestling-girl-lod1.glb": {
+   "bytes": 250916,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-lod1.glb"
+  },
+  "heroes3d/wrestling-girl-lod2-ktx.glb": {
+   "bytes": 227796,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-lod2-ktx.glb"
+  },
+  "heroes3d/wrestling-girl-lod2.glb": {
+   "bytes": 222476,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-lod2.glb"
+  },
+  "heroes3d/wrestling-girl-skin2-ktx.glb": {
+   "bytes": 319052,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-skin2-ktx.glb"
+  },
+  "heroes3d/wrestling-girl-skin2.glb": {
+   "bytes": 374968,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-skin2.glb"
+  },
+  "heroes3d/wrestling-girl-skin3-ktx.glb": {
+   "bytes": 320020,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-skin3-ktx.glb"
+  },
+  "heroes3d/wrestling-girl-skin3.glb": {
+   "bytes": 368740,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-skin3.glb"
+  },
+  "heroes3d/wrestling-girl-store.glb": {
+   "bytes": 1291400,
+   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/wrestling-girl-store.glb"
   }
  }
 }
