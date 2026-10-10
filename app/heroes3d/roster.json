@@ -97,6 +97,7 @@
       "skinYaw": 0,
       "gender": "boy",
       "sport": "judo",
+      "starter": true,
       "base": "climber"
     },
     "basketball_boy": {
@@ -106,6 +107,7 @@
       "skinYaw": 0,
       "gender": "boy",
       "sport": "basketball",
+      "starter": true,
       "base": "dancer"
     },
     "wrestling_boy": {
@@ -120,6 +122,7 @@
       ],
       "gender": "boy",
       "sport": "wrestling",
+      "starter": true,
       "base": "weightlifter"
     },
     "gymnastics_girl": {
@@ -139,6 +142,7 @@
       "skinYaw": 0,
       "gender": "girl",
       "sport": "swimming",
+      "starter": true,
       "base": "swimmer"
     },
     "taekwondo_girl": {
@@ -148,65 +152,61 @@
       "skinYaw": 0,
       "gender": "girl",
       "sport": "taekwondo",
+      "starter": true,
       "base": "tennis"
     },
     "judo_girl": {
       "status": "ready",
-      "glb": "/public/heroes3d/judo-boy.glb",
-      "store": "/public/heroes3d/judo-boy.glb",
+      "glb": "/public/heroes3d/judo-girl.glb",
+      "store": "/public/heroes3d/judo-girl.glb",
       "skinYaw": 0,
       "gender": "girl",
       "sport": "judo",
       "starter": true,
-      "soon": true,
       "base": "climber",
       "note": "M28 soon-пара: временный маппинг на GLB judo_boy до v2-модели от 3-й задачи"
     },
     "basketball_girl": {
       "status": "ready",
-      "glb": "/public/heroes3d/basketball-boy.glb",
-      "store": "/public/heroes3d/basketball-boy.glb",
+      "glb": "/public/heroes3d/basketball-girl.glb",
+      "store": "/public/heroes3d/basketball-girl.glb",
       "skinYaw": 0,
       "gender": "girl",
       "sport": "basketball",
       "starter": true,
-      "soon": true,
       "base": "dancer",
       "note": "M28 soon-пара: временный маппинг на GLB basketball_boy до v2-модели от 3-й задачи"
     },
     "wrestling_girl": {
       "status": "ready",
-      "glb": "/public/heroes3d/wrestling-boy.glb",
-      "store": "/public/heroes3d/wrestling-boy.glb",
+      "glb": "/public/heroes3d/wrestling-girl.glb",
+      "store": "/public/heroes3d/wrestling-girl.glb",
       "skinYaw": 0,
       "gender": "girl",
       "sport": "wrestling",
       "starter": true,
-      "soon": true,
       "base": "weightlifter",
       "note": "M28 soon-пара: временный маппинг на GLB wrestling_boy до v2-модели от 3-й задачи"
     },
     "swimming_boy": {
       "status": "ready",
-      "glb": "/public/heroes3d/swimming-girl.glb",
-      "store": "/public/heroes3d/swimming-girl.glb",
+      "glb": "/public/heroes3d/swimming-boy.glb",
+      "store": "/public/heroes3d/swimming-boy.glb",
       "skinYaw": 0,
       "gender": "boy",
       "sport": "swimming",
       "starter": true,
-      "soon": true,
       "base": "swimmer",
       "note": "M28 soon-пара: временный маппинг на GLB swimming_girl до v2-модели от 3-й задачи"
     },
     "taekwondo_boy": {
       "status": "ready",
-      "glb": "/public/heroes3d/taekwondo-girl.glb",
-      "store": "/public/heroes3d/taekwondo-girl.glb",
+      "glb": "/public/heroes3d/taekwondo-boy.glb",
+      "store": "/public/heroes3d/taekwondo-boy.glb",
       "skinYaw": 0,
       "gender": "boy",
       "sport": "taekwondo",
       "starter": true,
-      "soon": true,
       "base": "tennis",
       "note": "M28 soon-пара: временный маппинг на GLB taekwondo_girl до v2-модели от 3-й задачи"
     }
@@ -898,7 +898,7 @@
           "opacity": 0.55
         }
       },
-      "arena": "01-judo-winter",
+      "arena": "dojo-winter",
       "taunt": "_bossTaunt"
     }
   },
