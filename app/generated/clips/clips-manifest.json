@@ -278,6 +278,24 @@
    "duration": 1.8667,
    "tracks": 51
   },
+  "exercises/burpee": {
+   "bytes": 24651,
+   "frames": 57,
+   "duration": 1.8667,
+   "tracks": 51
+  },
+  "exercises/burpee_push_up": {
+   "bytes": 9691,
+   "frames": 47,
+   "duration": 1.5333,
+   "tracks": 24
+  },
+  "exercises/crunch": {
+   "bytes": 29499,
+   "frames": 82,
+   "duration": 2.7,
+   "tracks": 43
+  },
   "exercises/high_knees": {
    "bytes": 9778,
    "frames": 20,
@@ -319,6 +337,12 @@
    "frames": 47,
    "duration": 1.5333,
    "tracks": 24
+  },
+  "exercises/swing": {
+   "bytes": 36314,
+   "frames": 82,
+   "duration": 2.7,
+   "tracks": 53
   }
  }
 }

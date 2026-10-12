@@ -2030,30 +2030,6 @@
    "bytes": 1301240,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/basketball-girl-store.glb"
   },
-  "heroes3d/boxer-ktx.glb": {
-   "bytes": 347752,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-ktx.glb"
-  },
-  "heroes3d/boxer-lod1-ktx.glb": {
-   "bytes": 248136,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod1-ktx.glb"
-  },
-  "heroes3d/boxer-lod1.glb": {
-   "bytes": 244240,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod1.glb"
-  },
-  "heroes3d/boxer-lod2-ktx.glb": {
-   "bytes": 219336,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod2-ktx.glb"
-  },
-  "heroes3d/boxer-lod2.glb": {
-   "bytes": 217676,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-lod2.glb"
-  },
-  "heroes3d/boxer-store.glb": {
-   "bytes": 1280396,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxer-store.glb"
-  },
   "heroes3d/boxing-boy-ktx.glb": {
    "bytes": 333536,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-boy-ktx.glb"
@@ -2134,62 +2110,6 @@
    "bytes": 1364460,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/boxing-girl-store.glb"
   },
-  "heroes3d/climber-ktx.glb": {
-   "bytes": 361728,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-ktx.glb"
-  },
-  "heroes3d/climber-lod1-ktx.glb": {
-   "bytes": 288488,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod1-ktx.glb"
-  },
-  "heroes3d/climber-lod1.glb": {
-   "bytes": 269284,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod1.glb"
-  },
-  "heroes3d/climber-lod2-ktx.glb": {
-   "bytes": 251692,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod2-ktx.glb"
-  },
-  "heroes3d/climber-lod2.glb": {
-   "bytes": 234956,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-lod2.glb"
-  },
-  "heroes3d/climber-store.glb": {
-   "bytes": 1449324,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber-store.glb"
-  },
-  "heroes3d/climber.glb": {
-   "bytes": 317852,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/climber.glb"
-  },
-  "heroes3d/dancer-ktx.glb": {
-   "bytes": 334364,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-ktx.glb"
-  },
-  "heroes3d/dancer-lod1-ktx.glb": {
-   "bytes": 265560,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod1-ktx.glb"
-  },
-  "heroes3d/dancer-lod1.glb": {
-   "bytes": 263624,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod1.glb"
-  },
-  "heroes3d/dancer-lod2-ktx.glb": {
-   "bytes": 232408,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod2-ktx.glb"
-  },
-  "heroes3d/dancer-lod2.glb": {
-   "bytes": 232348,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-lod2.glb"
-  },
-  "heroes3d/dancer-store.glb": {
-   "bytes": 617484,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer-store.glb"
-  },
-  "heroes3d/dancer.glb": {
-   "bytes": 308704,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/dancer.glb"
-  },
   "heroes3d/football-boy-ktx.glb": {
    "bytes": 321956,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-boy-ktx.glb"
@@ -2269,30 +2189,6 @@
   "heroes3d/football-girl-store.glb": {
    "bytes": 1292460,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/football-girl-store.glb"
-  },
-  "heroes3d/footballer-ktx.glb": {
-   "bytes": 317512,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-ktx.glb"
-  },
-  "heroes3d/footballer-lod1-ktx.glb": {
-   "bytes": 256596,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod1-ktx.glb"
-  },
-  "heroes3d/footballer-lod1.glb": {
-   "bytes": 253572,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod1.glb"
-  },
-  "heroes3d/footballer-lod2-ktx.glb": {
-   "bytes": 225804,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod2-ktx.glb"
-  },
-  "heroes3d/footballer-lod2.glb": {
-   "bytes": 225112,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-lod2.glb"
-  },
-  "heroes3d/footballer-store.glb": {
-   "bytes": 290796,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/footballer-store.glb"
   },
   "heroes3d/gymnastics-girl-ktx.glb": {
    "bytes": 308952,
@@ -2494,98 +2390,6 @@
    "bytes": 1194328,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/karate-girl-store.glb"
   },
-  "heroes3d/ninja-ktx.glb": {
-   "bytes": 311360,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-ktx.glb"
-  },
-  "heroes3d/ninja-lod1-ktx.glb": {
-   "bytes": 238204,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod1-ktx.glb"
-  },
-  "heroes3d/ninja-lod1.glb": {
-   "bytes": 197320,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod1.glb"
-  },
-  "heroes3d/ninja-lod2-ktx.glb": {
-   "bytes": 203692,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod2-ktx.glb"
-  },
-  "heroes3d/ninja-lod2.glb": {
-   "bytes": 164472,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-lod2.glb"
-  },
-  "heroes3d/ninja-skin2-ktx.glb": {
-   "bytes": 328792,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin2-ktx.glb"
-  },
-  "heroes3d/ninja-skin2.glb": {
-   "bytes": 325676,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin2.glb"
-  },
-  "heroes3d/ninja-skin3-ktx.glb": {
-   "bytes": 330264,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin3-ktx.glb"
-  },
-  "heroes3d/ninja-skin3.glb": {
-   "bytes": 322768,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-skin3.glb"
-  },
-  "heroes3d/ninja-store.glb": {
-   "bytes": 972596,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/ninja-store.glb"
-  },
-  "heroes3d/runner-ktx.glb": {
-   "bytes": 327172,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-ktx.glb"
-  },
-  "heroes3d/runner-lod1-ktx.glb": {
-   "bytes": 263796,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod1-ktx.glb"
-  },
-  "heroes3d/runner-lod1.glb": {
-   "bytes": 260200,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod1.glb"
-  },
-  "heroes3d/runner-lod2-ktx.glb": {
-   "bytes": 233988,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod2-ktx.glb"
-  },
-  "heroes3d/runner-lod2.glb": {
-   "bytes": 233048,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-lod2.glb"
-  },
-  "heroes3d/runner-store.glb": {
-   "bytes": 1351908,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/runner-store.glb"
-  },
-  "heroes3d/swimmer-ktx.glb": {
-   "bytes": 298372,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-ktx.glb"
-  },
-  "heroes3d/swimmer-lod1-ktx.glb": {
-   "bytes": 241972,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod1-ktx.glb"
-  },
-  "heroes3d/swimmer-lod1.glb": {
-   "bytes": 239768,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod1.glb"
-  },
-  "heroes3d/swimmer-lod2-ktx.glb": {
-   "bytes": 211928,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod2-ktx.glb"
-  },
-  "heroes3d/swimmer-lod2.glb": {
-   "bytes": 211844,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-lod2.glb"
-  },
-  "heroes3d/swimmer-store.glb": {
-   "bytes": 1209556,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer-store.glb"
-  },
-  "heroes3d/swimmer.glb": {
-   "bytes": 270980,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimmer.glb"
-  },
   "heroes3d/swimming-boy-ktx.glb": {
    "bytes": 325788,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/swimming-boy-ktx.glb"
@@ -2745,78 +2549,6 @@
   "heroes3d/taekwondo-girl-store.glb": {
    "bytes": 1188116,
    "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/taekwondo-girl-store.glb"
-  },
-  "heroes3d/tennis-ktx.glb": {
-   "bytes": 361244,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-ktx.glb"
-  },
-  "heroes3d/tennis-lod1-ktx.glb": {
-   "bytes": 283276,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod1-ktx.glb"
-  },
-  "heroes3d/tennis-lod1.glb": {
-   "bytes": 294688,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod1.glb"
-  },
-  "heroes3d/tennis-lod2-ktx.glb": {
-   "bytes": 249212,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod2-ktx.glb"
-  },
-  "heroes3d/tennis-lod2.glb": {
-   "bytes": 263160,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-lod2.glb"
-  },
-  "heroes3d/tennis-store.glb": {
-   "bytes": 1568752,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis-store.glb"
-  },
-  "heroes3d/tennis.glb": {
-   "bytes": 352156,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/tennis.glb"
-  },
-  "heroes3d/weightlifter-ktx.glb": {
-   "bytes": 324216,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-ktx.glb"
-  },
-  "heroes3d/weightlifter-lod1-ktx.glb": {
-   "bytes": 260856,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod1-ktx.glb"
-  },
-  "heroes3d/weightlifter-lod1.glb": {
-   "bytes": 254416,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod1.glb"
-  },
-  "heroes3d/weightlifter-lod2-ktx.glb": {
-   "bytes": 230388,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod2-ktx.glb"
-  },
-  "heroes3d/weightlifter-lod2.glb": {
-   "bytes": 225204,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-lod2.glb"
-  },
-  "heroes3d/weightlifter-skin2-ktx.glb": {
-   "bytes": 329648,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin2-ktx.glb"
-  },
-  "heroes3d/weightlifter-skin2.glb": {
-   "bytes": 378552,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin2.glb"
-  },
-  "heroes3d/weightlifter-skin3-ktx.glb": {
-   "bytes": 328672,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin3-ktx.glb"
-  },
-  "heroes3d/weightlifter-skin3.glb": {
-   "bytes": 379452,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-skin3.glb"
-  },
-  "heroes3d/weightlifter-store.glb": {
-   "bytes": 1289524,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter-store.glb"
-  },
-  "heroes3d/weightlifter.glb": {
-   "bytes": 294336,
-   "url": "https://iiafijcmajkitvtktntk.supabase.co/storage/v1/object/public/assets/heroes3d/weightlifter.glb"
   },
   "heroes3d/wrestling-boy-ktx.glb": {
    "bytes": 317556,
