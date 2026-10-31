@@ -67,7 +67,7 @@
     <label for="msg">Message</label>
     <textarea id="msg" rows="5" required placeholder="Describe what happened, your device model, and app version if you know it."></textarea>
     <button type="submit">Send via email</button>
-    <p class="note">This opens your mail app with a pre-filled message to <a href="mailto:support@kidsney.app">support@kidsney.app</a>. We never store what you type here.</p>
+    <p class="note">This opens your mail app with a pre-filled message to <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a>. We never store what you type here.</p>
   </form>
 </main>
 <script>
@@ -78,7 +78,7 @@
     const m = document.getElementById("msg").value.trim();
     const subject = encodeURIComponent(`[Kidsney] ${t}`);
     const body = encodeURIComponent(`Topic: ${t}\nFrom: ${em}\n\n${m}`);
-    window.location.href = `mailto:support@kidsney.app?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:support@kidsney-sport.com?subject=${subject}&body=${body}`;
   });
 </script>
 </body>

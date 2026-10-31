@@ -5,66 +5,86 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Kidsney — Privacy Policy</title>
 <style>
-  :root { --bg:#0e1220; --surface:#1a2138; --text:#f4f6ff; --dim:#9aa7c7; --primary:#4f7cff; --accent:#ffb020; }
+  :root { --bg:#f7f5f1; --text:#1d2433; --dim:#4a5568; --primary:#2f5bd8; --line:#e2ddd3; }
   * { box-sizing:border-box; margin:0; }
   body { background:var(--bg); color:var(--text); font-family:"Nunito","Segoe UI",system-ui,sans-serif; line-height:1.65; }
-  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
-  h1 { font-size:30px; margin-bottom:6px; }
-  .upd { color:var(--dim); font-size:14px; margin-bottom:28px; }
-  h2 { font-size:20px; margin:26px 0 8px; color:var(--accent); }
-  p, li { color:var(--dim); font-size:15.5px; }
-  ul { padding-left:22px; margin:6px 0; }
+  main { max-width:760px; margin:0 auto; padding:24px 20px 64px; }
+  nav { max-width:760px; margin:0 auto; padding:16px 20px; border-bottom:1px solid var(--line); font-size:14px; }
+  nav a { color:var(--primary); text-decoration:none; }
+  h1 { font-size:28px; margin:16px 0 4px; }
+  .upd { color:var(--dim); font-size:14px; margin-bottom:20px; }
+  h2 { font-size:19px; margin:24px 0 8px; }
+  p, li { color:var(--dim); font-size:15.5px; margin:6px 0; }
+  ul { padding-left:22px; }
   a { color:var(--primary); }
-  strong { color:var(--text); }
-  nav { padding:16px 20px; }
-  nav a { color:var(--primary); text-decoration:none; font-weight:800; }
 </style>
 </head>
 <body>
-<nav><a href="index.html">← Kidsney</a></nav>
+<nav><strong>English</strong> · <a href="privacy-uk.html">Українська</a> · <a href="privacy-de.html">Deutsch</a></nav>
 <main>
-  <h1>Privacy Policy</h1>
-  <div class="upd">Last updated: October 2026 · Applies to the Kidsney mobile app and this website</div>
+<h1>Privacy Policy</h1>
+<div class="upd">Last updated: 31 October 2026</div>
+<p>Kidsney is a fitness game for children aged 4–8. A parent or legal guardian sets the app up and manages it; the child plays under adult supervision.</p>
+<p>This policy explains in plain words what data the app uses, where it goes, why, and how to delete it.</p>
+<h2>1. The camera: video stays on this phone</h2>
 
-  <p><strong>Kidsney is a children's fitness game.</strong> It is designed for kids aged 6–12 and is operated in line with the Children's Online Privacy Protection Act (COPPA) and the GDPR children's-privacy provisions (GDPR-K / Art. 8). This policy explains, in plain language, what we collect, why, and how to delete it.</p>
+<ul><li>The camera is used only during a workout, to count your child's movements. The picture is analysed right on this device by a built-in pose-detection model.</li>
+<li>Video, photos and sound are never recorded and never sent anywhere — not to us and not to anyone else.</li>
+<li>The body points the model finds (positions of the joints) are not saved or sent either: they exist only in the phone's memory while the workout is running.</li>
+<li>Only the workout result leaves the device: which exercise, how long it lasted, when each repetition was counted, a form score (0–100) and how clearly the body was visible (0–1).</li>
+<li>Without the camera the child can count moves by tapping “+1” (manual mode).</li></ul>
+<h2>2. What we store on our server</h2>
+<p>Our server runs on Supabase in the European Union (Ireland). The app connects to it over an encrypted connection (HTTPS). Database access rules let a parent see only their own family's data.</p>
+<ul><li>Parent account: e-mail and password, or Sign in with Apple / Google, or a guest account without an e-mail. When you register with an e-mail — your year of birth (to confirm you are an adult). App language, time zone, reminder time and the parent PIN (stored only as a hash).</li>
+<li>Child profile: a nickname chosen by the parent (a real name is not needed), an avatar and the age group (4–5 or 6–8), stored as an approximate year of birth. Up to 4 profiles per family.</li>
+<li>Game progress: heroes, levels, experience points, energy, quests, streaks, rewards and outfits; fight results with the sequence of in-game button presses (our server replays the fight to confirm the result) and the age group, which sets how easy the fight is.</li>
+<li>Workout results — as described in section 1.</li>
+<li>Consent record: when you agreed, the version and language of the consent text and a fingerprint (hash) of that text.</li>
+<li>Subscription status: product, store, transaction number and validity dates, received from RevenueCat. We never see card details.</li>
+<li>Free-trial protection: a fingerprint (hash) of the e-mail address and a random installation ID, so that a free trial is given only once.</li>
+<li>Usage events: which screens and steps were used (for example “workout started”, “offer shown”), with a random installation ID, the selected child profile, the app version and the platform. No names, e-mail addresses, images or body points.</li>
+<li>Error reports: the technical error text and the app version. E-mail addresses and identifiers are removed from the text on the device before sending; reports are sent only when signed in.</li>
+<li>Push token: only if a parent turns on reminders in the Parent zone.</li>
+<li>Campaign labels: if the app was opened from our advertising link — the campaign labels (utm_source, utm_medium, utm_campaign, utm_term, utm_content) and the domain of the referring site, saved once, without advertising identifiers.</li></ul>
+<h2>3. Services that receive data</h2>
+<p>We do not sell personal data. The app shows no advertising, and children never see ads.</p>
+<ul><li>Apple App Store and Google Play — purchases and payments, under their own privacy policies.</li>
+<li>RevenueCat — subscription status. It receives a random account ID (not the e-mail and not the child's nickname) and purchase information.</li>
+<li>Meta (Facebook) App Events — to measure our advertising aimed at parents. The Meta SDK starts only after an adult passes the parent check or makes a purchase; the child's screens send nothing to Meta. It receives: that the app was opened, the start of a trial or a subscription with plan, price and currency, Meta's anonymous app ID and technical device data (such as model, system version, language). The device advertising ID is not collected on Android or iPhone (IDFA), and the app does not ask for tracking permission. Automatic event logging is turned off. RevenueCat passes subscription events (trial conversion, renewal) to Meta.</li>
+<li>Apple Push Notification service and Firebase Cloud Messaging (Google) — deliver reminders, only if a parent turned them on. A reminder may contain the child's nickname.</li>
+<li>Sign in with Apple / Google — only if you choose that way to sign in.</li>
+<li>Brevo (e-mail service) — sends account e-mails: address confirmation and password reset.</li></ul>
+<h2>4. What stays only on this phone</h2>
 
-  <h2>1. What we never do</h2>
-  <ul>
-    <li><strong>Camera video never leaves the device.</strong> Workouts are analysed on-device with a pose-estimation model. We transmit and store only anonymous pose landmarks (coordinates of body joints) and derived exercise counters — never photos, never video, never audio recordings of your child.</li>
-    <li>We do not show behavioural advertising to children.</li>
-    <li>We do not sell or share personal data with data brokers.</li>
-    <li>We do not use third-party trackers or analytics SDKs inside the kids' experience.</li>
-  </ul>
+<ul><li>Video, sound and body points from the camera (section 1).</li>
+<li>Settings, language, the random installation ID, the signed-in session and the demo progress before registration.</li></ul>
+<h2>5. Trying the app before registration</h2>
+<p>The demo works without an e-mail. Its progress is kept on the phone; only anonymous usage events with the random installation ID are sent. When you continue, the app creates a guest account without an e-mail (you can add an e-mail later in the Parent zone). A child profile is created only after a parent gives consent.</p>
 
-  <h2>2. What we store (parent account)</h2>
-  <ul>
-    <li>Parent email address and authentication credentials (managed by our authentication provider, Supabase, EU region).</li>
-    <li>Child profile: first name or nickname, year of birth, and in-game progress (levels, regions cleared, heroes unlocked, exercise statistics).</li>
-    <li>Optional weekly email report setting (off by default).</li>
-  </ul>
+<h2>6. Consent and legal basis</h2>
+<p>A parent creates the child's profile after confirming that they are the parent or legal guardian and agree to the processing of the child's data. Legal basis: the parent's consent (GDPR Art. 6(1)(a) and Art. 8) and, for the subscription, the contract (Art. 6(1)(b)). Consent can be withdrawn at any time by deleting the child profile or the account (section 8).</p>
 
-  <h2>3. Legal basis and consent</h2>
-  <p>The parent creates the account and gives verifiable consent for the child's data during setup (GDPR Art. 6(1)(a), Art. 8; COPPA). Consent can be withdrawn at any time by deleting the account or the child profile — see below.</p>
+<h2>7. How long we keep data</h2>
 
-  <h2>4. Subscription payments</h2>
-  <p>Purchases are processed by the app stores (Apple App Store / Google Play) and, for subscription status, by RevenueCat. We receive only a purchase token and entitlement status — never card numbers.</p>
+<ul><li>Account, profile, progress and workout data — as long as the account exists.</li>
+<li>Anonymous sign-up and purchase statistics — up to 13 months; the reminder delivery log — 90 days.</li>
+<li>Usage events recorded without a child profile stay linked only to the random installation ID, not to the account.</li>
+<li>Purchase records at Apple, Google and RevenueCat and data received by Meta are kept under those companies' own policies.</li></ul>
+<h2>8. How to delete data</h2>
 
-  <h2>5. Data retention and security</h2>
-  <p>Pose landmarks are processed in memory on the device and discarded after each session; only session summaries (exercise counts, form score) are stored. Server data is encrypted in transit (TLS) and at rest. Access is restricted by row-level security policies so a parent can only ever read their own children's data.</p>
+<ul><li>A child profile: on “Who's playing today?” tap “⚙️ Manage profiles”, pass the parent check and tap 🗑. The profile and all of the child's progress, workouts, rewards and events are deleted permanently.</li>
+<li>The whole account: Parents → Settings → “Delete account”, then type DELETE. The account and the data of all children are deleted permanently.</li>
+<li>Deleting the account does not cancel a store subscription — cancel it first in “Manage subscription”.</li>
+<li>You can also ask us by e-mail: <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a>.</li></ul>
+<h2>9. Your rights</h2>
+<p>You can ask what data we hold about your family, and have it corrected, exported or deleted; you can withdraw consent at any time. Write to <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a>. You also have the right to lodge a complaint with your data protection authority.</p>
 
-  <h2>6. Your rights (delete everything)</h2>
-  <p>Parents can, at any time:</p>
-  <ul>
-    <li>delete a child profile (progress and stats for that child are removed);</li>
-    <li>delete the whole parent account together with all children and all stored data — in the app: <strong>Parent zone → Settings → Delete account</strong>;</li>
-    <li>request export or deletion by email: <a href="mailto:support@kidsney.app">support@kidsney.app</a>. We answer within 72 hours and complete deletion within 30 days.</li>
-  </ul>
+<h2>10. Changes</h2>
+<p>When this policy changes, the new version appears here in the app with a new date.</p>
 
-  <h2>7. Changes</h2>
-  <p>If we materially change this policy, we will notify parents by email before the change takes effect.</p>
+<h2>11. Contact</h2>
+<p>Kidsney · <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a></p>
 
-  <h2>8. Contact</h2>
-  <p>Questions or complaints: <a href="mailto:support@kidsney.app">support@kidsney.app</a>. You may also contact your local data-protection authority; we cooperate with them fully.</p>
 </main>
 </body>
 </html>
