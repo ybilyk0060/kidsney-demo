@@ -23,8 +23,8 @@
 <nav><strong>English</strong> · <a href="privacy-uk.html">Українська</a> · <a href="privacy-de.html">Deutsch</a></nav>
 <main>
 <h1>Privacy Policy</h1>
-<div class="upd">Last updated: 31 October 2026</div>
-<p>Kidsney is a fitness game for children from age 4 to adults. A parent or legal guardian sets the app up and manages it; the child plays under adult supervision.</p>
+<div class="upd">Last updated: 10 November 2026</div>
+<p>Kidsney is a fitness game for children aged 4–12. A parent or legal guardian sets the app up and manages it; the child plays under adult supervision.</p>
 <p>This policy explains in plain words what data the app uses, where it goes, why, and how to delete it.</p>
 <h2>1. The camera: video stays on this phone</h2>
 
@@ -36,7 +36,7 @@
 <h2>2. What we store on our server</h2>
 <p>Our server runs on Supabase in the European Union (Ireland). The app connects to it over an encrypted connection (HTTPS). Database access rules let a parent see only their own family's data.</p>
 <ul><li>Parent account: e-mail and password, or Sign in with Apple / Google, or a guest account without an e-mail. When you register with an e-mail — your year of birth (to confirm you are an adult). App language, time zone, reminder time and the parent PIN (stored only as a hash).</li>
-<li>Child profile: a nickname chosen by the parent (a real name is not needed), an avatar and the age group (4–5 or 6–8), stored as an approximate year of birth. Up to 4 profiles per family.</li>
+<li>Child profile: a nickname chosen by the parent (a real name is not needed), an avatar and the age group (4–5, 6–8, 9–12, 13–17 or 18+), stored as an approximate year of birth. Up to 4 profiles per family.</li>
 <li>Game progress: heroes, levels, experience points, energy, quests, streaks, rewards and outfits; fight results with the sequence of in-game button presses (our server replays the fight to confirm the result) and the age group, which sets how easy the fight is.</li>
 <li>Workout results — as described in section 1.</li>
 <li>Consent record: when you agreed, the version and language of the consent text and a fingerprint (hash) of that text.</li>
@@ -44,15 +44,16 @@
 <li>Free-trial protection: a fingerprint (hash) of the e-mail address and a random installation ID, so that a free trial is given only once.</li>
 <li>Usage events: which screens and steps were used (for example “workout started”, “offer shown”), with a random installation ID, the selected child profile, the app version and the platform. No names, e-mail addresses, images or body points.</li>
 <li>Error reports: the technical error text and the app version. E-mail addresses and identifiers are removed from the text on the device before sending; reports are sent only when signed in.</li>
+<li>Performance measurements: how quickly the app starts, the frame rate in fights, how fast movement recognition works and the device performance class — numbers only, with the app version and platform, saved like usage events in our own database and not passed to anyone. They help us keep the game smooth on simpler phones.</li>
 <li>Push token: only if a parent turns on reminders in the Parent zone.</li>
 <li>Campaign labels: if the app was opened from our advertising link — the campaign labels (utm_source, utm_medium, utm_campaign, utm_term, utm_content) and the domain of the referring site, saved once, without advertising identifiers.</li></ul>
 <h2>3. Services that receive data</h2>
-<p>We do not sell personal data. The app shows no advertising, and children never see ads.</p>
+<p>We do not sell personal data. The app shows no advertising, children never see ads, and the app contains no advertising SDKs; third-party analytics (PostHog) works only in the parents' area, as described above.</p>
 <ul><li>Apple App Store and Google Play — purchases and payments, under their own privacy policies.</li>
 <li>RevenueCat — subscription status. It receives a random account ID (not the e-mail and not the child's nickname) and purchase information.</li>
-<li>Meta (Facebook) App Events — to measure our advertising aimed at parents. The Meta SDK starts only after an adult passes the parent check or makes a purchase; the child's screens send nothing to Meta. It receives: that the app was opened, the start of a trial or a subscription with plan, price and currency, Meta's anonymous app ID and technical device data (such as model, system version, language). The device advertising ID is not collected on Android or iPhone (IDFA), and the app does not ask for tracking permission. Automatic event logging is turned off. RevenueCat passes subscription events (trial conversion, renewal) to Meta.</li>
+<li>Firebase Crashlytics (Google) — reports about app crashes, so we can fix errors. It receives the technical crash report (where in the app the error happened), the app version, the device model, the system version and a random Crashlytics installation ID. No account ID, e-mail, child's nickname, images or body points are sent. The device advertising ID is not collected on Android or iPhone (IDFA), Firebase Analytics is turned off, and the app does not ask for tracking permission.</li>
+<li>PostHog (PostHog Inc., EU cloud) — usage statistics of the parents' area only. It starts working only after an adult passes the parent check; the child's screens send nothing to PostHog. It receives: which step in the parents' area happened (for example "plans screen opened"), the app version and platform, and a random installation ID kept on the device. It never receives the child's nickname, age or age group, game progress, camera images, the parent's name or e-mail, or the device advertising ID. No session recording and no automatic capture of taps.</li>
 <li>Apple Push Notification service and Firebase Cloud Messaging (Google) — deliver reminders, only if a parent turned them on. A reminder may contain the child's nickname.</li>
-<li>Firebase Crashlytics (Google) — crash reports, so we can fix errors. It receives a technical crash description, the app version, device model and system version, and a random installation ID; it never receives names, e-mails, video or camera data.</li>
 <li>Sign in with Apple / Google — only if you choose that way to sign in.</li>
 <li>Brevo (e-mail service) — sends account e-mails: address confirmation and password reset.</li></ul>
 <h2>4. What stays only on this phone</h2>
@@ -67,10 +68,11 @@
 
 <h2>7. How long we keep data</h2>
 
-<ul><li>Account, profile, progress and workout data — as long as the account exists.</li>
-<li>Anonymous sign-up and purchase statistics — up to 13 months; the reminder delivery log — 90 days.</li>
-<li>Usage events recorded without a child profile stay linked only to the random installation ID, not to the account.</li>
-<li>Purchase records at Apple, Google and RevenueCat and data received by Meta are kept under those companies' own policies.</li></ul>
+<ul><li>We keep data only as long as it is needed to run the game for your family: so that the child can continue the game and the parent can see progress.</li>
+<li>Account, child profiles, progress and workout results — while the account is in use. If an account is not used, we delete it automatically together with all children's data: a guest account (without an e-mail) after 12 months without activity, an account with an e-mail after 24 months without activity. Activity means opening the app and playing, training or signing in.</li>
+<li>30 days before such a deletion we send a reminder to the parent's e-mail, if the account has one. Opening the app before that date keeps the account; a guest account is deleted without a reminder, because we have no way to contact you.</li>
+<li>Usage events recorded without a child profile (linked only to the random installation ID, not to the account), anonymous sign-up and purchase statistics and error reports — up to 13 months; the reminder delivery log — 90 days.</li>
+<li>Purchase records at Apple, Google and RevenueCat and crash reports in Firebase Crashlytics are kept under those companies' own policies.</li></ul>
 <h2>8. How to delete data</h2>
 
 <ul><li>A child profile: on “Who's playing today?” tap “⚙️ Manage profiles”, pass the parent check and tap 🗑. The profile and all of the child's progress, workouts, rewards and events are deleted permanently.</li>

@@ -23,8 +23,8 @@
 <nav><a href="privacy.html">English</a> · <a href="privacy-uk.html">Українська</a> · <strong>Deutsch</strong></nav>
 <main>
 <h1>Datenschutzerklärung</h1>
-<div class="upd">Stand: 31. Oktober 2026</div>
-<p>Kidsney ist ein Fitnessspiel für Kinder ab 4 Jahren und Erwachsene. Ein Elternteil oder eine gesetzliche Vertretung richtet die App ein und verwaltet sie; das Kind spielt unter Aufsicht eines Erwachsenen.</p>
+<div class="upd">Stand: 10. November 2026</div>
+<p>Kidsney ist ein Fitnessspiel für Kinder von 4 bis 12 Jahren. Ein Elternteil oder eine gesetzliche Vertretung richtet die App ein und verwaltet sie; das Kind spielt unter Aufsicht eines Erwachsenen.</p>
 <p>Hier steht in einfachen Worten, welche Daten die App nutzt, wohin sie gehen, wozu, und wie du sie löschen kannst.</p>
 <h2>1. Die Kamera: Das Video bleibt auf diesem Gerät</h2>
 
@@ -36,7 +36,7 @@
 <h2>2. Was wir auf unserem Server speichern</h2>
 <p>Unser Server läuft bei Supabase in der Europäischen Union (Irland). Die App verbindet sich verschlüsselt (HTTPS). Zugriffsregeln in der Datenbank sorgen dafür, dass Eltern nur die Daten ihrer eigenen Familie sehen.</p>
 <ul><li>Elternkonto: E-Mail und Passwort, oder Anmeldung mit Apple / Google, oder ein Gastkonto ohne E-Mail. Bei der Registrierung mit E-Mail — dein Geburtsjahr (zur Bestätigung, dass du erwachsen bist). App-Sprache, Zeitzone, Erinnerungszeit und die Eltern-PIN (nur als Hash gespeichert).</li>
-<li>Kinderprofil: ein von den Eltern gewählter Spitzname (ein echter Name ist nicht nötig), ein Avatar und die Altersgruppe (4–5 oder 6–8), gespeichert als ungefähres Geburtsjahr. Bis zu 4 Profile pro Familie.</li>
+<li>Kinderprofil: ein von den Eltern gewählter Spitzname (ein echter Name ist nicht nötig), ein Avatar und die Altersgruppe (4–5, 6–8, 9–12, 13–17 oder 18+), gespeichert als ungefähres Geburtsjahr. Bis zu 4 Profile pro Familie.</li>
 <li>Spielfortschritt: Helden, Level, Erfahrungspunkte, Energie, Aufgaben, Serien, Belohnungen und Outfits; Kampfergebnisse mit der Abfolge der Tastendrücke im Spiel (unser Server spielt den Kampf nach, um das Ergebnis zu bestätigen) und die Altersgruppe, die bestimmt, wie leicht der Kampf ist.</li>
 <li>Trainingsergebnisse — wie in Abschnitt 1 beschrieben.</li>
 <li>Einwilligungsnachweis: wann du zugestimmt hast, Version und Sprache des Einwilligungstextes und ein Fingerabdruck (Hash) dieses Textes.</li>
@@ -44,15 +44,16 @@
 <li>Schutz der Gratis-Testphase: ein Fingerabdruck (Hash) der E-Mail-Adresse und eine zufällige Installations-ID, damit die Testphase nur einmal gewährt wird.</li>
 <li>Nutzungsereignisse: welche Bildschirme und Schritte genutzt wurden (z. B. „Training gestartet“, „Angebot angezeigt“), mit einer zufälligen Installations-ID, dem gewählten Kinderprofil, der App-Version und der Plattform. Keine Namen, E-Mail-Adressen, Bilder oder Körperpunkte.</li>
 <li>Fehlerberichte: der technische Fehlertext und die App-Version. E-Mail-Adressen und Kennungen werden schon auf dem Gerät aus dem Text entfernt; Berichte werden nur nach der Anmeldung gesendet.</li>
+<li>Leistungsmessungen: wie schnell die App startet, die Bildrate in Kämpfen, wie schnell die Bewegungserkennung arbeitet und die Leistungsklasse des Geräts — nur Zahlen, mit App-Version und Plattform; sie werden wie Nutzungsereignisse in unserer eigenen Datenbank gespeichert und an niemanden weitergegeben. Sie helfen uns, dass das Spiel auch auf einfacheren Handys flüssig läuft.</li>
 <li>Push-Token: nur wenn ein Elternteil Erinnerungen im Elternbereich einschaltet.</li>
 <li>Kampagnen-Kennzeichen: wenn die App über unseren Werbelink geöffnet wurde — die Kampagnen-Kennzeichen (utm_source, utm_medium, utm_campaign, utm_term, utm_content) und die Domain der verweisenden Website, einmalig gespeichert, ohne Werbe-IDs.</li></ul>
 <h2>3. Dienste, die Daten erhalten</h2>
-<p>Wir verkaufen keine personenbezogenen Daten. Die App zeigt keine Werbung, und Kinder sehen keine Anzeigen.</p>
+<p>Wir verkaufen keine personenbezogenen Daten. Die App zeigt keine Werbung, Kinder sehen keine Anzeigen, und die App enthält keine Werbe-SDKs; Analyse durch Dritte (PostHog) läuft nur im Elternbereich, wie oben beschrieben.</p>
 <ul><li>Apple App Store und Google Play — Käufe und Zahlungen, nach deren eigenen Datenschutzrichtlinien.</li>
 <li>RevenueCat — Abo-Status. Erhält eine zufällige Konto-ID (nicht die E-Mail und nicht den Spitznamen des Kindes) und Kaufinformationen.</li>
-<li>Meta (Facebook) App Events — um unsere Werbung für Eltern zu messen. Das Meta-SDK startet erst, nachdem ein Erwachsener die Elternprüfung bestanden oder einen Kauf getätigt hat; die Kinderbildschirme senden nichts an Meta. Meta erhält: dass die App geöffnet wurde, den Beginn einer Testphase oder eines Abos mit Plan, Preis und Währung, die anonyme App-ID von Meta und technische Gerätedaten (z. B. Modell, Systemversion, Sprache). Die Werbe-ID des Geräts wird weder unter Android noch auf dem iPhone (IDFA) erfasst, und die App fragt nicht nach einer Tracking-Erlaubnis. Die automatische Ereigniserfassung ist ausgeschaltet. RevenueCat übermittelt Abo-Ereignisse (Umwandlung der Testphase, Verlängerung) an Meta.</li>
+<li>Firebase Crashlytics (Google) — Berichte über Abstürze der App, damit wir Fehler beheben können. Erhält den technischen Absturzbericht (an welcher Stelle der App der Fehler auftrat), die App-Version, das Gerätemodell, die Systemversion und eine zufällige Crashlytics-Installations-ID. Konto-ID, E-Mail, Spitzname des Kindes, Bilder und Körperpunkte werden nicht gesendet. Die Werbe-ID des Geräts wird weder unter Android noch auf dem iPhone (IDFA) erfasst, Firebase Analytics ist ausgeschaltet, und die App fragt nicht nach einer Tracking-Erlaubnis.</li>
+<li>PostHog (PostHog Inc., EU-Cloud) — Nutzungsstatistik nur für den Elternbereich. Sie wird erst aktiv, nachdem ein Erwachsener die Elternprüfung bestanden hat; die Kinderbildschirme senden nichts an PostHog. Gesendet werden: welcher Schritt im Elternbereich geschah (z. B. "Tarifbildschirm geöffnet"), App-Version und Plattform sowie eine zufällige Installations-ID, die auf dem Gerät bleibt. Niemals gesendet werden: Spitzname, Alter oder Altersgruppe des Kindes, Spielfortschritt, Kamerabilder, Name oder E-Mail der Eltern und die Werbe-ID des Geräts. Keine Sitzungsaufzeichnung und keine automatische Erfassung von Tippen.</li>
 <li>Apple Push Notification service und Firebase Cloud Messaging (Google) — stellen Erinnerungen zu, nur wenn ein Elternteil sie eingeschaltet hat. Eine Erinnerung kann den Spitznamen des Kindes enthalten.</li>
-<li>Firebase Crashlytics (Google) — Absturzberichte, damit wir Fehler beheben können. Es erhält eine technische Absturzbeschreibung, App-Version, Gerätemodell und Systemversion sowie eine zufällige Installations-ID; niemals Namen, E-Mail, Video oder Kameradaten.</li>
 <li>Anmeldung mit Apple / Google — nur wenn du diese Anmeldung wählst.</li>
 <li>Brevo (E-Mail-Dienst) — versendet Konto-E-Mails: Bestätigung der Adresse und Zurücksetzen des Passworts.</li></ul>
 <h2>4. Was nur auf diesem Gerät bleibt</h2>
@@ -60,21 +61,22 @@
 <ul><li>Video, Ton und Körperpunkte der Kamera (Abschnitt 1).</li>
 <li>Einstellungen, Sprache, die zufällige Installations-ID, die Anmeldesitzung und der Demo-Fortschritt vor der Registrierung.</li></ul>
 <h2>5. Ausprobieren vor der Registrierung</h2>
-<p>Die Demo funktioniert ohne E-Mail. Ihr Fortschritt bleibt auf dem Gerät; gesendet werden nur anonyme Nutzungsereignisse mit der zufälligen Installations-ID. Wenn du weitermachst, legt die App ein Gastkonto ohne E-Mail an (eine E-Mail kannst du später im Elternbereich hinzufügen). Ein Kinderprofil wird erst nach der Einwilligung eines Elternteils angelegt.</p>
+<p>Die Demo funktioniert ohne E-Mail. Dein Fortschritt bleibt auf dem Gerät; gesendet werden nur anonyme Nutzungsereignisse mit der zufälligen Installations-ID. Wenn du weitermachst, legt die App ein Gastkonto ohne E-Mail an (eine E-Mail kannst du später im Elternbereich hinzufügen). Ein Kinderprofil wird erst nach der Einwilligung eines Elternteils angelegt.</p>
 
 <h2>6. Einwilligung und Rechtsgrundlage</h2>
 <p>Ein Elternteil legt das Kinderprofil an, nachdem es bestätigt hat, Elternteil oder gesetzliche Vertretung zu sein und der Verarbeitung der Daten des Kindes zuzustimmen. Rechtsgrundlage: die Einwilligung der Eltern (DSGVO Art. 6 Abs. 1 lit. a und Art. 8) und für das Abo der Vertrag (Art. 6 Abs. 1 lit. b). Die Einwilligung kann jederzeit widerrufen werden, indem das Kinderprofil oder das Konto gelöscht wird (Abschnitt 8).</p>
 
 <h2>7. Wie lange wir Daten speichern</h2>
 
-<ul><li>Konto-, Profil-, Fortschritts- und Trainingsdaten — solange das Konto besteht.</li>
-<li>Anonyme Registrierungs- und Kaufstatistik — bis zu 13 Monate; das Zustellprotokoll der Erinnerungen — 90 Tage.</li>
-<li>Nutzungsereignisse, die ohne Kinderprofil erfasst wurden, bleiben nur mit der zufälligen Installations-ID verknüpft, nicht mit dem Konto.</li>
-<li>Kaufdaten bei Apple, Google und RevenueCat sowie von Meta erhaltene Daten werden nach den Richtlinien dieser Unternehmen gespeichert.</li></ul>
+<ul><li>Wir speichern Daten nur so lange, wie es nötig ist, damit das Spiel für deine Familie funktioniert: damit das Kind weiterspielen und ein Elternteil den Fortschritt sehen kann.</li>
+<li>Konto, Kinderprofile, Fortschritt und Trainingsergebnisse — solange das Konto genutzt wird. Wird ein Konto nicht genutzt, löschen wir es automatisch zusammen mit allen Daten der Kinder: ein Gastkonto (ohne E-Mail) nach 12 Monaten ohne Aktivität, ein Konto mit E-Mail nach 24 Monaten ohne Aktivität. Aktivität heißt: die App öffnen und spielen, trainieren oder sich anmelden.</li>
+<li>30 Tage vor einer solchen Löschung schicken wir eine Erinnerung an die E-Mail der Eltern, falls das Konto eine hat. Wer die App vor diesem Datum öffnet, behält das Konto; ein Gastkonto wird ohne Erinnerung gelöscht, weil wir dich nicht erreichen können.</li>
+<li>Nutzungsereignisse, die ohne Kinderprofil erfasst wurden (nur mit der zufälligen Installations-ID verknüpft, nicht mit dem Konto), anonyme Registrierungs- und Kaufstatistik und Fehlerberichte — bis zu 13 Monate; das Zustellprotokoll der Erinnerungen — 90 Tage.</li>
+<li>Kaufdaten bei Apple, Google und RevenueCat sowie Absturzberichte in Firebase Crashlytics werden nach den Richtlinien dieser Unternehmen gespeichert.</li></ul>
 <h2>8. Daten löschen</h2>
 
 <ul><li>Ein Kinderprofil: Auf „Wer spielt heute?“ auf „⚙️ Profile verwalten“ tippen, die Elternprüfung bestehen und auf 🗑 tippen. Das Profil und der gesamte Fortschritt, die Trainings, Belohnungen und Ereignisse des Kindes werden endgültig gelöscht.</li>
-<li>Das ganze Konto: Eltern → Einstellungen → „Konto löschen“, dann DELETE eingeben. Das Konto und die Daten aller Kinder werden endgültig gelöscht.</li>
+<li>Das ganze Konto: Eltern → Einstellungen → „Konto löschen“, dann LÖSCHEN eingeben. Das Konto und die Daten aller Kinder werden endgültig gelöscht.</li>
 <li>Das Löschen des Kontos kündigt kein Store-Abo — kündige es zuerst unter „Abo verwalten“.</li>
 <li>Du kannst uns auch schreiben: <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a>.</li></ul>
 <h2>9. Deine Rechte</h2>
