@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Kidsney</title>
+    <script>
+      // Студія вправ (/kidsney-demo/studio/) — одностраничный сайт: глубокие ссылки и перезагрузка
+      // приходят сюда (GitHub Pages берёт только корневой 404.html) → назад в Студію с путём в ?p=.
+      (function () {
+        var base = "/kidsney-demo/studio";
+        var path = window.location.pathname;
+        if (path.indexOf(base + "/") === 0) {
+          var rest = path.slice(base.length) + window.location.search;
+          window.location.replace(base + "/?p=" + encodeURIComponent(rest));
+        }
+      })();
+    </script>
+  </head>
+  <body style="font-family: system-ui, sans-serif; padding: 2rem">
+    <h1>Сторінку не знайдено</h1>
+    <p><a href="/kidsney-demo/">Kidsney</a></p>
+  </body>
+</html>
