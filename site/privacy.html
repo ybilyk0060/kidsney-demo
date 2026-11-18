@@ -23,7 +23,7 @@
 <nav><strong>English</strong> · <a href="privacy-uk.html">Українська</a> · <a href="privacy-de.html">Deutsch</a></nav>
 <main>
 <h1>Privacy Policy</h1>
-<div class="upd">Last updated: 15 November 2026</div>
+<div class="upd">Last updated: 18 November 2026</div>
 <p>Kidsney is a fitness game for children aged 4–12. A parent or legal guardian sets the app up and manages it; the child plays under adult supervision.</p>
 <p>This policy explains in plain words what data the app uses, where it goes, why, and how to delete it.</p>
 <h2>1. The camera: video stays on this phone</h2>
@@ -41,32 +41,36 @@
 <li>Game progress: heroes, levels, experience points, energy, quests, streaks, rewards and outfits; fight results with the sequence of in-game button presses (our server replays the fight to confirm the result) and the age group, which sets how easy the fight is.</li>
 <li>Parents' marks: which of the four good deeds a parent marked for the child and on which day (no free text), and the hero's sleep time if a parent turned it on. They are deleted together with the child profile.</li>
 <li>Workout results — as described in section 1.</li>
-<li>Consent record: when you agreed, the version and language of the consent text and a fingerprint (hash) of that text.</li>
+<li>Consent record: when you agreed, the version and language of the consent text and a fingerprint (hash) of that text. In the USA the parent's e-mail address is stored with it (taken from the account, or typed by a guest parent — no password) and is used only to send the two confirmation e-mails described in section 6; it is deleted with the account.</li>
 <li>Subscription status: product, store, transaction number and validity dates, received from RevenueCat. We never see card details.</li>
 <li>Free-trial protection: a fingerprint (hash) of the e-mail address and a random installation ID, so that a free trial is given only once.</li>
 <li>Usage events: which screens and steps were used (for example “workout started”, “offer shown”), with a random installation ID, the app version and the platform; workout and fight events may be linked to the selected child profile, while screen views and taps are recorded without it. No names, e-mail addresses, images or body points.</li>
+<li>Apple Search Ads attribution (iPhone only): if the app was installed from an Apple Search Ads ad, Apple's own AdServices service tells us which campaign, ad group, keyword and country it came from. This happens only after a parent has signed in and given consent in the app — never in the demo and never on a child's screens. We store only these campaign fields, linked to the parent account (not to a child profile) and only when the install came from such an ad — no advertising ID (IDFA), no device ID and no data about the child; the app does not ask for tracking permission. These fields are deleted with the account and in any case after 12 months.</li>
 <li>Error reports: the technical error text and the app version. E-mail addresses and identifiers are removed from the text on the device before sending; reports are sent only when signed in.</li>
 <li>Performance measurements: how quickly the app starts, the frame rate in fights, how fast movement recognition works and the device performance class — numbers only, with the app version and platform, saved like usage events in our own database and not passed to anyone. They help us keep the game smooth on simpler phones.</li>
 <li>Push token: only after the phone's notification permission is granted (the app asks an adult right after consent). Reminders to the parent are on by default once the permission is granted, at 18:00 unless the parent picks another time, and only between 07:00 and 19:00. A parent turns them off at any time in Parents → Settings → “Push notifications”, or in the phone's system settings.</li>
 <li>Campaign labels: if the app was opened from our advertising link — the campaign labels (utm_source, utm_medium, utm_campaign, utm_term, utm_content) and the domain of the referring site, saved once, without advertising identifiers.</li></ul>
 <h2>3. Services that receive data</h2>
 <p>We do not sell personal data. The app shows no advertising, children never see ads, and the app contains no advertising SDKs; third-party analytics (PostHog) works only in the parents' area, as described above.</p>
+<p>Transfers outside the EU/EEA: our server is in the EU, but some of the services above are provided by companies in the USA (for example RevenueCat, Google/Firebase, PostHog Inc. and Resend), and we, the operator, are located in Ukraine. Where data leaves the EU/EEA, the transfer relies on the EU–US Data Privacy Framework or on the EU standard contractual clauses, depending on the provider. You can ask us for details at the e-mail address below.</p>
 <ul><li>Apple App Store and Google Play — purchases and payments, under their own privacy policies.</li>
 <li>RevenueCat — subscription status. It receives a random account ID (not the e-mail and not the child's nickname) and purchase information.</li>
 <li>Firebase Crashlytics (Google) — reports about app crashes, so we can fix errors. It receives the technical crash report (where in the app the error happened), the app version, the device model, the system version and a random Crashlytics installation ID. Crashlytics is switched off until a parent gives consent in the app: before that — including in the demo — no crash reports are sent to Google, and a report stored on the phone is sent only after consent. No account ID, e-mail, child's nickname, images or body points are sent. The device advertising ID is not collected on Android or iPhone (IDFA), Firebase Analytics is turned off, and the app does not ask for tracking permission.</li>
 <li>PostHog (PostHog Inc., EU cloud) — usage statistics of the parents' area only. It starts working only after an adult passes the parent check; the child's screens send nothing to PostHog. It receives: which step in the parents' area happened (for example "plans screen opened"), the app version and platform, and a random installation ID kept on the device. It never receives the child's nickname, age or age group, game progress, camera images, the parent's name or e-mail, or the device advertising ID. No session recording and no automatic capture of taps.</li>
 <li>Apple Push Notification service and Firebase Cloud Messaging (Google) — deliver reminders, only if a parent allowed notifications on the phone (reminders are then on by default and can be turned off in the Parent zone). A reminder may contain the child's nickname.</li>
 <li>Sign in with Apple / Google — only if you choose that way to sign in.</li>
-<li>Brevo (e-mail service) — sends account e-mails: address confirmation and password reset.</li></ul>
+<li>Brevo (e-mail service) — sends account e-mails: address confirmation and password reset.</li>
+<li>Resend (Resend, Inc., USA; e-mail service) — sends e-mail to the parent's address: the reminder 30 days before an unused account is deleted automatically; the weekly progress report if a parent turned it on in the Parent zone (it may contain the children's nicknames and workout totals); and, in the USA, the confirmation of the parent's consent with one reminder a day or two later (section 6). Resend receives the parent's e-mail address and the text of the message; nothing else.</li></ul>
 <h2>4. What stays only on this phone</h2>
 
 <ul><li>Video, sound and body points from the camera (section 1).</li>
 <li>Settings, language, the random installation ID, the signed-in session and the demo progress before registration.</li></ul>
 <h2>5. Trying the app before registration</h2>
-<p>The demo works without an e-mail. Its progress is kept on the phone; only anonymous usage events with the random installation ID are sent; no crash reports are sent to Crashlytics until a parent gives consent. When you continue, the app creates a guest account without an e-mail (you can add an e-mail later in the Parent zone). A child profile is created only after a parent gives consent.</p>
+<p>The demo works without an e-mail. Its progress is kept on the phone; only anonymous usage events with the random installation ID are sent; no crash reports are sent to Crashlytics and no advertising attribution is requested until a parent gives consent. When you continue, the app creates a guest account without an e-mail (you can add an e-mail later in the Parent zone). A child profile is created only after a parent gives consent. In the USA, a guest parent also enters an e-mail address (no password) at that moment, so that we can send the confirmation described in section 6.</p>
 
 <h2>6. Consent and legal basis</h2>
 <p>A parent creates the child's profile after confirming that they are the parent or legal guardian and agree to the processing of the child's data. Legal basis: the parent's consent (GDPR Art. 6(1)(a) and Art. 8) and, for the subscription, the contract (Art. 6(1)(b)). Consent can be withdrawn at any time by deleting the child profile or the account (section 8).</p>
+<p>Parents in the USA (COPPA): to make sure that consent comes from a parent, we use the “e-mail plus” method. A parent's e-mail address is required before a child profile is created. Right after consent we send a confirmation to that address and, 24–72 hours later, one reminder. Each e-mail says what we collect and why, and contains a link “Withdraw consent and delete data”: following it and pressing the button permanently deletes the account and the data of all children, exactly like “Delete account” in the app. We use the child's data only to run the game and share it only with the service providers named in section 3 — never for advertising.</p>
 
 <h2>7. How long we keep data</h2>
 
@@ -79,7 +83,9 @@
 
 <ul><li>A child profile: on “Who's playing today?” tap “⚙️ Manage profiles”, pass the parent check and tap 🗑. The profile and all of the child's progress, workouts, rewards and events are deleted permanently.</li>
 <li>The whole account: Parents → Settings → “Delete account”, then type DELETE. The account and the data of all children are deleted permanently.</li>
+<li>In the USA you can also use the link “Withdraw consent and delete data” in the confirmation e-mail — it works without opening the app and does the same.</li>
 <li>Deleting the account does not cancel a store subscription — cancel it first in “Manage subscription”.</li>
+<li>If you signed in with Apple, the app asks Apple to confirm once more when you delete the account, and the app's access to your Apple ID is revoked.</li>
 <li>You can also ask us by e-mail: <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a>.</li></ul>
 <h2>9. Your rights</h2>
 <p>You can ask what data we hold about your family, and have it corrected, exported or deleted; you can withdraw consent at any time. Write to <a href="mailto:support@kidsney-sport.com">support@kidsney-sport.com</a>. You also have the right to lodge a complaint with your data protection authority.</p>
