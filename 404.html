@@ -12,7 +12,8 @@
         var path = window.location.pathname;
         if (path.indexOf(base + "/") === 0) {
           var rest = path.slice(base.length) + window.location.search;
-          window.location.replace(base + "/?p=" + encodeURIComponent(rest));
+          // #… — токены входа (ссылка сброса пароля, Google): без них вход «ломается» (18.11)
+          window.location.replace(base + "/?p=" + encodeURIComponent(rest) + window.location.hash);
         }
       })();
     </script>
